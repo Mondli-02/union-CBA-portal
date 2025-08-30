@@ -1,0 +1,74 @@
+[
+  {
+    "id": "software-engineer",
+    "titles": ["Software Engineer", "Software Developer", "Full Stack Developer"],
+    "sector": "Technology",
+    "grade": "P3",
+    "industry": "Technology",
+    "yearsExperience": "2–5 years",
+    "qualifications": ["BSc in Computer Science (or equivalent)", "Strong JS/TS skills", "Experience with REST/GraphQL"],
+    "skills": ["JavaScript", "React", "Node.js", "SQL", "Git", "Testing"],
+    "employers": ["Tech startups", "SaaS companies", "Consultancies"],
+    "description": "Designs, develops, tests, and maintains software systems and web applications. Collaborates with cross-functional teams to deliver features, write clean code, review PRs, and automate testing & deployment.",
+    "responsibilities": [
+      "Implement features from specs and user stories",
+      "Write maintainable, well-tested code",
+      "Participate in code reviews & architecture discussions",
+      "Monitor, debug, and improve performance"
+    ]
+  },
+  {
+    "id": "project-manager",
+    "titles": ["Project Manager", "Program Coordinator", "Delivery Manager"],
+    "sector": "Professional Services",
+    "grade": "M2",
+    "industry": "Professional Services",
+    "yearsExperience": "4–8 years",
+    "qualifications": ["Bachelor's degree", "PMP/Prince2 (preferred)"],
+    "skills": ["Stakeholder mgmt", "Scheduling", "Risk mgmt", "Budgeting", "Agile"],
+    "employers": ["IT services", "Construction firms", "Agencies"],
+    "description": "Leads project planning and execution, managing scope, timeline, budget, and stakeholder communication. Ensures delivery outcomes meet quality standards and business goals.",
+    "responsibilities": [
+      "Define scope, milestones, and budgets",
+      "Facilitate standups and status updates",
+      "Manage risks, dependencies, and change requests",
+      "Report progress to stakeholders"
+    ]
+  },
+  {
+    "id": "registered-nurse",
+    "titles": ["Registered Nurse", "RN", "Staff Nurse"],
+    "sector": "Healthcare",
+    "grade": "C2",
+    "industry": "Healthcare",
+    "yearsExperience": "1–4 years",
+    "qualifications": ["Nursing diploma/degree", "Valid registration with council"],
+    "skills": ["Patient care", "Clinical assessment", "Charting", "Medication admin"],
+    "employers": ["Hospitals", "Clinics", "NGOs"],
+    "description": "Provides patient-centered nursing care, administers medications, monitors vitals, maintains records, and coordinates with multidisciplinary teams to ensure quality outcomes.",
+    "responsibilities": [
+      "Assess, plan, implement, and evaluate care",
+      "Educate patients & families",
+      "Maintain accurate documentation",
+      "Comply with clinical protocols"
+    ]
+  },
+  {
+    "id": "accountant",
+    "titles": ["Accountant", "Financial Accountant", "General Ledger Accountant"],
+    "sector": "Finance",
+    "grade": "P2",
+    "industry": "Finance",
+    "yearsExperience": "2–4 years",
+    "qualifications": ["BCom Accounting", "ACCA/CIMA (progressing or completed)"],
+    "skills": ["GL", "Reconciliations", "IFRS", "Tax", "Excel"],
+    "employers": ["Corporate finance", "Audit firms", "SMEs"],
+    "description": "Prepares and analyzes financial records, ensures compliance with standards, manages reconciliations, journals, and supports audits and statutory reporting.",
+    "responsibilities": [
+      "Maintain GL, prepare journals & reconciliations",
+      "Assist with monthly closes & reports",
+      "Support audits and compliance",
+      "Liaise with external stakeholders"
+    ]
+  }
+]

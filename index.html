@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JobScope — Minimal Job Search</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="description" content="Minimal job description search tool with salary calculator." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Home (centered) -->
+  <main id="home" class="hero">
+    <section class="hero__inner">
+      <div class="logo" aria-label="JobScope Logo">JobScope <i aria-hidden="true"></i></div>
+      <div class="intro">Search for a job title to instantly view its description, grade, and recommended salaries. Use the built-in calculators to estimate your total pay package and allowances.</div>
+      <form id="homeSearchForm" class="search" autocomplete="off" role="search" aria-label="Job search" style="position:relative;">
+        <label class="sr-only" for="homeQuery">Search job title</label>
+        <div style="flex:1; position:relative; min-width: 0;">
+          <input id="homeQuery" class="input" name="q" placeholder="Search job title (e.g., General Hand)" required autocomplete="off" />
+          <ul class="autocomplete-list" id="autocompleteList" style="display:none;"></ul>
+        </div>
+        <button class="btn" type="submit" aria-label="Search jobs">Search</button>
+      </form>
+      <div class="muted" style="font-size:13px;">
+        Try:
+        <button class="btn btn--chip" data-demo="Software Engineer" type="button">Software Engineer</button>
+        <button class="btn btn--chip" data-demo="Project Manager" type="button">Project Manager</button>
+        <button class="btn btn--chip" data-demo="Registered Nurse" type="button">Registered Nurse</button>
+      </div>
+      <aside class="browse-sectors" id="browseSectors">
+        <!-- Sectors pills and heading rendered by JS -->
+      </aside>
+      <div class="popular-section" id="popularSection"></div>
+      <div class="recent-section" id="recentSection"></div>
+    </section>
+  </main>
+
+  <!-- About Page -->
+  <section id="aboutPage" class="about-wrap hidden" aria-live="polite">
+    <article class="about-card">
+      <div class="about-header">
+        <h1><span class="about-logo">JobScope <i></i></span> — Glossary of Terms</h1>
+        <p class="about-intro">Below are clear, concise definitions for every term used in our job search platform. Click any term to copy its definition for easy reference.</p>
+      </div>
+      <ul class="term-list" id="termList"></ul>
+      <button class="btn btn--ghost" id="backToHomeFromAbout" type="button" style="margin-top:26px;">Back to Home</button>
+    </article>
+  </section>
+
+  <!-- Sector results view -->
+  <section id="sectorResults" class="wrap hidden" aria-live="polite">
+    <h2 id="sectorResultsHeading" style="margin-top:0;"></h2>
+    <div id="sectorDesc"></div>
+    <div id="sectorSalaryRange"></div>
+    <div class="sector-results-list" id="sectorResultsList"></div>
+    <button class="btn btn--ghost" id="backToHomeFromSector" type="button" style="margin-top:16px;">Back to Home</button>
+  </section>
+
+  <!-- Results view -->
+  <header id="resultsHeader" class="topbar hidden" role="banner">
+    <div class="topbar__inner">
+      <div class="logo" style="width:140px;height:44px;font-size:16px;">JobLens <i></i></div>
+      <form id="resultsSearchForm" class="search" role="search" aria-label="Job search (results)" style="position:relative;">
+        <label class="sr-only" for="resultsQuery">Search job title</label>
+        <div style="flex:1; position:relative; min-width: 0;">
+          <input id="resultsQuery" class="input" name="q" placeholder="Search another job title…" required autocomplete="off" />
+          <ul class="autocomplete-list" id="autocompleteListResults" style="display:none;"></ul>
+        </div>
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <button id="aboutBtn" class="btn btn--ghost" type="button" aria-label="About" title="About JobScope">About</button>
+      <button id="backHomeBtn" class="btn btn--ghost" type="button" aria-label="Back to home">Learn more</button>
+    </div>
+  </header>
+
+  <section id="results" class="wrap hidden" aria-live="polite" aria-busy="false">
+    <div class="results">
+      <!-- Job Summary -->
+      <article id="jobCard" class="card" style="display:none;">
+        <h1 class="title" id="jobTitle">—</h1>
+        <p class="subtitle" id="jobMeta">—</p>
+        <div class="grid" style="margin-top:12px;">
+          <div class="card card--soft">
+            <h3 style="margin:0 0 8px;">Job Description</h3>
+            <p id="jobDesc" style="margin:0; line-height:1.6; font-family: var(--font-b);"></p>
+          </div>
+          <div class="card card--soft">
+            <div style="display:flex;justify-content:space-between;align-items:center; gap:10px;">
+              <h3 style="margin:0;">Job Details</h3>
+              <span id="jobGradeBadge" class="badge">Grade: —</span>
+            </div>
+            <table class="table" style="margin-top:10px;">
+              <thead>
+                <tr><th>Institution Type</th><th>Recommended Basic</th></tr>
+              </thead>
+              <tbody id="salaryRows"></tbody>
+            </table>
+            <div style="display:flex; align-items:center; gap:10px; margin-top:10px;">
+              <label for="currencySelect" class="muted" style="font-size:12px;">Currency</label>
+              <select id="currencySelect" style="padding:8px 10px; border:1px solid #e5e7eb; border-radius:10px; font-family: var(--font-b);">
+                <option value="USD" selected>USD $</option>
+                <option value="ZWL">ZWL </option>
+              </select>
+              <label for="instSelect" class="muted" style="font-size:12px; margin-left:8px; font-family: var(--font-b);">Use as Basic</label>
+              <select id="instSelect" style="padding:8px 10px; border:1px solid #e5e7eb; border-radius:10px; font-family: var(--font-b);"></select>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Salary Calculator -->
+      <article id="calcCard" class="card" style="display:none;">
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px;">
+          <h3 style="margin:0;">Salary Calculator</h3>
+          <span class="muted" style="font-size:12px;">Total = Basic + Allowances</span>
+        </div>
+        <div id="calcBody" style="margin-top:10px;">
+          <div class="calc__row" style="margin-bottom:8px;">
+            <label for="basicInput">Basic Salary (from selection)</label>
+            <input id="basicInput" type="number" inputmode="decimal" min="0" step="0.01" />
+          </div>
+          <div class="grid--2" id="allowancesList" style="margin:8px 0;"></div>
+          <div class="calc__extras">
+            <button id="addAllowanceBtn" class="btn btn--ghost" type="button">+ Add Custom Allowance</button>
+            <button id="resetCalcBtn" class="btn btn--ghost" type="button">Reset</button>
+          </div>
+          <div class="calc__total">
+            <div><span class="muted">Allowances Total:</span> <span id="allowancesTotal" class="mono">—</span></div>
+            <div><span class="muted">Grand Total:</span> <span id="grandTotal" class="big mono">—</span></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Recognition of Service -->
+      <article id="serviceCard" class="card" style="display:none;">
+        <h3>Recognition of Service Calculator</h3>
+        <div class="calc__row"><label>Years of Service</label><input id="yearsService" type="number" min="0" /></div>
+        <div class="calc__total">Service Allowance: <span id="serviceTotal">—</span></div>
+      </article>
+
+      <!-- Night Shift -->
+      <article id="nightCard" class="card" style="display:none;">
+        <h3>Night Shift Allowance Calculator</h3>
+        <div class="calc__row"><label>Nights Worked</label><input id="nightsWorked" type="number" min="0" /></div>
+        <div class="calc__total">Night Shift Allowance: <span id="nightTotal">—</span></div>
+      </article>
+
+      <!-- Funeral -->
+      <article id="funeralCard" class="card" style="display:none;">
+        <h3>Funeral Allowance Calculator</h3>
+        <div class="calc__row">
+          <label>Do You Have A Policy?</label>
+          <select id="hasPolicy">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div class="calc__row"><label>Coffin Cost</label><input id="coffinCost" type="number" min="0" /></div>
+        <div class="calc__row" id="policyRow"><label>Policy Coverage</label><input id="policyCoverage" type="number" min="0" /></div>
+        <div class="calc__total">Employer Covers: <span id="funeralTotal">—</span></div>
+      </article>
+
+      <!-- Suggestions / Extra Info -->
+      <article id="extraCard" class="card" style="display:none;">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <h3 style="margin:0;">Suggested Additional Info</h3>
+          <span class="muted" style="font-size:12px;">Helpful for candidates & HR</span>
+        </div>
+        <div class="grid--3" style="margin-top:10px;" id="suggestions"></div>
+      </article>
+
+      <!-- Not found -->
+      <article id="notFoundCard" class="card" style="display:none;">
+        <h3 style="margin:0 0 6px;">No exact match found ❓</h3>
+        <p class="muted" style="margin-top:0;" id="notFoundMsg">We couldn’t find an exact job title match. Try a simpler keyword or pick one of these close suggestions:</p>
+        <div id="suggestionChips" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
+      </article>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

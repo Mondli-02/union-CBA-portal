@@ -1,0 +1,26 @@
+{
+  "P3": {
+    "Government": 1200,
+    "Private": 2200,
+    "NGO": 1800,
+    "Startup": 1600
+  },
+  "M2": {
+    "Government": 1400,
+    "Private": 2600,
+    "NGO": 2100,
+    "State-Owned": 1700
+  },
+  "C2": {
+    "Government": 900,
+    "Private": 1400,
+    "NGO": 1200,
+    "Mission": 1100
+  },
+  "P2": {
+    "Government": 1000,
+    "Private": 1800,
+    "NGO": 1500,
+    "Public Practice": 1300
+  }
+}

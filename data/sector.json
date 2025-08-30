@@ -1,0 +1,18 @@
+{
+  "Technology": {
+    "jobs": ["Software Engineer", "Software Developer", "Full Stack Developer"],
+    "desc": "Design, build, and maintain software systems and digital solutions."
+  },
+  "Professional Services": {
+    "jobs": ["Project Manager", "Program Coordinator", "Delivery Manager"],
+    "desc": "Plan, coordinate, and deliver projects and programs for organizations."
+  },
+  "Healthcare": {
+    "jobs": ["Registered Nurse", "RN", "Staff Nurse"],
+    "desc": "Provide clinical care and support for patients in medical settings."
+  },
+  "Finance": {
+    "jobs": ["Accountant", "Financial Accountant", "General Ledger Accountant"],
+    "desc": "Manage financial records, compliance, and reporting for institutions."
+  }
+}
