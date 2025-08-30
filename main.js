@@ -46,18 +46,16 @@ let lastCurrency = 'USD';
 
 // ========== POPULAR / RECENT JOBS ==========
 function computePopularJobs() {
-  // Demo logic: popularity = number of job titles (simulate "visited" stat)
   const jobs = MOCK_JOBS.slice().sort((a, b) => b.titles.length - a.titles.length);
   POPULAR_JOBS = jobs.slice(0, 4); // Top 4
 }
 function computeRecentJobs() {
-  // Demo logic: latest are last in array
   RECENT_JOBS = MOCK_JOBS.slice(-4).reverse();
 }
 function renderPopularSection() {
   if (!POPULAR_JOBS.length) return;
   const el = $('#popularSection');
-  el.innerHTML = `<h4>Popular Jobs</h4>
+  el.innerHTML = `<h4 class="popular-jobs-heading">Popular Jobs</h4>
     <div class="popular-jobs-list">
       ${POPULAR_JOBS.map(j => `<button class="popular-job-pill" data-demo="${escapeAttr(j.titles[0])}">${escapeHTML(j.titles[0])}</button>`).join("")}
     </div>`;
@@ -98,14 +96,12 @@ function renderAutocomplete(inputId, listId) {
       list.innerHTML = matches.map((m, i) =>
         `<li tabindex="-1" class="auto-item${i === 0 ? " selected" : ""}">${escapeHTML(m)}</li>`
       ).join("");
-      // CSS handles positioning
     } else {
       list.style.display = "none";
       list.innerHTML = "";
     }
   });
 
-  // Click selection
   list.addEventListener('mousedown', function(e){
     if (e.target && e.target.classList.contains('auto-item')) {
       input.value = e.target.textContent;
@@ -114,7 +110,6 @@ function renderAutocomplete(inputId, listId) {
     }
   });
 
-  // Keyboard navigation
   input.addEventListener('keydown', function(e){
     if (!matches.length || list.style.display === "none") return;
     if (e.key === "ArrowDown") {
@@ -147,7 +142,6 @@ function renderAutocomplete(inputId, listId) {
     }
   });
 
-  // Hide on outside click
   document.addEventListener('mousedown', function(e){
     if (!input.contains(e.target) && !list.contains(e.target)) {
       list.style.display = "none";
@@ -183,16 +177,19 @@ function computeSectorSalaryRange(sector) {
 function renderSectors() {
   const aside = $('#browseSectors');
   if (!aside) return;
-  let html = `<h4>Browse by Sector</h4><div class="browse-pills" tabindex="0">`;
+  html = `<h4 class="popular-jobs-heading" style="text-align:center;">Browse by Sector</h4>
+    <div class="browse-pills" tabindex="0" style="justify-content:center;">`;
   for (const sector in SECTOR_MAP) {
     const jobs = SECTOR_MAP[sector].jobs;
-    const desc = SECTOR_MAP[sector].desc || "";
     const range = computeSectorSalaryRange(sector);
-    let rangeStr = "";
-    if (range) {
-      rangeStr = `<span class="sector-salary-range"> $${formatMoney(range.min)} – $${formatMoney(range.max)}</span>`;
-    }
-    html += `<button class="pill-pill" data-sector="${escapeAttr(sector)}">${escapeHTML(sector)} (${jobs.length})${rangeStr}</button>`;
+    html += `
+      <button class="sector-pill" data-sector="${escapeAttr(sector)}" tabindex="0">
+        <span class="sector-title">${escapeHTML(sector)}
+          <span class="sector-count">(${jobs.length})</span>
+        </span>
+        ${range ? `<span class="sector-salary-range">Salary: $${formatMoney(range.min)} – $${formatMoney(range.max)}</span>` : ""}
+      </button>
+    `;
   }
   html += '</div>';
   aside.innerHTML = html;
@@ -200,7 +197,7 @@ function renderSectors() {
 
 // ========== HANDLE SECTOR PILL CLICK ==========
 function sectorPillClickHandler(e) {
-  const pill = e.target.closest('.pill-pill');
+  const pill = e.target.closest('.sector-pill');
   if (!pill) return;
   const sector = pill.getAttribute('data-sector');
   lastSector = sector;
@@ -287,7 +284,7 @@ function renderJob(job, q){
   $('#sectorResults').classList.add('hidden');
 }
 
-function renderNotFound(q){
+function renderNotFound(q) {
   $('#jobCard').style.display = 'none';
   $('#calcCard').style.display = 'none';
   $('#extraCard').style.display = 'none';
@@ -302,11 +299,26 @@ function renderNotFound(q){
   if (q && q.length > 2 && filterAutocomplete(q).length === 0) {
     msg += " No jobs matched your keyword.";
   }
-  msg += " Try a simpler keyword or pick one of these close suggestions:";
+  msg += " Try a simpler keyword or browse jobs by sector:";
+
   $('#notFoundMsg').textContent = msg;
-  const suggs = getSuggestions(q, 6);
-  $('#suggestionChips').innerHTML = suggs.map(s => `<button type="button" class="btn btn--chip" data-demo="${s}">${s}</button>`).join('') ||
-    `<span class="muted">No suggestions available.</span>`;
+
+  // Replace suggestions with sector buttons
+  const sectorBtns = Object.keys(SECTOR_MAP).map(sector =>
+    `<button type="button" class="btn btn--chip sector-suggestion-btn" data-sector="${escapeAttr(sector)}">${escapeHTML(sector)}</button>`
+  ).join('') || `<span class="muted">No sectors available.</span>`;
+  $('#suggestionChips').innerHTML = sectorBtns;
+
+  // Add click handler for sector buttons (delegation for robustness)
+  $('#suggestionChips').onclick = function(e) {
+    const btn = e.target.closest('.sector-suggestion-btn');
+    if (btn) {
+      const sector = btn.getAttribute('data-sector');
+      if (sector) {
+        displaySectorResults(sector);
+      }
+    }
+  };
 }
 function renderExtras(job){
   const items = [
@@ -522,7 +534,7 @@ function wire(){
       performSearch(q);
       return;
     }
-    if (e.target.closest('.pill-pill')) {
+    if (e.target.closest('.sector-pill')) {
       sectorPillClickHandler(e);
       return;
     }
@@ -617,7 +629,6 @@ function wire(){
   computeRecentJobs();
   renderPopularSection();
   renderRecentSection();
-
 }
 
 // ========== SEARCH ==========

@@ -40,7 +40,7 @@
   <section id="aboutPage" class="about-wrap hidden" aria-live="polite">
     <article class="about-card">
       <div class="about-header">
-        <h1><span class="about-logo">JobScope <i></i></span> — Glossary of Terms</h1>
+        <h1><span class="about-logo">JobScope <i></i></span></h1>
         <p class="about-intro">Below are clear, concise definitions for every term used in our job search platform. Click any term to copy its definition for easy reference.</p>
       </div>
       <ul class="term-list" id="termList"></ul>
@@ -52,7 +52,7 @@
   <section id="sectorResults" class="wrap hidden" aria-live="polite">
     <h2 id="sectorResultsHeading" style="margin-top:0;"></h2>
     <div id="sectorDesc"></div>
-    <div id="sectorSalaryRange"></div>
+    <div id="sectorSalaryRange" style="margin-bottom: 10px; max-width: fit-content;"></div>
     <div class="sector-results-list" id="sectorResultsList"></div>
     <button class="btn btn--ghost" id="backToHomeFromSector" type="button" style="margin-top:16px;">Back to Home</button>
   </section>
@@ -69,8 +69,8 @@
         </div>
         <button class="btn" type="submit">Search</button>
       </form>
-      <button id="aboutBtn" class="btn btn--ghost" type="button" aria-label="About" title="About JobScope">About</button>
-      <button id="backHomeBtn" class="btn btn--ghost" type="button" aria-label="Back to home">Learn more</button>
+      <button id="aboutBtn" class="btn btn--ghost" type="button" aria-label="About" title="About JobScope">Definition of Terms</button>
+      <button id="backHomeBtn" class="btn btn--ghost" type="button" aria-label="Back to home">Back to Home</button>
     </div>
   </header>
 
@@ -135,14 +135,14 @@
       <!-- Recognition of Service -->
       <article id="serviceCard" class="card" style="display:none;">
         <h3>Recognition of Service Calculator</h3>
-        <div class="calc__row"><label>Years of Service</label><input id="yearsService" type="number" min="0" /></div>
+        <div class="calc__row" style="margin-bottom: 10px;"><label>Years of Service</label><input id="yearsService" type="number" min="0" /></div>
         <div class="calc__total">Service Allowance: <span id="serviceTotal">—</span></div>
       </article>
 
       <!-- Night Shift -->
       <article id="nightCard" class="card" style="display:none;">
         <h3>Night Shift Allowance Calculator</h3>
-        <div class="calc__row"><label>Nights Worked</label><input id="nightsWorked" type="number" min="0" /></div>
+        <div class="calc__row" style="margin-bottom: 10px;"><label>Nights Worked</label><input id="nightsWorked" type="number" min="0" /></div>
         <div class="calc__total">Night Shift Allowance: <span id="nightTotal">—</span></div>
       </article>
 
@@ -151,13 +151,13 @@
         <h3>Funeral Allowance Calculator</h3>
         <div class="calc__row">
           <label>Do You Have A Policy?</label>
-          <select id="hasPolicy">
+          <select id="hasPolicy" style="padding:8px 10px; border:1px solid #e5e7eb; border-radius:10px; font-family: var(--font-b); margin-bottom: 10px;">
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
         </div>
-        <div class="calc__row"><label>Coffin Cost</label><input id="coffinCost" type="number" min="0" /></div>
-        <div class="calc__row" id="policyRow"><label>Policy Coverage</label><input id="policyCoverage" type="number" min="0" /></div>
+        <div class="calc__row" style="margin-bottom: 10px;"><label>Coffin Cost</label><input id="coffinCost" type="number" min="0" /></div>
+        <div class="calc__row" id="policyRow" style="margin-bottom: 10px;"><label>Policy Coverage</label><input id="policyCoverage" type="number" min="0" /></div>
         <div class="calc__total">Employer Covers: <span id="funeralTotal">—</span></div>
       </article>
 

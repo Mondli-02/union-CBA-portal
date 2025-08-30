@@ -27,7 +27,6 @@ body{
   text-rendering: optimizeLegibility;
 }
 
-/* ... (existing styles above) ... */
 
 .topbar{
   position: sticky;
@@ -182,6 +181,7 @@ body{
 }
 .btn--chip:hover, .pill-pill:hover { background: #2563eb; color: #fff; }
 
+/* Browse sectors - sector pill as card/chip like Popular Jobs */
 .browse-sectors {
   margin-top: 16px;
   margin-bottom: 10px;
@@ -195,8 +195,99 @@ body{
   text-align: left;
 }
 .browse-pills {
-  display:flex; flex-wrap:wrap; gap:8px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;
   margin-bottom: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding-bottom: 2px;
+}
+
+/* New sector pill style (like popular jobs) */
+.sector-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f8fafc;
+  border: 1.5px solid #e5e7eb;
+  color: #2563eb;
+  border-radius: 16px;
+  min-width: 140px;
+  max-width: 220px;
+  padding: 11px 16px 9px 16px;
+  font-size: 1.01em;
+  font-family: var(--font-b);
+  cursor: pointer;
+  box-shadow: 0 2.5px 8px rgba(37,99,235,.05);
+  transition: background 0.14s, color 0.14s, box-shadow 0.18s;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  outline: none;
+  position: relative;
+}
+.sector-pill:focus,
+.sector-pill:hover {
+  background: #2563eb;
+  color: #fff;
+  box-shadow: 0 6px 24px #2563eb22;
+}
+.sector-pill .sector-title {
+  font-weight: 700;
+  font-size: 1.07em;
+  margin-bottom: 2px;
+  letter-spacing: .01em;
+}
+.sector-pill .sector-desc {
+  color: #121317;
+  font-size: 0.94em;
+  margin-bottom: 7px;
+  margin-top: 0px;
+  line-height: 1.3;
+  font-family: var(--font-b);
+}
+.sector-pill .sector-count {
+  font-size: 0.92em;
+  color: #121317;
+  font-weight: 600;
+  margin-left: 4px;
+}
+.sector-pill .sector-salary-range {
+  color: #0f172a;
+  background: #e0e7ff;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 0.92em;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  display: block;
+  line-height: 1.2;
+  max-width: 95%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+@media (max-width: 800px){
+  .browse-pills {
+    gap: 9px;
+  }
+}
+@media (max-width: 600px) {
+  .browse-pills {
+    gap: 7px;
+    padding-bottom: 3px;
+  }
+  .sector-pill {
+    padding: 10px 10px 7px 12px;
+    min-width: 125px;
+    max-width: 180px;
+    font-size: 0.98em;
+    border-radius: 11px;
+  }
 }
 
 .wrap{
@@ -204,6 +295,7 @@ body{
   margin: 24px auto 80px;
   padding: 0 16px;
 }
+
 .results{
   display: grid;
   gap: 18px;
