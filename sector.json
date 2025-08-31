@@ -1,0 +1,213 @@
+{
+  "Administration & Clerical": {
+    "jobs": [ 
+      "Accounts Clerk", 
+      "Admissions Clerk", 
+      "Billing Clerk", 
+      "Creditors Clerk", 
+      "Debtors Clerk", 
+      "Data Capture Clerk", 
+      "Records Clerk/Filing Clerk", 
+      "Salaries Clerk", 
+      "Sales Clerk", 
+      "Secretary", 
+      "Receptionist/Clerk/Typist", 
+      "Personal Assistant/Secretary", 
+      "Office Administrator", 
+      "Project Secretary", 
+      "Administrative Assistant", 
+      "Bookkeeper", 
+      "Cashier", 
+      "Credit Controller", 
+      "Telephone Switchboard Operator", 
+      "Enumerator", 
+      "Communications Assistant", 
+      "Transcriber/Brailist"
+    ],
+    "desc": "This sector deals with office support, documentation, and record-keeping. Clerks and secretaries ensure smooth daily operations, financial tracking, and communication flow within organizations."
+  },
+  "Healthcare & Medical": {
+    "jobs": [
+      "Clinic Administrator",
+      "Admissions Clerk",
+      "Clinic Sister/Registered General Nurse",
+      "Health Officer",
+      "Nurse Aide",
+      "Senior Nurse Aide",
+      "Nursery Aide",
+      "Ward Aide",
+      "Veterinary Nurse",
+      "Theatre Porter",
+      "Nurse/Ward Aide",
+      "Herbal Clinic Officer/Herbalist",
+      "Infections Control Sister",
+      "Physiotherapist",
+      "Occupational Therapist",
+      "Speech Therapist",
+      "Therapy Aide",
+      "Rehabilitation Assistant",
+      "Rehab Technician",
+      "Laboratory Assistant",
+      "Lab Technician",
+      "Senior Lab Technician",
+      "Junior Lab Assistant"
+    ],
+    "desc": "This industry provides patient care, health education, clinical support, and rehabilitation services. It ranges from nurses and aides giving direct care to technicians running medical tests."
+  },
+  "Education & Training": {
+    "jobs": [
+       "Nursery School Teacher (Ministry of Education Trained/NGO Trained/NSTA)",
+       "Nursery School Teacher Assistant",
+       "Teacher (qualified/untrained)",
+       "Religious Teachers Propagator",
+       "Instructor",
+       "Classroom Assistant",
+       "Junior Librarian",
+       "Assistant Librarian",
+       "Librarian",
+       "Assistant Librarian Technician (Blind)",
+       "Programme Assistant",
+       "Project Assistant",
+       "Youth Coordinator",
+       "Art Room Assistant"
+    ],
+    "desc": "Focused on teaching, learning, and knowledge support, this sector trains children and adults in schools, vocational programs, and community education. Librarians and assistants support research and learning environments."
+  },
+  "Hospitality, Catering & Housekeeping": {
+    "jobs": [
+      "Cleaner",
+      "Messenger/Cleaner",
+      "Assistant Cook",
+      "Cook",
+      "Head Cook",
+      "Senior Cook",
+      "Catering Supervisor",
+      "Kitchen Stores Clerk",
+      "Kitchen/Dining Porter",
+      "Senior Waiter",
+      "Waiter/Waitress",
+      "Assistant Housekeeper",
+      "Housekeeper",
+      "Laundry Assistant",
+      "Laundry Sorter",
+      "Laundry Supervisor",
+      "Linen Repairs/Seamstress",
+      "Hostel Aide",
+      "Boarding Master/Matron",
+      "House Parent",
+      "Food Monitor"
+    ],
+    "desc": "This sector ensures food preparation, catering, cleaning, and accommodation managementin schools, hospitals, hotels, and workplaces. It keeps facilities clean, safe, and welcoming."
+  },
+  "Agriculture, Gardening & Environment": {
+    "jobs": [
+      "Exotic Plant Hand",
+      "Gardener",
+      "Groundsman",
+      "Head Groundsperson",
+      "Horticulturist",
+      "Brushcutter Operator",
+      "Chainsaw Operator",
+      "Fencing",
+      "Fence Maker",
+      "Farm Attendant (Dairy/Poultry)",
+      "Kennel Attendant",
+      "Groom",
+      "Guide (Walking & Horse Trails)",
+      "General Hand",
+      "Senior Handyman",
+      "Handyperson",
+      "Caretaker"
+    ],
+    "desc": "This industry is about cultivating plants, caring for animals, landscaping, and maintaining green spaces. Workers here support agriculture, parks, estates, and animal husbandry."
+  },
+  "Skilled Trades & Technical Services": {
+    "jobs": [
+      "Carpenter (Class I–IV)",
+      "Builder (Class I–IV)",
+      "Painter (Class I–IV)",
+      "Welder (Class I–IV)",
+      "Plumber (Class I–IV)",
+      "Electrician (Class I–IV)",
+      "Mechanic (Class I–IV)",
+      "Senior Mechanics (I–IV)",
+      "Motorbike Mechanics (I–IV)",
+      "Upholsterer",
+      "Cobbler",
+      "Tailor",
+      "Detergent Maker",
+      "Chalk Maker",
+      "Step User",
+      "Cane Weaver",
+      "Senior Cane Weaver",
+      "Frame Bender",
+      "Book Binder",
+      "Miller",
+      "Duplicating Machine Operator",
+      "Photocopier Operator",
+      "Machine Launderer"
+    ],
+    "desc": "This sector covers hands-on technical skills, repairs, and craft work. Tradespeople build, maintain, and fix infrastructure, vehicles, machinery, and household goods."
+  },
+  "Transport, Logistics & Security": {
+    "jobs": [
+      "Ambulance Driver",
+      "Driver (Class 1–4)",
+      "Tractor Driver (licensed/unlicensed)",
+      "Head Driver",
+      "Ambulance Technician",
+      "Logistics Officer",
+      "Logistics Assistant",
+      "Security Guard",
+      "Chief Security Officer",
+      "Gatekeeper/Watchperson",
+      "Commissionaire",
+      "Messenger",
+      "Admissions Porter",
+      "Theatre Porter"
+    ],
+    "desc": "This industry focuses on transportation of goods/people, emergency response, and security. It includes logistics planning and ensuring safety in organizations."
+  },
+  "Manufacturing & Production": {
+    "jobs": [
+      "Head of Production",
+      "Denim Supervisor",
+      "Gift in Kind Coordinator",
+      "Chalk Maker",
+      "Detergent Maker",
+      "Sub Editor",
+      "Production-related Supervisors"
+    ],
+    "desc": "This sector involves manufacturing goods, production oversight, and distribution. Workers here contribute to industries like textiles, chemicals, and publishing."
+  },
+  "Finance, Accounting & Business": {
+    "jobs": [
+      "Assistant Accountant",
+      "Accounts Officer/Supervisor",
+      "Payroll Officer",
+      "Salaries Officer",
+      "Bursar",
+      "Claims Officer",
+      "Commodity Accountant",
+      "Buyer",
+      "Marketing Assistant",
+      "Credit Controller"
+    ],
+    "desc": "This sector ensures money management, budgeting, procurement, and financial accountability within organizations."
+  },
+  "Community & Development Work": {
+    "jobs": [
+      "Field Officer",
+      "Field Officer (Positive Development)",
+      "Design Monitoring & Evaluation Officer",
+      "Program Officer",
+      "Projects Officer",
+      "Project & Training Officer",
+      "Gender & Advocacy Officer",
+      "Wash Officer",
+      "Emergency & Special Projects Officer",
+      "Youth Coordinator"
+    ],
+    "desc": "These roles are common in NGOs, government, and development agencies, focusing on social projects, humanitarian work, gender equity, community development, and infrastructure improvement."
+  }
+}

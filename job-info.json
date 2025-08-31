@@ -1,0 +1,6799 @@
+[
+    {
+        "id": "Clinic Sister/Registered General Nurse",
+        "titles": [
+            "Clinic Sister/Registered General Nurse"
+        ],
+        "sector": "Healthcare",
+        "grade": "C4",
+        "industry": "Healthcare",
+        "yearsExperience": "1–4 years",
+        "qualifications": [
+            "Nursing diploma/degree",
+            "Valid registration with council"
+        ],
+        "skills": [
+            "Patient care",
+            "Clinical assessment",
+            "Charting",
+            "Medication admin"
+        ],
+        "employers": [
+            "Hospitals",
+            "Clinics",
+            "NGOs"
+        ],
+        "description": "Provides patient-centered nursing care, administers medications, monitors vitals, maintains records, and coordinates with multidisciplinary teams to ensure quality outcomes.",
+        "responsibilities": [
+            "Assess, plan, implement, and evaluate care",
+            "Educate patients & families",
+            "Maintain accurate documentation",
+            "Comply with clinical protocols"
+        ]
+    },
+    {
+        "id": "Accounts Clerk",
+        "titles": [
+            "Accounts Clerk"
+        ],
+        "sector": "Administration & Clerical",
+        "grade": "B2",
+        "industry": "Administration & Clerical",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "5 O'Levels incl. Maths & English",
+            "AAT/LLCI/HEXCO Cert/Diploma (preferred)"
+        ],
+        "skills": [
+            "Pastel/Sage/QuickBooks",
+            "Bookkeeping",
+            "Numeracy",
+            "Attention to detail",
+            "Excel",
+            "Confidentiality"
+        ],
+        "employers": [
+            "Private companies",
+            "Corporate finance",
+            "NGOs",
+            "Councils",
+            "Parastatals",
+            "SMEs"
+        ],
+        "description": "Supports marketing campaigns and initiatives, manages content calendars, coordinates events, analyzes performance metrics, and assists with digital marketing efforts.",
+        "responsibilities": [
+            "Capture transactions",
+            "Reconcile cashbook/ledgers",
+            "Process invoices & receipts",
+            "Assist payroll",
+            "File finance documents",
+            "Petty cash control"
+        ]
+    },
+    {
+        "id": "Clinical-Secretary",
+        "titles": [
+            "Clinical Secretary"
+        ],
+        "sector": "Healthcare Admin",
+        "grade": "B3",
+        "industry": "Healthcare Admin",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "5 O’ Levels",
+            "Secretarial Cert",
+            "medical terminology (adv.)"
+        ],
+        "skills": [
+            "Typing",
+            "Discretion",
+            "Record management",
+            "MS Office",
+            "Patient service"
+        ],
+        "employers": [
+            "Hospitals",
+            "Specialist practices"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Manage clinician diaries",
+            "Type reports",
+            "File patient records",
+            "Handle calls",
+            "Manage correspondence"
+        ]
+    },
+    {
+        "id": "Admissions-Clerk",
+        "titles": [
+            "Admissions Clerk"
+        ],
+        "sector": "Healthcare Admin",
+        "grade": "B2",
+        "industry": "Healthcare Admin",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "5 O’ Levels",
+            "Certificate in Health Records/Admin (adv.)"
+        ],
+        "skills": [
+            "Customer service",
+            "Hospital systems",
+            "Data accuracy",
+            "Cash handling",
+            "Confidentiality"
+        ],
+        "employers": [
+            "Private clinics",
+            "Mission / Government hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Register patients",
+            "Verify medical aid",
+            "Collect co-payments",
+            "Schedule appointments",
+            "Maintain admissions data"
+        ]
+    },
+    {
+        "id": "Billing-Clerk",
+        "titles": [
+            "Billing Clerk"
+        ],
+        "sector": "Administration & Finance",
+        "grade": "B2",
+        "industry": "Administration & Finance",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "5 O’ Levels",
+            "Bookkeeping Certificate (adv.)"
+        ],
+        "skills": [
+            "AR processes",
+            "Excel",
+            "Attention to Detail",
+            "Communication",
+            "Pastel"
+        ],
+        "employers": [
+            "Hospitals",
+            "Utilities",
+            "ISPs",
+            "Logistics",
+            "Manufacturing"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Prepare bills",
+            "Verify charges",
+            "Follow up payments",
+            "Post receipts",
+            "Reconcile debtors"
+        ]
+    },
+    {
+        "id": "Clinic-Administrator",
+        "titles": [
+            "Clinic Administrator"
+        ],
+        "sector": "Healthcare Admin",
+        "grade": "B5",
+        "industry": "Healthcare Admin",
+        "yearsExperience": "3-7 years",
+        "qualifications": [
+            "Diploma/Degree in Health Services/Admin",
+            "Basic accounting"
+        ],
+        "skills": [
+            "Health admin",
+            "Leadership",
+            "Procurement",
+            "HR basics",
+            "MS Office"
+        ],
+        "employers": [
+            "Private clinics",
+            "NGOs projects",
+            "Mission facilities"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Oversee clinic ops",
+            "Budgeting & procurement",
+            "Staff scheduling",
+            "Compliance (MOHCC/NEC)",
+            "Stakeholder reporting"
+        ]
+    },
+    {
+        "id": "Creditors-Clerk",
+        "titles": [
+            "Creditors Clerk"
+        ],
+        "sector": "Administration & Finance",
+        "grade": "B2",
+        "industry": "Administration & Finance",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "5 O’ Levels",
+            "Accounting Cert"
+        ],
+        "skills": [
+            "AP",
+            "Excel",
+            "Vendor relations",
+            "Accuracy",
+            "ERP (Pastel/Sage)"
+        ],
+        "employers": [
+            "Retailers",
+            "Manufacturers",
+            "NGOs",
+            "Construction"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Match POs/invoices",
+            "Process supplier payments",
+            "Reconcile creditors",
+            "Resolve queries",
+            "Maintain AP aging"
+        ]
+    },
+    {
+        "id": "Data-Capture-Clerk",
+        "titles": [
+            "Data Capture Clerk"
+        ],
+        "sector": "Administration & Clerical",
+        "grade": "B2",
+        "industry": "Administration & Clerical",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "5 O’ Levels",
+            "Data Entry Cert (adv.)"
+        ],
+        "skills": [
+            "Typing speed",
+            "Accuracy",
+            "Excel",
+            "DHIS2/ONA/KOBO (adv.)"
+        ],
+        "employers": [
+            "NGOs",
+            "Research organizations",
+            "Hospitals",
+            "Councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Enter forms/surveys",
+            "Clean data",
+            "Verify completeness",
+            "File source docs"
+        ]
+    },
+    {
+        "id": "Debtors-Clerk",
+        "titles": [
+            "Debtors Clerk"
+        ],
+        "sector": "Administration & Clerical",
+        "grade": "B2",
+        "industry": "Administration & Clerical",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "5 O’ Levels",
+            "Accounting Cert"
+        ],
+        "skills": [
+            "Collections",
+            "Excel",
+            "Communication",
+            "Attention to detail",
+            "Pastel"
+        ],
+        "employers": [
+            "Telcos",
+            "Schools",
+            "Clinics",
+            "Manufacturing"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Raise invoices",
+            "Post receipts",
+            "Follow up debtors",
+            "Reconcile AR",
+            "Credit notes"
+        ]
+    },
+    {
+        "id": "Human-Resources-Clerk",
+        "titles": [
+            "Human Resources Clerk"
+        ],
+        "sector": "HR & Administration",
+        "grade": "B3",
+        "industry": "HR & Administration",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Diploma in HR/Busines",
+            "5 O’ Levels"
+        ],
+        "skills": [
+            "HRIS",
+            "Confidentiality",
+            "Labour basics",
+            "Excel",
+            "Communication"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs",
+            "Manufacturing",
+            "Services"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Maintain personnel files",
+            "Assist recruitment",
+            "Capture leave",
+            "Process NEC returns",
+            "Support payroll"
+        ]
+    },
+    {
+        "id": "Junior-Lab-Assistant/Clerk",
+        "titles": [
+            "Junior Lab Assistant/Clerk"
+        ],
+        "sector": "Healthcare & Labs",
+        "grade": "B2",
+        "industry": "Healthcare & Labs",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Science O’ Levels",
+            "Lab Assistant Cert (adv.)"
+        ],
+        "skills": [
+            "Lab safety",
+            "Accuracy",
+            "PPE use",
+            "LIS basics"
+        ],
+        "employers": [
+            "Pathology labs",
+            "Hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Sample receipt",
+            "Labeling",
+            "Basic prep",
+            "Sterilization",
+            "Record results",
+            "Stock control"
+        ]
+    },
+    {
+        "id": "Office-Administrator",
+        "titles": [
+            "Office Administrator"
+        ],
+        "sector": "Administration",
+        "grade": "C4",
+        "industry": "Administration",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Diploma in Office Admin/Business",
+            "5 O’ Levels"
+        ],
+        "skills": [
+            "Organization",
+            "MS Office",
+            "Vendor management",
+            "Cash handling",
+            "Problem solving"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs",
+            "Schools",
+            "Clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Oversee office ops",
+            "Procurement",
+            "Petty cash",
+            "Supervise support staff",
+            "Meetings & travel",
+            "Assets registry"
+        ]
+    },
+    {
+        "id": "Personal-Assistant/Secretary",
+        "titles": [
+            "Personal Assistant/Secretary"
+        ],
+        "sector": "Administration",
+        "grade": "C1",
+        "industry": "Administration",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Secretarial Diploma",
+            "5 O’ Levels incl. English"
+        ],
+        "skills": [
+            "Typing",
+            "Discretion",
+            "Organization",
+            "MS Office",
+            "Stakeholder handling"
+        ],
+        "employers": [
+            "C-suite offices",
+            "Principals",
+            "HODs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "Manage executive diary",
+            "Minutes",
+            "Travel",
+            "Correspondence",
+            "Filing",
+            "Visitor coordination"
+        ]
+    },
+    {
+        "id": "Project-Secretary",
+        "titles": [
+            "Project Secretary"
+        ],
+        "sector": "Projects/NGO Admin",
+        "grade": "B3",
+        "industry": "Projects/NGO Admin",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Secretarial/Project Admin Diploma"
+        ],
+        "skills": [
+            "detail orientation",
+            "MS Office",
+            "communication",
+            "donor compliance basics"
+        ],
+        "employers": [
+            "NGOs",
+            "development projects",
+            "research"
+        ],
+        "description": "",
+        "responsibilities": [
+            "maintain project files",
+            "schedule meetings",
+            "travel logistics",
+            "timesheets",
+            "compile reports"
+        ]
+    },
+    {
+        "id": "Receptionist/Clerk/Typist",
+        "titles": [
+            "Receptionist/Clerk/Typist"
+        ],
+        "sector": "Administration",
+        "grade": "B2",
+        "industry": "Administration",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "5 O’ Levels; Reception/Typing Cert"
+        ],
+        "skills": [
+            "customer care",
+            "switchboard",
+            "typing speed",
+            "professionalism"
+        ],
+        "employers": [
+            "clinics",
+            "schools",
+            "corporate offices"
+        ],
+        "description": "",
+        "responsibilities": [
+            "front desk",
+            "calls",
+            "visitor register",
+            "typing",
+            "mail handling"
+        ]
+    },
+    {
+        "id": "Records-Clerk/Filing-Clerk",
+        "titles": [
+            "Records Clerk/Filing Clerk"
+        ],
+        "sector": "Administration",
+        "grade": "B2",
+        "industry": "Administration",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "5 O’ Levels; Records Mgmt cert (adv.)"
+        ],
+        "skills": [
+            "records systems",
+            "accuracy",
+            "confidentiality"
+        ],
+        "employers": [
+            "hospitals",
+            "courts",
+            "schools",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "file/index records",
+            "retrieve/track files",
+            "archive",
+            "records register"
+        ]
+    },
+    {
+        "id": "Salaries-Clerk",
+        "titles": [
+            "Salaries Clerk"
+        ],
+        "sector": "Finance/HR",
+        "grade": "B2",
+        "industry": "Finance/HR",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Payroll/Accounting Cert; 5 O’ Levels"
+        ],
+        "skills": [
+            "payroll systems",
+            "Excel",
+            "confidentiality",
+            "labour basics"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs",
+            "parastatals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "prepare payroll",
+            "NEC/statutory returns (PAYE/NSSA)",
+            "payslips",
+            "resolve queries"
+        ]
+    },
+    {
+        "id": "Sales-Clerk",
+        "titles": [
+            "Sales Clerk"
+        ],
+        "sector": "Sales & Admin",
+        "grade": "B2",
+        "industry": "Sales & Admin",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "5 O’ Levels; Sales/Marketing Cert (adv.)"
+        ],
+        "skills": [
+            "POS",
+            "customer service",
+            "numeracy",
+            "Excel"
+        ],
+        "employers": [
+            "retail",
+            "wholesalers",
+            "hardware"
+        ],
+        "description": "",
+        "responsibilities": [
+            "process orders",
+            "invoices",
+            "customer queries",
+            "stock checks",
+            "cashing"
+        ]
+    },
+    {
+        "id": "Secretary-Clerical",
+        "titles": [
+            "Secretary - Clerical"
+        ],
+        "sector": "Administration",
+        "grade": "B2",
+        "industry": "Administration",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Secretarial Cert/Diploma"
+        ],
+        "skills": [
+            "typing",
+            "MS Office",
+            "organization",
+            "discretion"
+        ],
+        "employers": [
+            "public & private offices"
+        ],
+        "description": "",
+        "responsibilities": [
+            "typing",
+            "filing",
+            "correspondence",
+            "diaries",
+            "office support"
+        ]
+    },
+    {
+        "id": "Senior-Accounts-Clerk",
+        "titles": [
+            "Senior Accounts Clerk"
+        ],
+        "sector": "Finance",
+        "grade": "B4",
+        "industry": "Finance",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Diploma in Accounting; AAT/LCCI"
+        ],
+        "skills": [
+            "GL",
+            "Excel",
+            "attention to detail",
+            "mentoring"
+        ],
+        "employers": [
+            "manufacturing",
+            "NGOs",
+            "services"
+        ],
+        "description": "",
+        "responsibilities": [
+            "manage ledgers",
+            "reconciliations",
+            "assist management accounts",
+            "supervise juniors"
+        ]
+    },
+    {
+        "id": "Senior-Admissions-Clerk",
+        "titles": [
+            "Senior Admissions Clerk"
+        ],
+        "sector": "Healthcare Admin",
+        "grade": "B4",
+        "industry": "Healthcare Admin",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Health Admin Cert/Diploma"
+        ],
+        "skills": [
+            "hospital systems",
+            "supervision",
+            "cash controls",
+            "customer care"
+        ],
+        "employers": [
+            "hospitals",
+            "private clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead admissions team",
+            "resolve escalations",
+            "reports",
+            "cash controls",
+            "SOPs"
+        ]
+    },
+    {
+        "id": "Senior-Billing-Clerk",
+        "titles": [
+            "Senior Billing Clerk"
+        ],
+        "sector": "Administration & Finance",
+        "grade": "B4",
+        "industry": "Administration & Finance",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Bookkeeping/Accounting Diploma"
+        ],
+        "skills": [
+            "billing systems",
+            "Excel",
+            "supervision",
+            "analytics"
+        ],
+        "employers": [
+            "utilities",
+            "hospitals",
+            "telcos"
+        ],
+        "description": "",
+        "responsibilities": [
+            "oversee billing cycle",
+            "accuracy checks",
+            "debt control liaison",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Exotic-Plant-Hand",
+        "titles": [
+            "Exotic Plant Hand"
+        ],
+        "sector": "Agriculture/Horticulture",
+        "grade": "A1",
+        "industry": "Agriculture/Horticulture",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; horticulture short course (adv.)"
+        ],
+        "skills": [
+            "plant care",
+            "safety",
+            "stamina"
+        ],
+        "employers": [
+            "estates",
+            "nurseries",
+            "parks"
+        ],
+        "description": "",
+        "responsibilities": [
+            "planting",
+            "pruning",
+            "pest control",
+            "irrigation",
+            "propagation"
+        ]
+    },
+    {
+        "id": "Gardener",
+        "titles": [
+            "Gardener"
+        ],
+        "sector": "Agriculture/Landscaping",
+        "grade": "A1",
+        "industry": "Agriculture/Landscaping",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Basic literacy; horticulture short course (adv.)"
+        ],
+        "skills": [
+            "gardening",
+            "tools",
+            "safety",
+            "reliability"
+        ],
+        "employers": [
+            "schools",
+            "clinics",
+            "estates",
+            "lodges"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lawn care",
+            "pruning",
+            "weeding",
+            "irrigation",
+            "composting"
+        ]
+    },
+    {
+        "id": "Groundsman",
+        "titles": [
+            "Groundsman"
+        ],
+        "sector": "Facilities & Grounds",
+        "grade": "A1",
+        "industry": "Facilities & Grounds",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Basic literacy; safety training"
+        ],
+        "skills": [
+            "tools",
+            "teamwork",
+            "stamina"
+        ],
+        "employers": [
+            "schools",
+            "sports clubs",
+            "campuses"
+        ],
+        "description": "",
+        "responsibilities": [
+            "grounds upkeep",
+            "litter control",
+            "minor repairs",
+            "assist events"
+        ]
+    },
+    {
+        "id": "Water-Plant-Attendant",
+        "titles": [
+            "Water Plant Attendant"
+        ],
+        "sector": "Utilities/Water",
+        "grade": "A3",
+        "industry": "Utilities/Water",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "O’ Levels Science; water ops cert (adv.)"
+        ],
+        "skills": [
+            "mechanical aptitude",
+            "safety",
+            "record keeping"
+        ],
+        "employers": [
+            "councils",
+            "estates",
+            "mines"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate pumps",
+            "monitor treatment",
+            "record readings",
+            "basic maintenance"
+        ]
+    },
+    {
+        "id": "Assistant-Housekeeper",
+        "titles": [
+            "Assistant Housekeeper"
+        ],
+        "sector": "Hospitality",
+        "grade": "B1",
+        "industry": "Hospitality",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Housekeeping cert (adv.)"
+        ],
+        "skills": [
+            "attention to detail",
+            "time mgmt",
+            "hygiene"
+        ],
+        "employers": [
+            "lodges",
+            "hospitals",
+            "boarding schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist room cleaning",
+            "linen handling",
+            "amenities",
+            "inventory"
+        ]
+    },
+    {
+        "id": "Cleaner",
+        "titles": [
+            "Cleaner"
+        ],
+        "sector": "Facilities",
+        "grade": "A2",
+        "industry": "Facilities",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; hygiene training"
+        ],
+        "skills": [
+            "hygiene",
+            "reliability",
+            "PPE use"
+        ],
+        "employers": [
+            "offices",
+            "clinics",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "clean offices/wards",
+            "waste disposal",
+            "sanitize high-touch areas"
+        ]
+    },
+    {
+        "id": "Housekeeper",
+        "titles": [
+            "Housekeeper"
+        ],
+        "sector": "Hospitality/Facilities",
+        "grade": "B5",
+        "industry": "Hospitality/Facilities",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Housekeeping Cert"
+        ],
+        "skills": [
+            "supervision",
+            "hygiene",
+            "customer focus"
+        ],
+        "employers": [
+            "hotels",
+            "hospitals",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "supervise cleaners",
+            "standards checks",
+            "inventory",
+            "rosters"
+        ]
+    },
+    {
+        "id": "Messenger/Cleaner",
+        "titles": [
+            "Messenger/Cleaner"
+        ],
+        "sector": "Facilities & Admin",
+        "grade": "A2",
+        "industry": "Facilities & Admin",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; driver/rider (adv.)"
+        ],
+        "skills": [
+            "time mgmt",
+            "trustworthiness",
+            "communication"
+        ],
+        "employers": [
+            "offices",
+            "schools",
+            "clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "deliver mail",
+            "run errands",
+            "clean assigned areas"
+        ]
+    },
+    {
+        "id": "Assistant-Librarian",
+        "titles": [
+            "Assistant Librarian"
+        ],
+        "sector": "Education/Libraries",
+        "grade": "B3",
+        "industry": "Education/Libraries",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Library & Info Science Cert"
+        ],
+        "skills": [
+            "Koha/Aleph",
+            "customer service",
+            "organization"
+        ],
+        "employers": [
+            "schools",
+            "colleges",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "circulation desk",
+            "shelving",
+            "member support",
+            "cataloguing support"
+        ]
+    },
+    {
+        "id": "Assistant-Librarian-Technician-(Blind)",
+        "titles": [
+            "Assistant Librarian Technician (Blind)"
+        ],
+        "sector": "Education/Inclusive Libraries",
+        "grade": "B3",
+        "industry": "Education/Inclusive Libraries",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Library Cert; braille/assistive tech training"
+        ],
+        "skills": [
+            "braille",
+            "JAWS/NVDA",
+            "patience"
+        ],
+        "employers": [
+            "special schools",
+            "inclusive libraries"
+        ],
+        "description": "",
+        "responsibilities": [
+            "braille transcription",
+            "assistive tech support",
+            "accessible cataloguing"
+        ]
+    },
+    {
+        "id": "Instructor",
+        "titles": [
+            "Instructor"
+        ],
+        "sector": "Education/TVET",
+        "grade": "C1",
+        "industry": "Education/TVET",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Trade/Subject Diploma; teaching cert (adv.)"
+        ],
+        "skills": [
+            "instructional skills",
+            "assessment",
+            "safety"
+        ],
+        "employers": [
+            "Polytechnics",
+            "vocational centres",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "deliver practical training",
+            "assess learners",
+            "workshop safety",
+            "records"
+        ]
+    },
+    {
+        "id": "Junior-Librarian",
+        "titles": [
+            "Junior Librarian"
+        ],
+        "sector": "Education/Libraries",
+        "grade": "B4",
+        "industry": "Education/Libraries",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Diploma in Library & Info Science"
+        ],
+        "skills": [
+            "cataloguing rules",
+            "ICT",
+            "customer service"
+        ],
+        "employers": [
+            "schools",
+            "colleges",
+            "public libraries"
+        ],
+        "description": "",
+        "responsibilities": [
+            "cataloguing",
+            "reference services",
+            "circulation",
+            "outreach"
+        ]
+    },
+    {
+        "id": "Librarian",
+        "titles": [
+            "Librarian"
+        ],
+        "sector": "Education/Libraries",
+        "grade": "C1",
+        "industry": "Education/Libraries",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Degree/Diploma in Library & Info Science"
+        ],
+        "skills": [
+            "library systems",
+            "research",
+            "management"
+        ],
+        "employers": [
+            "universities",
+            "councils",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "collection development",
+            "cataloguing",
+            "information literacy",
+            "supervise staff"
+        ]
+    },
+    {
+        "id": "Nursery-School-Teacher-(Ministry-Of-Education-Trained)",
+        "titles": [
+            "Nursery School Teacher (Ministry Of Education Trained)"
+        ],
+        "sector": "Education",
+        "grade": "C1",
+        "industry": "Education",
+        "yearsExperience": "0-5 years",
+        "qualifications": [
+            "Diploma in ECD; MoPSE registration"
+        ],
+        "skills": [
+            "child development",
+            "creativity",
+            "communication"
+        ],
+        "employers": [
+            "govt & mission schools",
+            "private ECD"
+        ],
+        "description": "",
+        "responsibilities": [
+            "plan ECD lessons",
+            "assess learners",
+            "classroom care",
+            "parent engagement"
+        ]
+    },
+    {
+        "id": "Nursery-School-Teacher-(Ngo-Trained)",
+        "titles": [
+            "Nursery School Teacher (Ngo Trained)"
+        ],
+        "sector": "Education",
+        "grade": "B5",
+        "industry": "Education",
+        "yearsExperience": "0-4 years",
+        "qualifications": [
+            "ECD training (NGO); MoPSE registration (adv.)"
+        ],
+        "skills": [
+            "ECD methods",
+            "community work"
+        ],
+        "employers": [
+            "community centres",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "deliver ECD curriculum",
+            "play-based learning",
+            "safeguarding"
+        ]
+    },
+    {
+        "id": "Nursery-School-Teacher-(Nsta)",
+        "titles": [
+            "Nursery School Teacher (Nsta)"
+        ],
+        "sector": "Education",
+        "grade": "B4",
+        "industry": "Education",
+        "yearsExperience": "0-4 years",
+        "qualifications": [
+            "NSTA/ECD Certificate; registration"
+        ],
+        "skills": [
+            "ECD",
+            "creativity",
+            "patience"
+        ],
+        "employers": [
+            "private ECD centres"
+        ],
+        "description": "",
+        "responsibilities": [
+            "teach ECD",
+            "observe & assess",
+            "care routines"
+        ]
+    },
+    {
+        "id": "Nursery-School-Teacher-Assistant",
+        "titles": [
+            "Nursery School Teacher Assistant"
+        ],
+        "sector": "Education",
+        "grade": "B2",
+        "industry": "Education",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "ECD assistant course (adv.)"
+        ],
+        "skills": [
+            "care",
+            "teamwork",
+            "communication"
+        ],
+        "employers": [
+            "ECD centres",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "classroom support",
+            "child supervision",
+            "resources prep"
+        ]
+    },
+    {
+        "id": "Religious-Teachers-Propagator",
+        "titles": [
+            "Religious Teachers Propagator"
+        ],
+        "sector": "Faith/Education",
+        "grade": "B2",
+        "industry": "Faith/Education",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Religious Studies Cert; catechism training"
+        ],
+        "skills": [
+            "public speaking",
+            "counseling",
+            "planning"
+        ],
+        "employers": [
+            "church missions",
+            "faith schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "teach doctrine",
+            "organize classes",
+            "outreach"
+        ]
+    },
+    {
+        "id": "Teacher-(Qualified)-(Excluding-ATS)",
+        "titles": [
+            "Teacher (Qualified) (Excluding ATS)"
+        ],
+        "sector": "Education",
+        "grade": "C4",
+        "industry": "Education",
+        "yearsExperience": "0-30 years",
+        "qualifications": [
+            "Diploma/Degree in Education; registration"
+        ],
+        "skills": [
+            "pedagogy",
+            "subject mastery",
+            "communication"
+        ],
+        "employers": [
+            "government",
+            "private",
+            "mission schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "teach subjects",
+            "assess",
+            "classroom management",
+            "school activities"
+        ]
+    },
+    {
+        "id": "Teacher-(Untrained)",
+        "titles": [
+            "Teacher (Untrained)"
+        ],
+        "sector": "Education",
+        "grade": "C1",
+        "industry": "Education",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "A’ Levels; temporary teaching permit"
+        ],
+        "skills": [
+            "communication",
+            "adaptability",
+            "discipline"
+        ],
+        "employers": [
+            "rural schools",
+            "private ECD"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist teaching",
+            "supervise classes",
+            "learn pedagogy"
+        ]
+    },
+    {
+        "id": "Assistant-Accountant",
+        "titles": [
+            "Assistant Accountant"
+        ],
+        "sector": "Finance",
+        "grade": "C2",
+        "industry": "Finance",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Diploma/Degree (Accounting); AAT/ACCA (adv.)"
+        ],
+        "skills": [
+            "Excel",
+            "IFRS basics",
+            "attention to detail",
+            "Pastel/Sage"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs",
+            "manufacturing"
+        ],
+        "description": "Means an employee who assists in the accounting operations under the supervision of an Accountant.",
+        "responsibilities": [
+            "journals",
+            "reconciliations",
+            "assist financial statements",
+            "tax support"
+        ]
+    },
+    {
+        "id": "Bursar",
+        "titles": [
+            "Bursar"
+        ],
+        "sector": "Education/Finance",
+        "grade": "C3",
+        "industry": "Education/Finance",
+        "yearsExperience": "3-7 years",
+        "qualifications": [
+            "Accounting Diploma; school finance experience"
+        ],
+        "skills": [
+            "school finance",
+            "Excel",
+            "integrity",
+            "stakeholder comms"
+        ],
+        "employers": [
+            "schools",
+            "colleges"
+        ],
+        "description": "",
+        "responsibilities": [
+            "school budgets",
+            "fees billing",
+            "procurement",
+            "asset control"
+        ]
+    },
+    {
+        "id": "Boiler-Attendant",
+        "titles": [
+            "Boiler Attendant"
+        ],
+        "sector": "Engineering/Facilities",
+        "grade": "B2",
+        "industry": "Engineering/Facilities",
+        "yearsExperience": "1-5 years",
+        "qualifications": [
+            "Boiler Operator Cert; O’ Levels"
+        ],
+        "skills": [
+            "safety",
+            "mechanical aptitude",
+            "logs"
+        ],
+        "employers": [
+            "hospitals",
+            "factories",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate boiler",
+            "monitor gauges",
+            "water treatment",
+            "routine maintenance"
+        ]
+    },
+    {
+        "id": "Dairy/-Poultry-Attendant",
+        "titles": [
+            "Dairy/ Poultry Attendant"
+        ],
+        "sector": "Agriculture",
+        "grade": "A2",
+        "industry": "Agriculture",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Basic literacy; livestock short course"
+        ],
+        "skills": [
+            "animal care",
+            "hygiene",
+            "stamina"
+        ],
+        "employers": [
+            "farms",
+            "agro-estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "feeding",
+            "cleaning",
+            "vaccination support",
+            "record yields"
+        ]
+    },
+    {
+        "id": "Fuel-Attendant",
+        "titles": [
+            "Fuel Attendant"
+        ],
+        "sector": "Retail/Transport",
+        "grade": "A2",
+        "industry": "Retail/Transport",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; safety training"
+        ],
+        "skills": [
+            "customer service",
+            "numeracy",
+            "safety"
+        ],
+        "employers": [
+            "service stations"
+        ],
+        "description": "",
+        "responsibilities": [
+            "dispense fuel",
+            "cashing",
+            "stock dips",
+            "safety checks"
+        ]
+    },
+    {
+        "id": "General-Hand",
+        "titles": [
+            "General Hand"
+        ],
+        "sector": "General Services",
+        "grade": "A1",
+        "industry": "General Services",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy"
+        ],
+        "skills": [
+            "stamina",
+            "reliability",
+            "teamwork"
+        ],
+        "employers": [
+            "all sectors"
+        ],
+        "description": "",
+        "responsibilities": [
+            "manual tasks",
+            "loading",
+            "cleaning",
+            "simple repairs"
+        ]
+    },
+    {
+        "id": "Kennel-Attendant",
+        "titles": [
+            "Kennel Attendant"
+        ],
+        "sector": "Animal Care",
+        "grade": "A2",
+        "industry": "Animal Care",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Basic literacy; animal handling training (adv.)"
+        ],
+        "skills": [
+            "animal handling",
+            "hygiene",
+            "compassion"
+        ],
+        "employers": [
+            "vets",
+            "kennels",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "clean kennels",
+            "feed",
+            "exercise animals",
+            "monitor health"
+        ]
+    },
+    {
+        "id": "Senior-Handyman",
+        "titles": [
+            "Senior Handyman"
+        ],
+        "sector": "Facilities",
+        "grade": "B4",
+        "industry": "Facilities",
+        "yearsExperience": "4-8 years",
+        "qualifications": [
+            "Trade skill cert"
+        ],
+        "skills": [
+            "multi-trade",
+            "supervision",
+            "problem solving"
+        ],
+        "employers": [
+            "schools",
+            "estates",
+            "clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "coordinate repairs",
+            "supervise handypersons",
+            "plan maintenance"
+        ]
+    },
+    {
+        "id": "Swimming-Pool-Attendant-1",
+        "titles": [
+            "Swimming Pool Attendant 1"
+        ],
+        "sector": "Sports/Facilities",
+        "grade": "A1",
+        "industry": "Sports/Facilities",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; pool maintenance training"
+        ],
+        "skills": [
+            "pool care",
+            "safety",
+            "attention"
+        ],
+        "employers": [
+            "schools",
+            "lodges"
+        ],
+        "description": "",
+        "responsibilities": [
+            "skimming",
+            "chemicals checks",
+            "cleaning",
+            "safety watch"
+        ]
+    },
+    {
+        "id": "Swimming-Pool-Attendant-2",
+        "titles": [
+            "Swimming Pool Attendant 2"
+        ],
+        "sector": "Sports/Facilities",
+        "grade": "A2",
+        "industry": "Sports/Facilities",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Pool maintenance cert"
+        ],
+        "skills": [
+            "technical pool ops",
+            "safety"
+        ],
+        "employers": [
+            "sports clubs",
+            "hotels"
+        ],
+        "description": "",
+        "responsibilities": [
+            "test & balance chemicals",
+            "minor repairs",
+            "backwashing"
+        ]
+    },
+    {
+        "id": "Tennis-Court-Attendant",
+        "titles": [
+            "Tennis Court Attendant"
+        ],
+        "sector": "Sports/Facilities",
+        "grade": "A1",
+        "industry": "Sports/Facilities",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy"
+        ],
+        "skills": [
+            "customer service",
+            "upkeep",
+            "punctuality"
+        ],
+        "employers": [
+            "clubs",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "court upkeep",
+            "bookings",
+            "issue equipment",
+            "basic coaching assist"
+        ]
+    },
+    {
+        "id": "Water-Tank-Attendant",
+        "titles": [
+            "Water Tank Attendant"
+        ],
+        "sector": "Facilities/Estates",
+        "grade": "A2",
+        "industry": "Facilities/Estates",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; safety training"
+        ],
+        "skills": [
+            "safety",
+            "vigilance",
+            "basic mechanics"
+        ],
+        "employers": [
+            "estates",
+            "farms",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "monitor tanks",
+            "pump operation",
+            "leak checks",
+            "records"
+        ]
+    },
+    {
+        "id": "Clinic-Sister/Registered-General-Nurse",
+        "titles": [
+            "Clinic Sister/Registered General Nurse"
+        ],
+        "sector": "Healthcare",
+        "grade": "",
+        "industry": "Healthcare",
+        "yearsExperience": "2-10 years",
+        "qualifications": [
+            "RGN qualification; Nurses Council registration"
+        ],
+        "skills": [
+            "clinical skills",
+            "triage",
+            "counseling",
+            "EMR basics"
+        ],
+        "employers": [
+            "clinics",
+            "NGOs",
+            "mission hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "patient assessment",
+            "treatment",
+            "supervise aides",
+            "drug management",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Health-Officer",
+        "titles": [
+            "Health Officer"
+        ],
+        "sector": "Public Health",
+        "grade": "C2",
+        "industry": "Public Health",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Degree/Diploma in Environmental/Public Health"
+        ],
+        "skills": [
+            "public health regs",
+            "investigation",
+            "reporting"
+        ],
+        "employers": [
+            "local authorities",
+            "MOHCC",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "inspections",
+            "health education",
+            "outbreak response",
+            "compliance"
+        ]
+    },
+    {
+        "id": "Nurse-Aide",
+        "titles": [
+            "Nurse Aide"
+        ],
+        "sector": "Healthcare",
+        "grade": "B1",
+        "industry": "Healthcare",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Nurse Aide Certificate"
+        ],
+        "skills": [
+            "compassion",
+            "basic clinical",
+            "communication"
+        ],
+        "employers": [
+            "hospitals",
+            "clinics",
+            "elder homes"
+        ],
+        "description": "",
+        "responsibilities": [
+            "bedside care",
+            "vitals",
+            "hygiene",
+            "patient mobility",
+            "records"
+        ]
+    },
+    {
+        "id": "Nurse/Ward-Aide",
+        "titles": [
+            "Nurse/Ward Aide"
+        ],
+        "sector": "Healthcare",
+        "grade": "B3",
+        "industry": "Healthcare",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Nurse Aide Certificate"
+        ],
+        "skills": [
+            "teamwork",
+            "hygiene",
+            "stamina"
+        ],
+        "employers": [
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "ward cleaning",
+            "patient support",
+            "transport",
+            "supplies"
+        ]
+    },
+    {
+        "id": "Nursery-Aide",
+        "titles": [
+            "Nursery Aide"
+        ],
+        "sector": "Education/ECD",
+        "grade": "B2",
+        "industry": "Education/ECD",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "ECD aide course (adv.)"
+        ],
+        "skills": [
+            "care",
+            "patience",
+            "communication"
+        ],
+        "employers": [
+            "ECD centres"
+        ],
+        "description": "",
+        "responsibilities": [
+            "childcare support",
+            "snack prep",
+            "playground duty"
+        ]
+    },
+    {
+        "id": "Senior-Nurse-Aide",
+        "titles": [
+            "Senior Nurse Aide"
+        ],
+        "sector": "Healthcare",
+        "grade": "B4",
+        "industry": "Healthcare",
+        "yearsExperience": "3-7 years",
+        "qualifications": [
+            "Nurse Aide Cert; additional training"
+        ],
+        "skills": [
+            "leadership",
+            "patient care",
+            "documentation"
+        ],
+        "employers": [
+            "hospitals",
+            "clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead aides",
+            "allocate tasks",
+            "train newcomers",
+            "quality checks"
+        ]
+    },
+    {
+        "id": "Veterinary-Nurse",
+        "titles": [
+            "Veterinary Nurse"
+        ],
+        "sector": "Animal Health",
+        "grade": "B3",
+        "industry": "Animal Health",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Vet Nursing Diploma"
+        ],
+        "skills": [
+            "animal care",
+            "anesthesia assist",
+            "records"
+        ],
+        "employers": [
+            "veterinary practices",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist surgeries",
+            "animal nursing",
+            "client education",
+            "stock control"
+        ]
+    },
+    {
+        "id": "Admissions-Porter",
+        "titles": [
+            "Admissions Porter"
+        ],
+        "sector": "Healthcare",
+        "grade": "A2",
+        "industry": "Healthcare",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; patient handling training"
+        ],
+        "skills": [
+            "manual handling",
+            "empathy",
+            "teamwork"
+        ],
+        "employers": [
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "patient transfers",
+            "admissions support",
+            "wheelchair use"
+        ]
+    },
+    {
+        "id": "Assistant-Cook",
+        "titles": [
+            "Assistant Cook"
+        ],
+        "sector": "Hospitality",
+        "grade": "A3",
+        "industry": "Hospitality",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Cooking Cert (adv.)"
+        ],
+        "skills": [
+            "food hygiene",
+            "speed",
+            "teamwork"
+        ],
+        "employers": [
+            "schools",
+            "hospitals",
+            "hotels"
+        ],
+        "description": "",
+        "responsibilities": [
+            "prep ingredients",
+            "basic cooking",
+            "cleaning",
+            "stock rotation"
+        ]
+    },
+    {
+        "id": "Catering-Supervisor",
+        "titles": [
+            "Catering Supervisor"
+        ],
+        "sector": "Hospitality",
+        "grade": "C1",
+        "industry": "Hospitality",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Catering/Hotel Diploma"
+        ],
+        "skills": [
+            "leadership",
+            "hygiene",
+            "stock control"
+        ],
+        "employers": [
+            "schools",
+            "hospitals",
+            "events"
+        ],
+        "description": "",
+        "responsibilities": [
+            "supervise kitchen/serving",
+            "menu planning",
+            "HACCP",
+            "rosters"
+        ]
+    },
+    {
+        "id": "Cook",
+        "titles": [
+            "Cook"
+        ],
+        "sector": "Hospitality",
+        "grade": "B1",
+        "industry": "Hospitality",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Cooking Cert"
+        ],
+        "skills": [
+            "culinary basics",
+            "time mgmt",
+            "hygiene"
+        ],
+        "employers": [
+            "canteens",
+            "hotels",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "cook menu items",
+            "portion control",
+            "hygiene",
+            "stock checks"
+        ]
+    },
+    {
+        "id": "Head-Cook",
+        "titles": [
+            "Head Cook"
+        ],
+        "sector": "Hospitality",
+        "grade": "B4",
+        "industry": "Hospitality",
+        "yearsExperience": "4-8 years",
+        "qualifications": [
+            "Culinary Diploma"
+        ],
+        "skills": [
+            "leadership",
+            "menu design",
+            "hygiene"
+        ],
+        "employers": [
+            "lodges",
+            "schools",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "plan menus",
+            "supervise cooks",
+            "cost control",
+            "supplier liaison"
+        ]
+    },
+    {
+        "id": "Kitchen-Stores-Clerk",
+        "titles": [
+            "Kitchen Stores Clerk"
+        ],
+        "sector": "Hospitality",
+        "grade": "B2",
+        "industry": "Hospitality",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "5 O’ Levels"
+        ],
+        "skills": [
+            "storekeeping",
+            "numeracy",
+            "hygiene"
+        ],
+        "employers": [
+            "canteens",
+            "hotels"
+        ],
+        "description": "",
+        "responsibilities": [
+            "receive goods",
+            "stock records",
+            "issue ingredients",
+            "stock-takes"
+        ]
+    },
+    {
+        "id": "Kitchen/Dining-Room-Porter",
+        "titles": [
+            "Kitchen/Dining Room Porter"
+        ],
+        "sector": "Hospitality",
+        "grade": "A1",
+        "industry": "Hospitality",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy"
+        ],
+        "skills": [
+            "hygiene",
+            "speed",
+            "teamwork"
+        ],
+        "employers": [
+            "restaurants",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "wash dishes",
+            "clean kitchen/dining",
+            "waste disposal"
+        ]
+    },
+    {
+        "id": "Senior-Cook",
+        "titles": [
+            "Senior Cook"
+        ],
+        "sector": "Hospitality",
+        "grade": "B3",
+        "industry": "Hospitality",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Cooking Cert; experience"
+        ],
+        "skills": [
+            "culinary",
+            "supervision",
+            "hygiene"
+        ],
+        "employers": [
+            "hotels",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead cooking line",
+            "train juniors",
+            "ensure standards"
+        ]
+    },
+    {
+        "id": "Senior-Waiter",
+        "titles": [
+            "Senior Waiter"
+        ],
+        "sector": "Hospitality",
+        "grade": "B1",
+        "industry": "Hospitality",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Customer service training"
+        ],
+        "skills": [
+            "service",
+            "POS",
+            "communication"
+        ],
+        "employers": [
+            "restaurants",
+            "lodges"
+        ],
+        "description": "",
+        "responsibilities": [
+            "table service",
+            "supervise waiters",
+            "cashing",
+            "complaints handling"
+        ]
+    },
+    {
+        "id": "Theatre-Porter",
+        "titles": [
+            "Theatre Porter"
+        ],
+        "sector": "Healthcare",
+        "grade": "A2",
+        "industry": "Healthcare",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; theatre protocols training"
+        ],
+        "skills": [
+            "sterility awareness",
+            "handling",
+            "teamwork"
+        ],
+        "employers": [
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "move patients/equipment",
+            "cleaning theatre",
+            "stock runs"
+        ]
+    },
+    {
+        "id": "Waiter/Waitress",
+        "titles": [
+            "Waiter/Waitress"
+        ],
+        "sector": "Hospitality",
+        "grade": "A3",
+        "industry": "Hospitality",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; service training"
+        ],
+        "skills": [
+            "customer service",
+            "POS",
+            "hygiene"
+        ],
+        "employers": [
+            "restaurants",
+            "lodges"
+        ],
+        "description": "",
+        "responsibilities": [
+            "take orders",
+            "serve",
+            "clear tables",
+            "cashing"
+        ]
+    },
+    {
+        "id": "Computer-Laboratory-Assistant",
+        "titles": [
+            "Computer Laboratory Assistant"
+        ],
+        "sector": "Education/IT",
+        "grade": "B3",
+        "industry": "Education/IT",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "IT Cert (CompTIA/HEXCO); 5 O’ Levels"
+        ],
+        "skills": [
+            "hardware basics",
+            "troubleshooting",
+            "customer support"
+        ],
+        "employers": [
+            "schools",
+            "colleges"
+        ],
+        "description": "",
+        "responsibilities": [
+            "support lab users",
+            "maintain PCs",
+            "install software",
+            "manage bookings"
+        ]
+    },
+    {
+        "id": "Laboratory-Technician",
+        "titles": [
+            "Laboratory Technician"
+        ],
+        "sector": "Healthcare/Labs",
+        "grade": "B5",
+        "industry": "Healthcare/Labs",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Lab Tech Diploma; Council registration"
+        ],
+        "skills": [
+            "haematology",
+            "microbiology",
+            "QA",
+            "LIS"
+        ],
+        "employers": [
+            "hospitals",
+            "private labs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "sample processing",
+            "quality control",
+            "reporting",
+            "equipment care"
+        ]
+    },
+    {
+        "id": "Mechanic-(Class-Iii)",
+        "titles": [
+            "Mechanic (Class Iii)"
+        ],
+        "sector": "Automotive",
+        "grade": "",
+        "industry": "Automotive",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Class III Trade Test; apprenticeship"
+        ],
+        "skills": [
+            "mechanics",
+            "diagnostics",
+            "safety"
+        ],
+        "employers": [
+            "garages",
+            "fleets",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "diagnose/repair vehicles",
+            "service",
+            "parts replacement"
+        ]
+    },
+    {
+        "id": "Senior-Mechanic-(Class-III)",
+        "titles": [
+            "Senior Mechanic (Class III)"
+        ],
+        "sector": "Automotive",
+        "grade": "C2",
+        "industry": "Automotive",
+        "yearsExperience": "5-8 years",
+        "qualifications": [
+            "Class III; experience"
+        ],
+        "skills": [
+            "supervision",
+            "problem solving",
+            "diagnostics"
+        ],
+        "employers": [
+            "transport firms",
+            "workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "oversee repairs",
+            "mentor juniors",
+            "quality checks"
+        ]
+    },
+    {
+        "id": "Ambulance-Technician",
+        "titles": [
+            "Ambulance Technician"
+        ],
+        "sector": "Emergency Services",
+        "grade": "B3",
+        "industry": "Emergency Services",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "EMT/AT Cert; CPC/first aid; class 2 license (adv.)"
+        ],
+        "skills": [
+            "BLS/ALS",
+            "communication",
+            "driving"
+        ],
+        "employers": [
+            "ambulance services",
+            "NGOs",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "pre-hospital care",
+            "safe transport",
+            "triage",
+            "equipment checks"
+        ]
+    },
+    {
+        "id": "Assistant-Electrician",
+        "titles": [
+            "Assistant Electrician"
+        ],
+        "sector": "Electrical Trades",
+        "grade": "A2",
+        "industry": "Electrical Trades",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Apprenticeship/NC; class permit"
+        ],
+        "skills": [
+            "electrical basics",
+            "safety",
+            "tools"
+        ],
+        "employers": [
+            "construction",
+            "facilities"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist installs",
+            "cable pulling",
+            "testing support",
+            "maintenance"
+        ]
+    },
+    {
+        "id": "Electrician-(Class-I)",
+        "titles": [
+            "Electrician (Class I)"
+        ],
+        "sector": "Electrical Trades",
+        "grade": "C4",
+        "industry": "Electrical Trades",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Class I Trade Test"
+        ],
+        "skills": [
+            "advanced diagnostics",
+            "reading schematics",
+            "safety"
+        ],
+        "employers": [
+            "mines",
+            "plants",
+            "building sites"
+        ],
+        "description": "",
+        "responsibilities": [
+            "install/maintain electrical systems",
+            "fault-finding",
+            "compliance"
+        ]
+    },
+    {
+        "id": "Electrician-(Class-II)",
+        "titles": [
+            "Electrician (Class II)"
+        ],
+        "sector": "Electrical Trades",
+        "grade": "C3",
+        "industry": "Electrical Trades",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Class II Trade Test"
+        ],
+        "skills": [
+            "wiring",
+            "testing",
+            "safety"
+        ],
+        "employers": [
+            "construction",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "installs",
+            "maintenance",
+            "assist complex faults"
+        ]
+    },
+    {
+        "id": "Electrician-(Class-III)",
+        "titles": [
+            "Electrician (Class III)"
+        ],
+        "sector": "Electrical Trades",
+        "grade": "C2",
+        "industry": "Electrical Trades",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Class III Trade Test"
+        ],
+        "skills": [
+            "tools",
+            "wiring basics",
+            "safety"
+        ],
+        "employers": [
+            "SMEs",
+            "facilities"
+        ],
+        "description": "",
+        "responsibilities": [
+            "basic installs",
+            "routine maintenance"
+        ]
+    },
+    {
+        "id": "Electrician-(Class-IV)",
+        "titles": [
+            "Electrician (Class IV)"
+        ],
+        "sector": "Electrical Trades",
+        "grade": "C1",
+        "industry": "Electrical Trades",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Class IV Trade Test"
+        ],
+        "skills": [
+            "hand tools",
+            "safety",
+            "learning mindset"
+        ],
+        "employers": [
+            "construction"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist electricians",
+            "materials prep"
+        ]
+    },
+    {
+        "id": "Mechanic-(Class-I)",
+        "titles": [
+            "Mechanic (Class I)"
+        ],
+        "sector": "Automotive",
+        "grade": "C4",
+        "industry": "Automotive",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Class I Trade Test"
+        ],
+        "skills": [
+            "advanced mechanics",
+            "leadership"
+        ],
+        "employers": [
+            "mining",
+            "logistics",
+            "OEM dealers"
+        ],
+        "description": "",
+        "responsibilities": [
+            "complex diagnostics",
+            "overhaul",
+            "supervise",
+            "ensure QA"
+        ]
+    },
+    {
+        "id": "Mechanic-(Class-II)",
+        "titles": [
+            "Mechanic (Class II)"
+        ],
+        "sector": "Automotive",
+        "grade": "C3",
+        "industry": "Automotive",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Class II Trade Test"
+        ],
+        "skills": [
+            "mechanics",
+            "safety",
+            "documentation"
+        ],
+        "employers": [
+            "fleets",
+            "workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "repairs",
+            "services",
+            "diagnostics"
+        ]
+    },
+    {
+        "id": "Mechanic-(Class-IV)",
+        "titles": [
+            "Mechanic (Class IV)"
+        ],
+        "sector": "Automotive",
+        "grade": "C1",
+        "industry": "Automotive",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Class IV Trade Test"
+        ],
+        "skills": [
+            "tools",
+            "safety",
+            "willingness to learn"
+        ],
+        "employers": [
+            "garages"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist mechanics",
+            "basic services"
+        ]
+    },
+    {
+        "id": "Motorbike-Mechanic-(Class-I)",
+        "titles": [
+            "Motorbike Mechanic (Class I)"
+        ],
+        "sector": "Automotive (Motorcycles)",
+        "grade": "C4",
+        "industry": "Automotive (Motorcycles)",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Class I Trade Test"
+        ],
+        "skills": [
+            "motorcycle systems",
+            "leadership"
+        ],
+        "employers": [
+            "agri estates",
+            "courier firms"
+        ],
+        "description": "",
+        "responsibilities": [
+            "diagnose/overhaul bikes",
+            "tune engines",
+            "supervise"
+        ]
+    },
+    {
+        "id": "Motorbike-Mechanic-(Class-II)",
+        "titles": [
+            "Motorbike Mechanic (Class II)"
+        ],
+        "sector": "Automotive (Motorcycles)",
+        "grade": "C3",
+        "industry": "Automotive (Motorcycles)",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Class II Trade Test"
+        ],
+        "skills": [
+            "two-stroke/four-stroke",
+            "safety"
+        ],
+        "employers": [
+            "retail workshops",
+            "fleets"
+        ],
+        "description": "",
+        "responsibilities": [
+            "repairs",
+            "services",
+            "diagnostics"
+        ]
+    },
+    {
+        "id": "Motorbike-Mechanic-(Class-III)",
+        "titles": [
+            "Motorbike Mechanic (Class III)"
+        ],
+        "sector": "Automotive (Motorcycles)",
+        "grade": "C2",
+        "industry": "Automotive (Motorcycles)",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Class III Trade Test"
+        ],
+        "skills": [
+            "mechanical basics",
+            "parts"
+        ],
+        "employers": [
+            "SME workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "basic repairs",
+            "servicing"
+        ]
+    },
+    {
+        "id": "Motorbike-Mechanic-(Class-IV)",
+        "titles": [
+            "Motorbike Mechanic (Class IV)"
+        ],
+        "sector": "Automotive (Motorcycles)",
+        "grade": "C1",
+        "industry": "Automotive (Motorcycles)",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Class IV Trade Test"
+        ],
+        "skills": [
+            "hand tools",
+            "learning"
+        ],
+        "employers": [
+            "retail workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist",
+            "tyre/brake service"
+        ]
+    },
+    {
+        "id": "Motorcycle-Mechanic-Trainer",
+        "titles": [
+            "Motorcycle Mechanic Trainer"
+        ],
+        "sector": "Education/Automotive",
+        "grade": "C2",
+        "industry": "Education/Automotive",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Trade Test + Instructor training"
+        ],
+        "skills": [
+            "instruction",
+            "diagnostics",
+            "safety"
+        ],
+        "employers": [
+            "TVETs",
+            "OEM training centres"
+        ],
+        "description": "",
+        "responsibilities": [
+            "develop curriculum",
+            "train apprentices",
+            "assess competence"
+        ]
+    },
+    {
+        "id": "Plumber-(Class-I)",
+        "titles": [
+            "Plumber (Class I)"
+        ],
+        "sector": "Plumbing",
+        "grade": "C4",
+        "industry": "Plumbing",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Class I Trade Test"
+        ],
+        "skills": [
+            "codes",
+            "soldering/PPR",
+            "leadership"
+        ],
+        "employers": [
+            "construction",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "plan & install systems",
+            "troubleshoot",
+            "supervise"
+        ]
+    },
+    {
+        "id": "Plumber-(Class-II)",
+        "titles": [
+            "Plumber (Class II)"
+        ],
+        "sector": "Plumbing",
+        "grade": "C3",
+        "industry": "Plumbing",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Class II Trade Test"
+        ],
+        "skills": [
+            "pipefitting",
+            "safety"
+        ],
+        "employers": [
+            "building sites",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "install",
+            "maintain",
+            "assist complex faults"
+        ]
+    },
+    {
+        "id": "Plumber-(Class-III)",
+        "titles": [
+            "Plumber (Class III)"
+        ],
+        "sector": "Plumbing",
+        "grade": "C2",
+        "industry": "Plumbing",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Class III Trade Test"
+        ],
+        "skills": [
+            "tools",
+            "measurements",
+            "safety"
+        ],
+        "employers": [
+            "SMEs",
+            "facilities"
+        ],
+        "description": "",
+        "responsibilities": [
+            "basic installs",
+            "repairs"
+        ]
+    },
+    {
+        "id": "Plumber-(Class-IV)",
+        "titles": [
+            "Plumber (Class IV)"
+        ],
+        "sector": "Plumbing",
+        "grade": "C1",
+        "industry": "Plumbing",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Class IV Trade Test"
+        ],
+        "skills": [
+            "hand tools",
+            "learning",
+            "safety"
+        ],
+        "employers": [
+            "construction"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist plumbers",
+            "materials prep"
+        ]
+    },
+    {
+        "id": "Rehab-Technician",
+        "titles": [
+            "Rehab Technician"
+        ],
+        "sector": "Rehabilitation/Health",
+        "grade": "C1",
+        "industry": "Rehabilitation/Health",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Rehabilitation Tech Diploma"
+        ],
+        "skills": [
+            "technical skills",
+            "patient care",
+            "documentation"
+        ],
+        "employers": [
+            "rehab centres",
+            "hospitals",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "fabricate/fit assistive devices",
+            "maintain equipment",
+            "patient training"
+        ]
+    },
+    {
+        "id": "Senior-Lab-Technician",
+        "titles": [
+            "Senior Lab Technician"
+        ],
+        "sector": "Healthcare/Labs",
+        "grade": "C1",
+        "industry": "Healthcare/Labs",
+        "yearsExperience": "5-8 years",
+        "qualifications": [
+            "Lab Tech Diploma; experience"
+        ],
+        "skills": [
+            "leadership",
+            "QC",
+            "LIS"
+        ],
+        "employers": [
+            "hospitals",
+            "private labs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "oversee lab section",
+            "QA",
+            "mentorship",
+            "inventory"
+        ]
+    },
+    {
+        "id": "Senior-Mechanic-(Class-I)",
+        "titles": [
+            "Senior Mechanic (Class I)"
+        ],
+        "sector": "Automotive",
+        "grade": "C4",
+        "industry": "Automotive",
+        "yearsExperience": "8+ years",
+        "qualifications": [
+            "Class I; extensive exp"
+        ],
+        "skills": [
+            "leadership",
+            "advanced diagnostics"
+        ],
+        "employers": [
+            "mines",
+            "fleets"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead workshop",
+            "complex diagnostics",
+            "QA",
+            "training"
+        ]
+    },
+    {
+        "id": "Senior-Mechanic-(Class-II)",
+        "titles": [
+            "Senior Mechanic (Class II)"
+        ],
+        "sector": "Automotive",
+        "grade": "C3",
+        "industry": "Automotive",
+        "yearsExperience": "6+ years",
+        "qualifications": [
+            "Class II; exp"
+        ],
+        "skills": [
+            "supervision",
+            "QA"
+        ],
+        "employers": [
+            "workshops",
+            "transport"
+        ],
+        "description": "",
+        "responsibilities": [
+            "supervise",
+            "allocate jobs",
+            "sign off work"
+        ]
+    },
+    {
+        "id": "Senior-Mechanic-(Class-IV)",
+        "titles": [
+            "Senior Mechanic (Class IV)"
+        ],
+        "sector": "Automotive",
+        "grade": "C1",
+        "industry": "Automotive",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Class IV; exp"
+        ],
+        "skills": [
+            "service routines",
+            "mentoring"
+        ],
+        "employers": [
+            "garages"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead basic services",
+            "train entrants"
+        ]
+    },
+    {
+        "id": "Claims-Officer",
+        "titles": [
+            "Claims Officer"
+        ],
+        "sector": "Insurance/Finance",
+        "grade": "B2",
+        "industry": "Insurance/Finance",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Insurance/Business Diploma"
+        ],
+        "skills": [
+            "claims analysis",
+            "communication",
+            "negotiation"
+        ],
+        "employers": [
+            "insurers",
+            "medical aid societies"
+        ],
+        "description": "",
+        "responsibilities": [
+            "process claims",
+            "investigations",
+            "liaise clients/assessors",
+            "settlements"
+        ]
+    },
+    {
+        "id": "Logistics-Officer",
+        "titles": [
+            "Logistics Officer"
+        ],
+        "sector": "Logistics/Supply Chain",
+        "grade": "C2",
+        "industry": "Logistics/Supply Chain",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Diploma/Degree in Logistics/Supply"
+        ],
+        "skills": [
+            "TMS/Excel",
+            "coordination",
+            "problem solving"
+        ],
+        "employers": [
+            "FMCG",
+            "NGOs",
+            "manufacturing"
+        ],
+        "description": "",
+        "responsibilities": [
+            "plan transport",
+            "routeing",
+            "track deliveries",
+            "manage 3PL",
+            "reports"
+        ]
+    },
+    {
+        "id": "Supervisor",
+        "titles": [
+            "Supervisor"
+        ],
+        "sector": "Operations (Generic)",
+        "grade": "B4",
+        "industry": "Operations (Generic)",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Relevant trade/sector cert"
+        ],
+        "skills": [
+            "leadership",
+            "planning",
+            "HSE"
+        ],
+        "employers": [
+            "all sectors"
+        ],
+        "description": "",
+        "responsibilities": [
+            "allocate tasks",
+            "monitor KPIs",
+            "safety",
+            "reporting",
+            "coaching"
+        ]
+    },
+    {
+        "id": "Acounting-Officer/Accounts-Supervisor",
+        "titles": [
+            "Acounting Officer/Accounts Supervisor"
+        ],
+        "sector": "Finance",
+        "grade": "C2",
+        "industry": "Finance",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Diploma/Degree Accounting; AAT/ACCA (adv.)"
+        ],
+        "skills": [
+            "IFRS basics",
+            "Excel",
+            "leadership",
+            "ERP"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs",
+            "corporates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "supervise accounting ops",
+            "reconciliations",
+            "management reports",
+            "controls"
+        ]
+    },
+    {
+        "id": "Area-Officer",
+        "titles": [
+            "Area Officer"
+        ],
+        "sector": "Field Ops/NGO",
+        "grade": "C2",
+        "industry": "Field Ops/NGO",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Diploma Degree relevant field; driver’s license"
+        ],
+        "skills": [
+            "stakeholder management",
+            "planning",
+            "M&E basics"
+        ],
+        "employers": [
+            "NGOs",
+            "microfinance",
+            "agriculture projects"
+        ],
+        "description": "Means an employee who provides effective community mobilisation, carries out needs assessment, training and provides project selection and extension services during project implementation in given areas.",
+        "responsibilities": [
+            "oversee area programs",
+            "partner support",
+            "monitoring",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Assistant-Cleaning-Supervisor",
+        "titles": [
+            "Assistant Cleaning Supervisor"
+        ],
+        "sector": "Facilities",
+        "grade": "B1",
+        "industry": "Facilities",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Cleaning/Facilities cert"
+        ],
+        "skills": [
+            "supervision",
+            "hygiene",
+            "communication"
+        ],
+        "employers": [
+            "schools",
+            "hospitals",
+            "malls"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist rosters",
+            "inspect standards",
+            "train cleaners"
+        ]
+    },
+    {
+        "id": "Assistant-Supervisor",
+        "titles": [
+            "Assistant Supervisor"
+        ],
+        "sector": "Operations",
+        "grade": "B2",
+        "industry": "Operations",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Relevant cert"
+        ],
+        "skills": [
+            "coordination",
+            "problem solving",
+            "MS Office"
+        ],
+        "employers": [
+            "factories",
+            "warehouses"
+        ],
+        "description": "",
+        "responsibilities": [
+            "support supervisor",
+            "shift handovers",
+            "stock counts",
+            "reports"
+        ]
+    },
+    {
+        "id": "Billing-Supervisor",
+        "titles": [
+            "Billing Supervisor"
+        ],
+        "sector": "Finance/Admin",
+        "grade": "B5",
+        "industry": "Finance/Admin",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Accounting Diploma"
+        ],
+        "skills": [
+            "leadership",
+            "Excel",
+            "billing systems"
+        ],
+        "employers": [
+            "utilities",
+            "telcos",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "oversee billing",
+            "accuracy",
+            "team management",
+            "KPIs"
+        ]
+    },
+    {
+        "id": "Cleaning-Supervisor",
+        "titles": [
+            "Cleaning Supervisor"
+        ],
+        "sector": "Facilities",
+        "grade": "B2",
+        "industry": "Facilities",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Cleaning/Facilities cert"
+        ],
+        "skills": [
+            "leadership",
+            "hygiene",
+            "scheduling"
+        ],
+        "employers": [
+            "malls",
+            "hospitals",
+            "campuses"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead cleaning team",
+            "inventory",
+            "client liaison",
+            "audits"
+        ]
+    },
+    {
+        "id": "Commodity-Accountant/Tracking-Officer",
+        "titles": [
+            "Commodity Accountant/Tracking Officer"
+        ],
+        "sector": "Logistics/Relief Supply",
+        "grade": "B1",
+        "industry": "Logistics/Relief Supply",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Accounting/Logistics Diploma"
+        ],
+        "skills": [
+            "Excel",
+            "reporting",
+            "coordination"
+        ],
+        "employers": [
+            "NGOs",
+            "WFP partners",
+            "agri exporters"
+        ],
+        "description": "",
+        "responsibilities": [
+            "track commodities",
+            "reconciliations",
+            "pipeline reports",
+            "stock controls"
+        ]
+    },
+    {
+        "id": "Deniming-Supervisor/Section-Supervisor",
+        "titles": [
+            "Deniming Supervisor/Section Supervisor"
+        ],
+        "sector": "Manufacturing (Textiles)",
+        "grade": "B2",
+        "industry": "Manufacturing (Textiles)",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Textile/Production Cert"
+        ],
+        "skills": [
+            "production planning",
+            "QA",
+            "leadership"
+        ],
+        "employers": [
+            "textile mills"
+        ],
+        "description": "",
+        "responsibilities": [
+            "oversee denim line",
+            "quality",
+            "throughput",
+            "staffing"
+        ]
+    },
+    {
+        "id": "Design-Monitoring-and-Evaluation-Officer",
+        "titles": [
+            "Design, Monitoring and Evaluation Officer"
+        ],
+        "sector": "Monitoring and Evaluation Officer",
+        "grade": "C4",
+        "industry": "Monitoring and Evaluation Officer",
+        "yearsExperience": "Degree in M&E/Statistics/Development years",
+        "qualifications": [
+            "NGO/Programs"
+        ],
+        "skills": [
+            "design logframes",
+            "tools",
+            "data analysis",
+            "reporting",
+            "learning"
+        ],
+        "employers": [
+            "M&E methods",
+            "DHIS2",
+            "PowerBI",
+            "writing"
+        ],
+        "description": "",
+        "responsibilities": [
+            "3-6"
+        ]
+    },
+    {
+        "id": "Emergency-And-Special-Projects-Officer",
+        "titles": [
+            "Emergency And Special Projects Officer"
+        ],
+        "sector": "NGO/Relief",
+        "grade": "C3",
+        "industry": "NGO/Relief",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Degree; humanitarian training; security training (adv.)"
+        ],
+        "skills": [
+            "coordination",
+            "security awareness",
+            "logistics"
+        ],
+        "employers": [
+            "INGOs",
+            "UN partners"
+        ],
+        "description": "",
+        "responsibilities": [
+            "rapid assessments",
+            "project setup",
+            "coordination",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Field-Officer",
+        "titles": [
+            "Field Officer"
+        ],
+        "sector": "NGO/Community",
+        "grade": "C2",
+        "industry": "NGO/Community",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Diploma; local language; motorcycle license (adv.)"
+        ],
+        "skills": [
+            "community facilitation",
+            "data collection"
+        ],
+        "employers": [
+            "NGOs",
+            "agri extension"
+        ],
+        "description": "",
+        "responsibilities": [
+            "mobilization",
+            "trainings",
+            "monitoring",
+            "distributions",
+            "reports"
+        ]
+    },
+    {
+        "id": "Field-Officer-Positive-Development",
+        "titles": [
+            "Field Officer Positive Development"
+        ],
+        "sector": "NGO/Youth/Disability",
+        "grade": "C3",
+        "industry": "NGO/Youth/Disability",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Diploma; social work background (adv.)"
+        ],
+        "skills": [
+            "case mgmt",
+            "counseling",
+            "facilitation"
+        ],
+        "employers": [
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "coach beneficiaries",
+            "track progress",
+            "referrals",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Herbal-Clinic-Officer/Herbalist",
+        "titles": [
+            "Herbal Clinic Officer/Herbalist"
+        ],
+        "sector": "Traditional Health",
+        "grade": "B2",
+        "industry": "Traditional Health",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Herbalism training/apprenticeship"
+        ],
+        "skills": [
+            "herbal knowledge",
+            "ethics",
+            "hygiene"
+        ],
+        "employers": [
+            "herbal clinics",
+            "private practice"
+        ],
+        "description": "",
+        "responsibilities": [
+            "consult clients",
+            "prepare remedies",
+            "maintain records",
+            "compliance"
+        ]
+    },
+    {
+        "id": "It-Officer",
+        "titles": [
+            "It Officer"
+        ],
+        "sector": "Education/IT",
+        "grade": "C1",
+        "industry": "Education/IT",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Degree/Diploma in IT/CS"
+        ],
+        "skills": [
+            "troubleshooting",
+            "Windows/Linux",
+            "networking",
+            "security"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "support users",
+            "network admin",
+            "systems maintenance",
+            "backups",
+            "security basics"
+        ]
+    },
+    {
+        "id": "Laundry-Supervisor",
+        "titles": [
+            "Laundry Supervisor"
+        ],
+        "sector": "Hospitality/Healthcare",
+        "grade": "B4",
+        "industry": "Hospitality/Healthcare",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Laundry/Hotel Cert"
+        ],
+        "skills": [
+            "supervision",
+            "hygiene",
+            "inventory"
+        ],
+        "employers": [
+            "hospitals",
+            "hotels",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "manage laundry ops",
+            "quality",
+            "rosters",
+            "maintenance liaison"
+        ]
+    },
+    {
+        "id": "Payroll-Officer/Salaries-Officer",
+        "titles": [
+            "Payroll Officer/Salaries Officer"
+        ],
+        "sector": "Finance/HR",
+        "grade": "C2",
+        "industry": "Finance/HR",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Payroll Diploma; Excel"
+        ],
+        "skills": [
+            "payroll systems",
+            "confidentiality",
+            "accuracy"
+        ],
+        "employers": [
+            "all sectors"
+        ],
+        "description": "",
+        "responsibilities": [
+            "process payroll",
+            "PAYE/NSSA/NEC returns",
+            "reconciliations",
+            "audits"
+        ]
+    },
+    {
+        "id": "Program-Officer",
+        "titles": [
+            "Program Officer"
+        ],
+        "sector": "NGO/Programs",
+        "grade": "C2",
+        "industry": "NGO/Programs",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Degree; project management"
+        ],
+        "skills": [
+            "coordination",
+            "budgeting",
+            "writing"
+        ],
+        "employers": [
+            "NGOs",
+            "UN partners"
+        ],
+        "description": "",
+        "responsibilities": [
+            "implement activities",
+            "budgets",
+            "partner support",
+            "reports"
+        ]
+    },
+    {
+        "id": "Project-And-Training-Officer",
+        "titles": [
+            "Project And Training Officer"
+        ],
+        "sector": "NGO/Projects",
+        "grade": "C2",
+        "industry": "NGO/Projects",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Degree; ToT experience"
+        ],
+        "skills": [
+            "facilitation",
+            "curriculum design",
+            "logistics"
+        ],
+        "employers": [
+            "NGOs",
+            "TVET projects"
+        ],
+        "description": "",
+        "responsibilities": [
+            "plan trainings",
+            "develop materials",
+            "M&E",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Projects-Officer",
+        "titles": [
+            "Projects Officer"
+        ],
+        "sector": "Projects",
+        "grade": "C1",
+        "industry": "Projects",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Degree; PMP (adv.)"
+        ],
+        "skills": [
+            "project mgmt",
+            "MS Project",
+            "communication"
+        ],
+        "employers": [
+            "NGOs",
+            "private sector"
+        ],
+        "description": "",
+        "responsibilities": [
+            "workplans",
+            "procurement support",
+            "monitoring",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Wash-Officer-C2",
+        "titles": [
+            "Wash Officer-C2"
+        ],
+        "sector": "NGO/WASH",
+        "grade": "C2",
+        "industry": "NGO/WASH",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Degree in Public Health/Environmental Eng."
+        ],
+        "skills": [
+            "WASH tech",
+            "CLTS",
+            "reporting"
+        ],
+        "employers": [
+            "NGOs",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "implement WASH",
+            "hygiene promotion",
+            "water systems",
+            "M&E"
+        ]
+    },
+    {
+        "id": "Wash-Officer-C3",
+        "titles": [
+            "Wash Officer-C3"
+        ],
+        "sector": "NGO/WASH",
+        "grade": "C3",
+        "industry": "NGO/WASH",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Degree in Public Health/Environmental Eng."
+        ],
+        "skills": [
+            "WASH tech",
+            "CLTS",
+            "reporting"
+        ],
+        "employers": [
+            "NGOs",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "implement WASH",
+            "hygiene promotion",
+            "water systems",
+            "M&E"
+        ]
+    },
+    {
+        "id": "Workshop-Supervisor",
+        "titles": [
+            "Workshop Supervisor"
+        ],
+        "sector": "Automotive/Mechanical",
+        "grade": "C4",
+        "industry": "Automotive/Mechanical",
+        "yearsExperience": "4-8 years",
+        "qualifications": [
+            "Trade Test; leadership"
+        ],
+        "skills": [
+            "leadership",
+            "diagnostics",
+            "planning"
+        ],
+        "employers": [
+            "garages",
+            "fleets",
+            "mines"
+        ],
+        "description": "",
+        "responsibilities": [
+            "allocate jobs",
+            "QA",
+            "inventory",
+            "customer liaison",
+            "safety"
+        ]
+    },
+    {
+        "id": "Carpenter-(Class-IV)",
+        "titles": [
+            "Carpenter (Class IV)"
+        ],
+        "sector": "Construction",
+        "grade": "C1",
+        "industry": "Construction",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Class IV Trade Test"
+        ],
+        "skills": [
+            "hand tools",
+            "safety"
+        ],
+        "employers": [
+            "construction"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist carpenters",
+            "basic fittings"
+        ]
+    },
+    {
+        "id": "Cashier",
+        "titles": [
+            "Cashier"
+        ],
+        "sector": "Retail/Admin",
+        "grade": "B2",
+        "industry": "Retail/Admin",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "5 O’ Levels; POS knowledge"
+        ],
+        "skills": [
+            "numeracy",
+            "customer care",
+            "accuracy"
+        ],
+        "employers": [
+            "retail",
+            "clinics",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "receive payments",
+            "balance till",
+            "receipts",
+            "customer queries"
+        ]
+    },
+    {
+        "id": "Classroom-Assistant",
+        "titles": [
+            "Classroom Assistant"
+        ],
+        "sector": "Education",
+        "grade": "B2",
+        "industry": "Education",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "ECD/Teaching Assistant cert (adv.)"
+        ],
+        "skills": [
+            "communication",
+            "patience",
+            "classroom control"
+        ],
+        "employers": [
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "support teacher",
+            "supervise learners",
+            "materials prep"
+        ]
+    },
+    {
+        "id": "Clinic/Hospital-Assistant",
+        "titles": [
+            "Clinic/Hospital Assistant"
+        ],
+        "sector": "Healthcare",
+        "grade": "B3",
+        "industry": "Healthcare",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic health training"
+        ],
+        "skills": [
+            "teamwork",
+            "hygiene",
+            "empathy"
+        ],
+        "employers": [
+            "hospitals",
+            "clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "patient support",
+            "cleaning",
+            "errands",
+            "stock runs"
+        ]
+    },
+    {
+        "id": "Frame-Bender",
+        "titles": [
+            "Frame Bender"
+        ],
+        "sector": "Manufacturing (Metal/Glass)",
+        "grade": "B3",
+        "industry": "Manufacturing (Metal/Glass)",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Vocational training"
+        ],
+        "skills": [
+            "machine operation",
+            "measurements",
+            "safety"
+        ],
+        "employers": [
+            "metalworks",
+            "furniture"
+        ],
+        "description": "",
+        "responsibilities": [
+            "bend frames",
+            "operate machines",
+            "quality checks"
+        ]
+    },
+    {
+        "id": "Gender-And-Advocacy-Offier",
+        "titles": [
+            "Gender And Advocacy Offier"
+        ],
+        "sector": "NGO/Gender",
+        "grade": "C2",
+        "industry": "NGO/Gender",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Degree in Social Sciences/Gender"
+        ],
+        "skills": [
+            "advocacy",
+            "facilitation",
+            "writing"
+        ],
+        "employers": [
+            "NGOs",
+            "CSOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "gender analyses",
+            "advocacy plans",
+            "training",
+            "stakeholder engagement"
+        ]
+    },
+    {
+        "id": "Logistics-Assistant",
+        "titles": [
+            "Logistics Assistant"
+        ],
+        "sector": "Logistics",
+        "grade": "B3",
+        "industry": "Logistics",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Diploma/Cert; Excel"
+        ],
+        "skills": [
+            "coordination",
+            "data",
+            "communication"
+        ],
+        "employers": [
+            "FMCG",
+            "NGOs",
+            "transporters"
+        ],
+        "description": "",
+        "responsibilities": [
+            "orders",
+            "dispatch",
+            "PODs",
+            "inventory",
+            "filing"
+        ]
+    },
+    {
+        "id": "Procurement-Assistant",
+        "titles": [
+            "Procurement Assistant"
+        ],
+        "sector": "Supply Chain",
+        "grade": "B3",
+        "industry": "Supply Chain",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Procurement/SCM Cert"
+        ],
+        "skills": [
+            "procurement rules",
+            "Excel",
+            "communication"
+        ],
+        "employers": [
+            "NGOs",
+            "public sector",
+            "corporates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "RFQs",
+            "supplier database",
+            "LPOs",
+            "expediting",
+            "records"
+        ]
+    },
+    {
+        "id": "Senior-Cane-Weaver",
+        "titles": [
+            "Senior Cane Weaver"
+        ],
+        "sector": "Manufacturing/Artisan",
+        "grade": "B4",
+        "industry": "Manufacturing/Artisan",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Cane weaving training"
+        ],
+        "skills": [
+            "craftsmanship",
+            "leadership"
+        ],
+        "employers": [
+            "furniture workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "produce cane furniture",
+            "supervise",
+            "quality"
+        ]
+    },
+    {
+        "id": "Telephone-Switchboard-Operator",
+        "titles": [
+            "Telephone Switchboard Operator"
+        ],
+        "sector": "Admin/Comms",
+        "grade": "B2",
+        "industry": "Admin/Comms",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "5 O’ Levels"
+        ],
+        "skills": [
+            "etiquette",
+            "clarity",
+            "multitasking"
+        ],
+        "employers": [
+            "offices",
+            "hospitals",
+            "hotels"
+        ],
+        "description": "",
+        "responsibilities": [
+            "route calls",
+            "message logs",
+            "front-line info"
+        ]
+    },
+    {
+        "id": "Upholsterer",
+        "titles": [
+            "Upholsterer"
+        ],
+        "sector": "Manufacturing/Artisan",
+        "grade": "B3",
+        "industry": "Manufacturing/Artisan",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Upholstery training"
+        ],
+        "skills": [
+            "sewing",
+            "measurements",
+            "quality"
+        ],
+        "employers": [
+            "furniture workshops",
+            "auto trim"
+        ],
+        "description": "",
+        "responsibilities": [
+            "cut/assemble upholstery",
+            "repairs",
+            "patterning"
+        ]
+    },
+    {
+        "id": "Administrative-Assistant",
+        "titles": [
+            "Administrative Assistant"
+        ],
+        "sector": "Administration",
+        "grade": "B3",
+        "industry": "Administration",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "5 O’ Levels; Admin cert"
+        ],
+        "skills": [
+            "organization",
+            "MS Office",
+            "communication"
+        ],
+        "employers": [
+            "all sectors"
+        ],
+        "description": "",
+        "responsibilities": [
+            "document control",
+            "meeting support",
+            "travel",
+            "supplies"
+        ]
+    },
+    {
+        "id": "Animal-Inspector",
+        "titles": [
+            "Animal Inspector"
+        ],
+        "sector": "Public/Agri",
+        "grade": "B2",
+        "industry": "Public/Agri",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Diploma in Animal Health/Inspection"
+        ],
+        "skills": [
+            "regulations",
+            "reporting",
+            "stakeholder mgmt"
+        ],
+        "employers": [
+            "councils",
+            "Vet Dept"
+        ],
+        "description": "Means an employee responsible for the care of horses, maintaining stables and preparation of horses for riding",
+        "responsibilities": [
+            "inspections",
+            "licensing",
+            "enforcement",
+            "public education"
+        ]
+    },
+    {
+        "id": "Art-Room-Assistant",
+        "titles": [
+            "Art Room Assistant"
+        ],
+        "sector": "Education",
+        "grade": "B2",
+        "industry": "Education",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Art skills; 5 O’ Levels"
+        ],
+        "skills": [
+            "organization",
+            "creativity",
+            "safety"
+        ],
+        "employers": [
+            "schools"
+        ],
+        "description": "Means an employee who generally maintains the cleanliness of an art room and assists in the preparation of all forms of art and craft material, including the mixing of paints, washing of brushes and other items under supervision.",
+        "responsibilities": [
+            "prepare materials",
+            "assist learners",
+            "maintain studio"
+        ]
+    },
+    {
+        "id": "Assistant-Builder/-Brick-Layer",
+        "titles": [
+            "Assistant Builder/ Brick Layer"
+        ],
+        "sector": "Construction",
+        "grade": "A2",
+        "industry": "Construction",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Apprenticeship/NC"
+        ],
+        "skills": [
+            "tools",
+            "safety",
+            "stamina"
+        ],
+        "employers": [
+            "construction"
+        ],
+        "description": "Means an employee responsible for assisting the builder with any building and masonry work. The employee assists in carrying out general maintenance and repairs as well as construction of new brick/mortar structures as directed.",
+        "responsibilities": [
+            "mix mortar",
+            "assist bricklaying",
+            "site prep"
+        ]
+    },
+    {
+        "id": "Assistant-Carpenter",
+        "titles": [
+            "Assistant Carpenter"
+        ],
+        "sector": "Construction",
+        "grade": "A2",
+        "industry": "Construction",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Apprenticeship/NC"
+        ],
+        "skills": [
+            "tools",
+            "safety",
+            "measurements"
+        ],
+        "employers": [
+            "construction"
+        ],
+        "description": "Means an employee responsible for assisting the carpenter in carrying out any carpentry work. The employee assists the carpenter to carry out general maintenance and repairs as well as construction of simple woodent structures as directed. The incumbent assists in carrying out caroentry work on institutions property such as doors, chairs, desks, tables as well as roofing and ceilings.",
+        "responsibilities": [
+            "assist carpentry",
+            "fittings",
+            "site cleanup"
+        ]
+    },
+    {
+        "id": "Assistant-Painter",
+        "titles": [
+            "Assistant Painter"
+        ],
+        "sector": "Construction",
+        "grade": "A2",
+        "industry": "Construction",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Apprenticeship/NC"
+        ],
+        "skills": [
+            "painting basics",
+            "safety"
+        ],
+        "employers": [
+            "construction"
+        ],
+        "description": "",
+        "responsibilities": [
+            "prep surfaces",
+            "undercoats",
+            "cleanup"
+        ]
+    },
+    {
+        "id": "Baker",
+        "titles": [
+            "Baker"
+        ],
+        "sector": "Food Production",
+        "grade": "B1",
+        "industry": "Food Production",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Baking Cert"
+        ],
+        "skills": [
+            "baking",
+            "hygiene",
+            "timing"
+        ],
+        "employers": [
+            "bakeries",
+            "supermarkets"
+        ],
+        "description": "",
+        "responsibilities": [
+            "mix/proof/bake",
+            "quality",
+            "hygiene",
+            "inventory"
+        ]
+    },
+    {
+        "id": "Boarding-Master/Matron",
+        "titles": [
+            "Boarding Master/Matron"
+        ],
+        "sector": "Education/Boarding",
+        "grade": "C1",
+        "industry": "Education/Boarding",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Education/Childcare cert"
+        ],
+        "skills": [
+            "pastoral care",
+            "counseling",
+            "record keeping"
+        ],
+        "employers": [
+            "boarding schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "student welfare",
+            "dorm supervision",
+            "discipline",
+            "health & safety"
+        ]
+    },
+    {
+        "id": "Book-Binder",
+        "titles": [
+            "Book Binder"
+        ],
+        "sector": "Printing/Publishing",
+        "grade": "B2",
+        "industry": "Printing/Publishing",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Bookbinding training"
+        ],
+        "skills": [
+            "hand skills",
+            "machine operation"
+        ],
+        "employers": [
+            "printers",
+            "publishers"
+        ],
+        "description": "",
+        "responsibilities": [
+            "bind books",
+            "operate binder",
+            "quality"
+        ]
+    },
+    {
+        "id": "Bookkeeper",
+        "titles": [
+            "Bookkeeper"
+        ],
+        "sector": "Finance",
+        "grade": "C2",
+        "industry": "Finance",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Bookkeeping Diploma/Cert"
+        ],
+        "skills": [
+            "Pastel",
+            "Excel",
+            "accuracy"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs",
+            "firms"
+        ],
+        "description": "",
+        "responsibilities": [
+            "GL",
+            "bank recs",
+            "VAT",
+            "supplier/customer ledgers"
+        ]
+    },
+    {
+        "id": "Brushcutter-Operator",
+        "titles": [
+            "Brushcutter Operator"
+        ],
+        "sector": "Estates/Landscaping",
+        "grade": "A2",
+        "industry": "Estates/Landscaping",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Brushcutter training; PPE"
+        ],
+        "skills": [
+            "machine handling",
+            "safety"
+        ],
+        "employers": [
+            "estates",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate brushcutter",
+            "site clearing",
+            "fuel mixes"
+        ]
+    },
+    {
+        "id": "Builder-(Class-I)",
+        "titles": [
+            "Builder (Class I)"
+        ],
+        "sector": "Construction",
+        "grade": "C3",
+        "industry": "Construction",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Class I Trade Test"
+        ],
+        "skills": [
+            "reading plans",
+            "leadership",
+            "quality"
+        ],
+        "employers": [
+            "construction firms"
+        ],
+        "description": "",
+        "responsibilities": [
+            "set out",
+            "structural brick/block work",
+            "supervise"
+        ]
+    },
+    {
+        "id": "Builder-(Class-III)",
+        "titles": [
+            "Builder (Class III)"
+        ],
+        "sector": "Construction",
+        "grade": "C2",
+        "industry": "Construction",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Class III Trade Test"
+        ],
+        "skills": [
+            "masonry",
+            "safety"
+        ],
+        "employers": [
+            "SMEs",
+            "sites"
+        ],
+        "description": "",
+        "responsibilities": [
+            "brick/block laying",
+            "plastering assist"
+        ]
+    },
+    {
+        "id": "Builder-(Class-IV)",
+        "titles": [
+            "Builder (Class IV)"
+        ],
+        "sector": "Construction",
+        "grade": "C1",
+        "industry": "Construction",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Class IV Trade Test"
+        ],
+        "skills": [
+            "tools",
+            "safety"
+        ],
+        "employers": [
+            "construction"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist masons",
+            "mix materials"
+        ]
+    },
+    {
+        "id": "Buyer",
+        "titles": [
+            "Buyer"
+        ],
+        "sector": "Procurement",
+        "grade": "C1",
+        "industry": "Procurement",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Procurement Diploma; CIPS (adv.)"
+        ],
+        "skills": [
+            "procurement",
+            "analytics",
+            "Excel"
+        ],
+        "employers": [
+            "corporates",
+            "NGOs",
+            "public sector"
+        ],
+        "description": "",
+        "responsibilities": [
+            "sourcing",
+            "RFQs",
+            "supplier negotiations",
+            "contracts",
+            "ethics"
+        ]
+    },
+    {
+        "id": "Cane-Weaver",
+        "titles": [
+            "Cane Weaver"
+        ],
+        "sector": "Manufacturing/Artisan",
+        "grade": "B3",
+        "industry": "Manufacturing/Artisan",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Informal training"
+        ],
+        "skills": [
+            "craftsmanship",
+            "design"
+        ],
+        "employers": [
+            "furniture workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "weave products",
+            "finishing",
+            "repairs"
+        ]
+    },
+    {
+        "id": "Caretaker",
+        "titles": [
+            "Caretaker"
+        ],
+        "sector": "Facilities",
+        "grade": "B1",
+        "industry": "Facilities",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Basic literacy"
+        ],
+        "skills": [
+            "maintenance",
+            "reliability"
+        ],
+        "employers": [
+            "schools",
+            "churches",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "site security",
+            "minor repairs",
+            "opening/closing",
+            "liaise contractors"
+        ]
+    },
+    {
+        "id": "Carpenter-(Class-I)",
+        "titles": [
+            "Carpenter (Class I)"
+        ],
+        "sector": "Construction",
+        "grade": "C3",
+        "industry": "Construction",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Class I Trade Test"
+        ],
+        "skills": [
+            "carpentry advanced",
+            "reading plans"
+        ],
+        "employers": [
+            "construction",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "joinery",
+            "roofing",
+            "finishes",
+            "supervise"
+        ]
+    },
+    {
+        "id": "Carpenter-(Class-II)",
+        "titles": [
+            "Carpenter (Class II)"
+        ],
+        "sector": "Construction",
+        "grade": "C3",
+        "industry": "Construction",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Class II Trade Test"
+        ],
+        "skills": [
+            "tools",
+            "safety"
+        ],
+        "employers": [
+            "sites"
+        ],
+        "description": "",
+        "responsibilities": [
+            "structural carpentry",
+            "fittings"
+        ]
+    },
+    {
+        "id": "Carpenter-(Class-III)",
+        "titles": [
+            "Carpenter (Class III)"
+        ],
+        "sector": "Construction",
+        "grade": "C2",
+        "industry": "Construction",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Class III Trade Test"
+        ],
+        "skills": [
+            "measurements",
+            "tools"
+        ],
+        "employers": [
+            "SMEs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "basic carpentry",
+            "repairs"
+        ]
+    },
+    {
+        "id": "Chainsaw-Operator",
+        "titles": [
+            "Chainsaw Operator"
+        ],
+        "sector": "Forestry/Estates",
+        "grade": "A2",
+        "industry": "Forestry/Estates",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Chainsaw training; PPE"
+        ],
+        "skills": [
+            "chainsaw skills",
+            "safety",
+            "teamwork"
+        ],
+        "employers": [
+            "estates",
+            "forestry"
+        ],
+        "description": "",
+        "responsibilities": [
+            "felling/pruning",
+            "maintenance",
+            "safety zones"
+        ]
+    },
+    {
+        "id": "Chalk-Maker",
+        "titles": [
+            "Chalk Maker"
+        ],
+        "sector": "Manufacturing",
+        "grade": "B3",
+        "industry": "Manufacturing",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Informal/vocational training"
+        ],
+        "skills": [
+            "quality",
+            "hygiene",
+            "consistency"
+        ],
+        "employers": [
+            "small manufacturers",
+            "schools suppliers"
+        ],
+        "description": "",
+        "responsibilities": [
+            "mix compounds",
+            "mold",
+            "dry",
+            "pack"
+        ]
+    },
+    {
+        "id": "Cobbler",
+        "titles": [
+            "Cobbler"
+        ],
+        "sector": "Artisan",
+        "grade": "B3",
+        "industry": "Artisan",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Shoe repair training"
+        ],
+        "skills": [
+            "hand tools",
+            "customer service"
+        ],
+        "employers": [
+            "markets",
+            "workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "repair shoes",
+            "soles/heels",
+            "stitching"
+        ]
+    },
+    {
+        "id": "Commissionaire",
+        "titles": [
+            "Commissionaire"
+        ],
+        "sector": "Security/Protocol",
+        "grade": "B3",
+        "industry": "Security/Protocol",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Security/protocol training"
+        ],
+        "skills": [
+            "customer service",
+            "security awareness"
+        ],
+        "employers": [
+            "corporates",
+            "hotels"
+        ],
+        "description": "",
+        "responsibilities": [
+            "front gate protocol",
+            "escort VIPs",
+            "visitor logs"
+        ]
+    },
+    {
+        "id": "Communications-Assistant-Special-School",
+        "titles": [
+            "Communications Assistant - Special School"
+        ],
+        "sector": "Education/SEN",
+        "grade": "B2",
+        "industry": "Education/SEN",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Diploma in Education/SEN comms"
+        ],
+        "skills": [
+            "SEN strategies",
+            "patience",
+            "empathy"
+        ],
+        "employers": [
+            "special schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "support learners with comms needs",
+            "augmentative tools",
+            "records"
+        ]
+    },
+    {
+        "id": "Credit-Controller",
+        "titles": [
+            "Credit Controller"
+        ],
+        "sector": "Finance",
+        "grade": "B5",
+        "industry": "Finance",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Accounting/Business Diploma"
+        ],
+        "skills": [
+            "negotiation",
+            "analysis",
+            "Excel"
+        ],
+        "employers": [
+            "telcos",
+            "utilities",
+            "wholesalers"
+        ],
+        "description": "",
+        "responsibilities": [
+            "credit vetting",
+            "set limits",
+            "collections",
+            "legal handover"
+        ]
+    },
+    {
+        "id": "Denimer",
+        "titles": [
+            "Denimer"
+        ],
+        "sector": "Manufacturing (Textiles)",
+        "grade": "A2",
+        "industry": "Manufacturing (Textiles)",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Textile training"
+        ],
+        "skills": [
+            "machine skills",
+            "QA"
+        ],
+        "employers": [
+            "textile mills"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate denim machines",
+            "quality checks",
+            "meet targets"
+        ]
+    },
+    {
+        "id": "Deputy-Night-Superintendent",
+        "titles": [
+            "Deputy Night Superintendent"
+        ],
+        "sector": "Healthcare",
+        "grade": "C4",
+        "industry": "Healthcare",
+        "yearsExperience": "5-10 years",
+        "qualifications": [
+            "RGN/Midwife; supervisory training"
+        ],
+        "skills": [
+            "leadership",
+            "triage",
+            "decision making"
+        ],
+        "employers": [
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead night staff",
+            "allocate wards",
+            "incident mgmt",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Detergent-Maker",
+        "titles": [
+            "Detergent Maker"
+        ],
+        "sector": "Manufacturing (Chemicals)",
+        "grade": "B3",
+        "industry": "Manufacturing (Chemicals)",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Chemistry basics training"
+        ],
+        "skills": [
+            "chemical handling",
+            "QA",
+            "PPE"
+        ],
+        "employers": [
+            "SMEs",
+            "factories"
+        ],
+        "description": "",
+        "responsibilities": [
+            "mix batches",
+            "QA",
+            "packaging",
+            "safety"
+        ]
+    },
+    {
+        "id": "Duplicating-Machine-Operator",
+        "titles": [
+            "Duplicating Machine Operator"
+        ],
+        "sector": "Printing",
+        "grade": "B1",
+        "industry": "Printing",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic training"
+        ],
+        "skills": [
+            "machine operation",
+            "quality"
+        ],
+        "employers": [
+            "schools",
+            "offices"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate duplicator",
+            "copy jobs",
+            "maintenance"
+        ]
+    },
+    {
+        "id": "Enumerator",
+        "titles": [
+            "Enumerator"
+        ],
+        "sector": "Research/NGO",
+        "grade": "B2",
+        "industry": "Research/NGO",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "5 O’ Levels; data collection training"
+        ],
+        "skills": [
+            "KOBO/ONA",
+            "interviewing",
+            "accuracy"
+        ],
+        "employers": [
+            "NGOs",
+            "research firms"
+        ],
+        "description": "",
+        "responsibilities": [
+            "household surveys",
+            "consent",
+            "tool use",
+            "upload data"
+        ]
+    },
+    {
+        "id": "Fence-Maker",
+        "titles": [
+            "Fence Maker"
+        ],
+        "sector": "Construction/Estates",
+        "grade": "B3",
+        "industry": "Construction/Estates",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Vocational training"
+        ],
+        "skills": [
+            "tools",
+            "accuracy",
+            "safety"
+        ],
+        "employers": [
+            "estates",
+            "farms"
+        ],
+        "description": "",
+        "responsibilities": [
+            "measure",
+            "set posts",
+            "fix mesh/wire",
+            "gates"
+        ]
+    },
+    {
+        "id": "Fencing",
+        "titles": [
+            "Fencing"
+        ],
+        "sector": "Construction/Estates",
+        "grade": "A2",
+        "industry": "Construction/Estates",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Vocational training"
+        ],
+        "skills": [
+            "tools",
+            "safety",
+            "teamwork"
+        ],
+        "employers": [
+            "farms",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "install fences",
+            "repairs",
+            "stock counts"
+        ]
+    },
+    {
+        "id": "Food-Monitor",
+        "titles": [
+            "Food Monitor"
+        ],
+        "sector": "Education/Nutrition",
+        "grade": "C1",
+        "industry": "Education/Nutrition",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Nutrition/Teaching cert (adv.)"
+        ],
+        "skills": [
+            "hygiene",
+            "record keeping",
+            "comms"
+        ],
+        "employers": [
+            "schools",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "monitor school feeding",
+            "hygiene",
+            "records",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Gatekeeper/Watchperson",
+        "titles": [
+            "Gatekeeper/Watchperson"
+        ],
+        "sector": "Security",
+        "grade": "B1",
+        "industry": "Security",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; security training (adv.)"
+        ],
+        "skills": [
+            "alertness",
+            "communication",
+            "integrity"
+        ],
+        "employers": [
+            "schools",
+            "factories",
+            "clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "control access",
+            "logs",
+            "patrols"
+        ]
+    },
+    {
+        "id": "Gift-In-Kind-Coordinator",
+        "titles": [
+            "Gift In Kind Coordinator"
+        ],
+        "sector": "NGO/Supply",
+        "grade": "C2",
+        "industry": "NGO/Supply",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Degree/Diploma; logistics knowledge"
+        ],
+        "skills": [
+            "coordination",
+            "Excel",
+            "communication"
+        ],
+        "employers": [
+            "NGOs",
+            "faith orgs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "manage GIK pipeline",
+            "donor reporting",
+            "distributions"
+        ]
+    },
+    {
+        "id": "Groom",
+        "titles": [
+            "Groom"
+        ],
+        "sector": "Animal Care",
+        "grade": "A2",
+        "industry": "Animal Care",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Animal handling training"
+        ],
+        "skills": [
+            "animal care",
+            "safety",
+            "stamina"
+        ],
+        "employers": [
+            "farms",
+            "lodges"
+        ],
+        "description": "",
+        "responsibilities": [
+            "stable care",
+            "feeding",
+            "exercise horses",
+            "tack care"
+        ]
+    },
+    {
+        "id": "Guide/Walking-And-Horse-Trails",
+        "titles": [
+            "Guide/Walking And Horse Trails"
+        ],
+        "sector": "Tourism",
+        "grade": "B1",
+        "industry": "Tourism",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Tour guiding cert; first aid"
+        ],
+        "skills": [
+            "navigation",
+            "customer service",
+            "safety"
+        ],
+        "employers": [
+            "lodges",
+            "conservancies"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead trails",
+            "safety briefings",
+            "interpretive talks",
+            "emergency response"
+        ]
+    },
+    {
+        "id": "Hand-Launderer",
+        "titles": [
+            "Hand Launderer"
+        ],
+        "sector": "Hospitality",
+        "grade": "A2",
+        "industry": "Hospitality",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic training"
+        ],
+        "skills": [
+            "hygiene",
+            "stamina",
+            "attention"
+        ],
+        "employers": [
+            "hotels",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "hand wash",
+            "stain removal",
+            "drying",
+            "ironing"
+        ]
+    },
+    {
+        "id": "Handyperson-1",
+        "titles": [
+            "Handyperson 1"
+        ],
+        "sector": "Facilities",
+        "grade": "B2",
+        "industry": "Facilities",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Basic trade skills"
+        ],
+        "skills": [
+            "multi-skill",
+            "safety",
+            "tools"
+        ],
+        "employers": [
+            "schools",
+            "clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "minor repairs",
+            "painting",
+            "plumbing/electrical assists"
+        ]
+    },
+    {
+        "id": "Handyperson-2",
+        "titles": [
+            "Handyperson 2"
+        ],
+        "sector": "Facilities",
+        "grade": "B3",
+        "industry": "Facilities",
+        "yearsExperience": "0-1 years",
+        "qualifications": [
+            "Basic trade skills"
+        ],
+        "skills": [
+            "tools",
+            "eagerness",
+            "safety"
+        ],
+        "employers": [
+            "estates",
+            "offices"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist repairs",
+            "carry materials",
+            "cleanup"
+        ]
+    },
+    {
+        "id": "Head-Groundsperson",
+        "titles": [
+            "Head Groundsperson"
+        ],
+        "sector": "Facilities",
+        "grade": "B1",
+        "industry": "Facilities",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Horticulture cert"
+        ],
+        "skills": [
+            "leadership",
+            "landscaping",
+            "scheduling"
+        ],
+        "employers": [
+            "schools",
+            "estates",
+            "sports clubs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "plan grounds work",
+            "supervise team",
+            "irrigation",
+            "procurement"
+        ]
+    },
+    {
+        "id": "Head-Of-Production",
+        "titles": [
+            "Head Of Production"
+        ],
+        "sector": "Manufacturing",
+        "grade": "C1",
+        "industry": "Manufacturing",
+        "yearsExperience": "6-12 years",
+        "qualifications": [
+            "Production/Industrial Eng. Degree/Diploma"
+        ],
+        "skills": [
+            "leadership",
+            "planning",
+            "Lean",
+            "data analysis"
+        ],
+        "employers": [
+            "factories",
+            "food processing"
+        ],
+        "description": "",
+        "responsibilities": [
+            "plan production",
+            "KPIs",
+            "quality",
+            "maintenance liaison",
+            "cost control"
+        ]
+    },
+    {
+        "id": "Horticulturist",
+        "titles": [
+            "Horticulturist"
+        ],
+        "sector": "Agriculture",
+        "grade": "A3",
+        "industry": "Agriculture",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Horticulture Diploma/Degree"
+        ],
+        "skills": [
+            "plant science",
+            "IPM",
+            "irrigation"
+        ],
+        "employers": [
+            "farms",
+            "estates",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "crop plans",
+            "pest control",
+            "nursery mgmt",
+            "quality"
+        ]
+    },
+    {
+        "id": "Hostel-Aide",
+        "titles": [
+            "Hostel Aide"
+        ],
+        "sector": "Hospitality/Education",
+        "grade": "B1",
+        "industry": "Hospitality/Education",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic training"
+        ],
+        "skills": [
+            "customer service",
+            "hygiene"
+        ],
+        "employers": [
+            "boarding schools",
+            "hostels"
+        ],
+        "description": "",
+        "responsibilities": [
+            "clean rooms",
+            "assist boarders",
+            "linen handling"
+        ]
+    },
+    {
+        "id": "House-Parent",
+        "titles": [
+            "House Parent"
+        ],
+        "sector": "Education/Boarding",
+        "grade": "B2",
+        "industry": "Education/Boarding",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Childcare/education background"
+        ],
+        "skills": [
+            "pastoral care",
+            "communication",
+            "first aid"
+        ],
+        "employers": [
+            "boarding schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "welfare of boarders",
+            "discipline",
+            "liaise parents",
+            "activities"
+        ]
+    },
+    {
+        "id": "It-Assistant",
+        "titles": [
+            "It Assistant"
+        ],
+        "sector": "Education/IT",
+        "grade": "B5",
+        "industry": "Education/IT",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "IT Cert; 5 O’ Levels"
+        ],
+        "skills": [
+            "troubleshooting",
+            "customer service",
+            "basics networking"
+        ],
+        "employers": [
+            "SMEs",
+            "schools",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "helpdesk",
+            "setups",
+            "printer/network support",
+            "inventory"
+        ]
+    },
+    {
+        "id": "Infections-Control-Sister",
+        "titles": [
+            "Infections Control Sister"
+        ],
+        "sector": "Healthcare",
+        "grade": "C4",
+        "industry": "Healthcare",
+        "yearsExperience": "4-8 years",
+        "qualifications": [
+            "RGN; Infection Control training"
+        ],
+        "skills": [
+            "IC best practice",
+            "data",
+            "training"
+        ],
+        "employers": [
+            "hospitals",
+            "clinics"
+        ],
+        "description": "",
+        "responsibilities": [
+            "IC policy",
+            "audits",
+            "training",
+            "surveillance",
+            "reporting"
+        ]
+    },
+    {
+        "id": "Junior-Packer",
+        "titles": [
+            "Junior Packer"
+        ],
+        "sector": "Manufacturing/Warehouse",
+        "grade": "A3",
+        "industry": "Manufacturing/Warehouse",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy"
+        ],
+        "skills": [
+            "speed",
+            "accuracy",
+            "teamwork"
+        ],
+        "employers": [
+            "factories",
+            "warehouses"
+        ],
+        "description": "",
+        "responsibilities": [
+            "pack goods",
+            "label",
+            "count",
+            "quality checks"
+        ]
+    },
+    {
+        "id": "Laboratory-Assistant",
+        "titles": [
+            "Laboratory Assistant"
+        ],
+        "sector": "Healthcare/Labs",
+        "grade": "B2",
+        "industry": "Healthcare/Labs",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Science O’ Levels; Lab assistant cert (adv.)"
+        ],
+        "skills": [
+            "accuracy",
+            "safety",
+            "PPE"
+        ],
+        "employers": [
+            "hospitals",
+            "labs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "sample handling",
+            "cleaning",
+            "records"
+        ]
+    },
+    {
+        "id": "Laundry-Aide/Assistant",
+        "titles": [
+            "Laundry Aide/Assistant"
+        ],
+        "sector": "Hospitality/Healthcare",
+        "grade": "A2",
+        "industry": "Hospitality/Healthcare",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic training"
+        ],
+        "skills": [
+            "hygiene",
+            "stamina",
+            "time mgmt"
+        ],
+        "employers": [
+            "hospitals",
+            "hotels"
+        ],
+        "description": "",
+        "responsibilities": [
+            "sort",
+            "wash",
+            "dry",
+            "fold",
+            "deliver linen"
+        ]
+    },
+    {
+        "id": "Laundry-Sorter",
+        "titles": [
+            "Laundry Sorter"
+        ],
+        "sector": "Hospitality/Healthcare",
+        "grade": "A2",
+        "industry": "Hospitality/Healthcare",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic training"
+        ],
+        "skills": [
+            "attention",
+            "hygiene",
+            "speed"
+        ],
+        "employers": [
+            "laundries",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "sort by color/fabric",
+            "inspect stains",
+            "route loads"
+        ]
+    },
+    {
+        "id": "Library-Assistant",
+        "titles": [
+            "Library Assistant"
+        ],
+        "sector": "Education",
+        "grade": "A3",
+        "industry": "Education",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Library Cert"
+        ],
+        "skills": [
+            "customer service",
+            "cataloguing basics"
+        ],
+        "employers": [
+            "schools",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "circulation",
+            "shelving",
+            "membership",
+            "assist searches"
+        ]
+    },
+    {
+        "id": "Linen-Repairs/Seamstress",
+        "titles": [
+            "Linen Repairs/Seamstress"
+        ],
+        "sector": "Hospitality",
+        "grade": "B1",
+        "industry": "Hospitality",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Sewing training"
+        ],
+        "skills": [
+            "sewing",
+            "quality",
+            "time mgmt"
+        ],
+        "employers": [
+            "hotels",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "repair linen",
+            "hemming",
+            "alterations"
+        ]
+    },
+    {
+        "id": "Machine-Launderer",
+        "titles": [
+            "Machine Launderer"
+        ],
+        "sector": "Hospitality",
+        "grade": "B1",
+        "industry": "Hospitality",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Laundry/machine operation training"
+        ],
+        "skills": [
+            "machine operation",
+            "hygiene",
+            "safety"
+        ],
+        "employers": [
+            "laundries",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate washers/dryers",
+            "dosing",
+            "maintenance checks"
+        ]
+    },
+    {
+        "id": "Marketing-Assistant",
+        "titles": [
+            "Marketing Assistant"
+        ],
+        "sector": "Marketing",
+        "grade": "C1",
+        "industry": "Marketing",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Marketing Diploma"
+        ],
+        "skills": [
+            "content",
+            "analytics",
+            "design basics",
+            "comms"
+        ],
+        "employers": [
+            "agencies",
+            "SMEs",
+            "FMCG"
+        ],
+        "description": "",
+        "responsibilities": [
+            "support campaigns",
+            "social media",
+            "events",
+            "reports"
+        ]
+    },
+    {
+        "id": "Miller",
+        "titles": [
+            "Miller"
+        ],
+        "sector": "Manufacturing (Milling)",
+        "grade": "B1",
+        "industry": "Manufacturing (Milling)",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Milling/Production Cert"
+        ],
+        "skills": [
+            "process control",
+            "QA",
+            "safety"
+        ],
+        "employers": [
+            "milling companies"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate mills",
+            "QC",
+            "silo mgmt",
+            "maintenance liaison"
+        ]
+    },
+    {
+        "id": "Monitoring-And-Evaluation-Assistant",
+        "titles": [
+            "Monitoring And Evaluation Assistant"
+        ],
+        "sector": "NGO/M&E",
+        "grade": "C2",
+        "industry": "NGO/M&E",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Diploma; data systems"
+        ],
+        "skills": [
+            "Excel/PowerBI",
+            "KOBO",
+            "analysis"
+        ],
+        "employers": [
+            "NGOs",
+            "research"
+        ],
+        "description": "",
+        "responsibilities": [
+            "data collection",
+            "cleaning",
+            "dashboards",
+            "learning events"
+        ]
+    },
+    {
+        "id": "Mower/Coffee-Shop-Assistant",
+        "titles": [
+            "Mower/Coffee Shop Assistant"
+        ],
+        "sector": "Facilities/Hospitality",
+        "grade": "A2",
+        "industry": "Facilities/Hospitality",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic training"
+        ],
+        "skills": [
+            "customer service",
+            "equipment use"
+        ],
+        "employers": [
+            "schools",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "mow lawns",
+            "assist coffee shop service",
+            "cleaning"
+        ]
+    },
+    {
+        "id": "Occupational-Therapist",
+        "titles": [
+            "Occupational Therapist"
+        ],
+        "sector": "Healthcare",
+        "grade": "C4",
+        "industry": "Healthcare",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "OT Degree; registration"
+        ],
+        "skills": [
+            "clinical OT",
+            "empathy",
+            "teamwork"
+        ],
+        "employers": [
+            "hospitals",
+            "rehab centres",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assess function",
+            "treatment plans",
+            "assistive devices",
+            "documentation"
+        ]
+    },
+    {
+        "id": "Office-Orderly",
+        "titles": [
+            "Office Orderly"
+        ],
+        "sector": "Administration",
+        "grade": "A2",
+        "industry": "Administration",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy"
+        ],
+        "skills": [
+            "reliability",
+            "hygiene",
+            "time mgmt"
+        ],
+        "employers": [
+            "offices",
+            "clinics",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "serve refreshments",
+            "tidy offices",
+            "run errands"
+        ]
+    },
+    {
+        "id": "Painter-(Class-I)",
+        "titles": [
+            "Painter (Class I)"
+        ],
+        "sector": "Construction",
+        "grade": "C4",
+        "industry": "Construction",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Class I Trade Test"
+        ],
+        "skills": [
+            "finishes",
+            "color",
+            "leadership"
+        ],
+        "employers": [
+            "construction",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "plan finishes",
+            "advanced techniques",
+            "supervise"
+        ]
+    },
+    {
+        "id": "Painter-(Class-II)",
+        "titles": [
+            "Painter (Class II)"
+        ],
+        "sector": "Construction",
+        "grade": "C3",
+        "industry": "Construction",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Class II Trade Test"
+        ],
+        "skills": [
+            "painting",
+            "safety"
+        ],
+        "employers": [
+            "sites"
+        ],
+        "description": "",
+        "responsibilities": [
+            "paint",
+            "minor repairs",
+            "surface prep"
+        ]
+    },
+    {
+        "id": "Painter-(Class-Iii)",
+        "titles": [
+            "Painter (Class Iii)"
+        ],
+        "sector": "Construction",
+        "grade": "",
+        "industry": "Construction",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Class III Trade Test"
+        ],
+        "skills": [
+            "tools",
+            "safety"
+        ],
+        "employers": [
+            "SMEs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "basic painting",
+            "sanding",
+            "undercoats"
+        ]
+    },
+    {
+        "id": "Painter-(Class-IV)",
+        "titles": [
+            "Painter (Class IV)"
+        ],
+        "sector": "Construction",
+        "grade": "C1",
+        "industry": "Construction",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Class IV Trade Test"
+        ],
+        "skills": [
+            "tools",
+            "safety"
+        ],
+        "employers": [
+            "construction"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist painters",
+            "cleanup"
+        ]
+    },
+    {
+        "id": "Photocopier/Copy-Printer-Operator",
+        "titles": [
+            "Photocopier/Copy Printer Operator"
+        ],
+        "sector": "Printing/Admin",
+        "grade": "B1",
+        "industry": "Printing/Admin",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic training"
+        ],
+        "skills": [
+            "machine ops",
+            "customer service",
+            "quality"
+        ],
+        "employers": [
+            "print shops",
+            "offices"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate copier/printer",
+            "finishing",
+            "maintenance calls"
+        ]
+    },
+    {
+        "id": "Physiotherapist",
+        "titles": [
+            "Physiotherapist"
+        ],
+        "sector": "Healthcare",
+        "grade": "C4",
+        "industry": "Healthcare",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Physio Degree; registration"
+        ],
+        "skills": [
+            "manual therapy",
+            "exercise therapy",
+            "empathy"
+        ],
+        "employers": [
+            "hospitals",
+            "private practice",
+            "sports"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assess",
+            "rehab programmes",
+            "documentation",
+            "patient education"
+        ]
+    },
+    {
+        "id": "Pre-School-Aide",
+        "titles": [
+            "Pre-School Aide"
+        ],
+        "sector": "Education/ECD",
+        "grade": "B2",
+        "industry": "Education/ECD",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "ECD aide course (adv.)"
+        ],
+        "skills": [
+            "care",
+            "patience",
+            "teamwork"
+        ],
+        "employers": [
+            "ECD centres"
+        ],
+        "description": "",
+        "responsibilities": [
+            "support teacher",
+            "child care",
+            "activities setup"
+        ]
+    },
+    {
+        "id": "Programme-Assistant",
+        "titles": [
+            "Programme Assistant"
+        ],
+        "sector": "NGO",
+        "grade": "B3",
+        "industry": "NGO",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Diploma; admin & M&E basics"
+        ],
+        "skills": [
+            "organization",
+            "Excel",
+            "comms"
+        ],
+        "employers": [
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "activity support",
+            "logistics",
+            "data",
+            "reports"
+        ]
+    },
+    {
+        "id": "Project-Assistant",
+        "titles": [
+            "Project Assistant"
+        ],
+        "sector": "Projects",
+        "grade": "B3",
+        "industry": "Projects",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Diploma"
+        ],
+        "skills": [
+            "organization",
+            "MS Office",
+            "comms"
+        ],
+        "employers": [
+            "NGOs",
+            "corporates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "support planning",
+            "procurement",
+            "reporting",
+            "filing"
+        ]
+    },
+    {
+        "id": "Rehabilitation-Assistant",
+        "titles": [
+            "Rehabilitation Assistant"
+        ],
+        "sector": "Healthcare",
+        "grade": "B2",
+        "industry": "Healthcare",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Rehab assistant cert"
+        ],
+        "skills": [
+            "patient handling",
+            "documentation"
+        ],
+        "employers": [
+            "rehab centres",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist therapists",
+            "patient exercises",
+            "equipment care"
+        ]
+    },
+    {
+        "id": "Rehabilitation-Equipment-Hirer",
+        "titles": [
+            "Rehabilitation Equipment Hirer"
+        ],
+        "sector": "Rehab/Social Enterprise",
+        "grade": "B1",
+        "industry": "Rehab/Social Enterprise",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Basic business/admin"
+        ],
+        "skills": [
+            "customer service",
+            "basic tech",
+            "record keeping"
+        ],
+        "employers": [
+            "rehab NGOs",
+            "SMEs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "rent out devices",
+            "maintenance",
+            "client training",
+            "records"
+        ]
+    },
+    {
+        "id": "Sales-Assistant",
+        "titles": [
+            "Sales Assistant"
+        ],
+        "sector": "Retail",
+        "grade": "B4",
+        "industry": "Retail",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "5 O’ Levels"
+        ],
+        "skills": [
+            "customer service",
+            "POS",
+            "product knowledge"
+        ],
+        "employers": [
+            "retail stores",
+            "pharmacies"
+        ],
+        "description": "",
+        "responsibilities": [
+            "serve customers",
+            "restock",
+            "cashing",
+            "merchandising"
+        ]
+    },
+    {
+        "id": "Senior-Laboratory-Assistant",
+        "titles": [
+            "Senior Laboratory Assistant"
+        ],
+        "sector": "Healthcare/Labs",
+        "grade": "B4",
+        "industry": "Healthcare/Labs",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Lab assistant cert; exp"
+        ],
+        "skills": [
+            "supervision",
+            "accuracy"
+        ],
+        "employers": [
+            "labs",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead assistants",
+            "supplies",
+            "records QA"
+        ]
+    },
+    {
+        "id": "Senior-Messenger",
+        "titles": [
+            "Senior Messenger"
+        ],
+        "sector": "Admin",
+        "grade": "B1",
+        "industry": "Admin",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Basic literacy; rider/driver (adv.)"
+        ],
+        "skills": [
+            "supervision",
+            "reliability"
+        ],
+        "employers": [
+            "corporates",
+            "schools"
+        ],
+        "description": "",
+        "responsibilities": [
+            "oversee messengers",
+            "route planning",
+            "mail logs"
+        ]
+    },
+    {
+        "id": "Senior-Packer",
+        "titles": [
+            "Senior Packer"
+        ],
+        "sector": "Manufacturing/Warehouse",
+        "grade": "B1",
+        "industry": "Manufacturing/Warehouse",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Basic literacy; exp"
+        ],
+        "skills": [
+            "leadership",
+            "speed",
+            "accuracy"
+        ],
+        "employers": [
+            "factories",
+            "warehouses"
+        ],
+        "description": "",
+        "responsibilities": [
+            "lead packing team",
+            "quality checks",
+            "counts"
+        ]
+    },
+    {
+        "id": "Shopkeeper/Tuckshop-Keeper",
+        "titles": [
+            "Shopkeeper/Tuckshop Keeper"
+        ],
+        "sector": "Retail",
+        "grade": "B1",
+        "industry": "Retail",
+        "yearsExperience": "0-3 years",
+        "qualifications": [
+            "Basic literacy; cash handling"
+        ],
+        "skills": [
+            "customer service",
+            "numeracy"
+        ],
+        "employers": [
+            "schools",
+            "communities"
+        ],
+        "description": "",
+        "responsibilities": [
+            "stock",
+            "sales",
+            "cashing",
+            "supplier liaison"
+        ]
+    },
+    {
+        "id": "Speech-Therapist",
+        "titles": [
+            "Speech Therapist"
+        ],
+        "sector": "Healthcare",
+        "grade": "C4",
+        "industry": "Healthcare",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Speech & Language Therapy Degree"
+        ],
+        "skills": [
+            "clinical skills",
+            "empathy",
+            "communication"
+        ],
+        "employers": [
+            "hospitals",
+            "schools",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assess & treat speech/language/swallowing",
+            "caregiver training",
+            "records"
+        ]
+    },
+    {
+        "id": "Step-User",
+        "titles": [
+            "Step User"
+        ],
+        "sector": "Manufacturing/Weaving",
+        "grade": "B2",
+        "industry": "Manufacturing/Weaving",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Informal training"
+        ],
+        "skills": [
+            "machine operation",
+            "attention",
+            "safety"
+        ],
+        "employers": [
+            "textile/craft workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate step (loom) equipment",
+            "quality",
+            "maintenance checks"
+        ]
+    },
+    {
+        "id": "Stores-Person",
+        "titles": [
+            "Stores Person"
+        ],
+        "sector": "Warehousing",
+        "grade": "B3",
+        "industry": "Warehousing",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Stores/Warehouse Cert"
+        ],
+        "skills": [
+            "inventory",
+            "Excel",
+            "accuracy"
+        ],
+        "employers": [
+            "factories",
+            "NGOs",
+            "retailers"
+        ],
+        "description": "",
+        "responsibilities": [
+            "GRVs",
+            "binning",
+            "issues",
+            "stock-takes",
+            "reorder levels"
+        ]
+    },
+    {
+        "id": "Sub-Editor",
+        "titles": [
+            "Sub Editor"
+        ],
+        "sector": "Media/Publishing",
+        "grade": "C1",
+        "industry": "Media/Publishing",
+        "yearsExperience": "3-6 years",
+        "qualifications": [
+            "Journalism/Media Diploma"
+        ],
+        "skills": [
+            "editing",
+            "style guides",
+            "detail"
+        ],
+        "employers": [
+            "newspapers",
+            "magazines",
+            "online media"
+        ],
+        "description": "",
+        "responsibilities": [
+            "edit copy",
+            "headlines",
+            "fact-check",
+            "layout coordination"
+        ]
+    },
+    {
+        "id": "Tailor",
+        "titles": [
+            "Tailor"
+        ],
+        "sector": "Artisan",
+        "grade": "B1",
+        "industry": "Artisan",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Tailoring training"
+        ],
+        "skills": [
+            "sewing",
+            "pattern making",
+            "customer service"
+        ],
+        "employers": [
+            "markets",
+            "boutiques"
+        ],
+        "description": "",
+        "responsibilities": [
+            "measure",
+            "cut",
+            "sew",
+            "fittings",
+            "alterations"
+        ]
+    },
+    {
+        "id": "Therapy-Aide",
+        "titles": [
+            "Therapy Aide"
+        ],
+        "sector": "Healthcare",
+        "grade": "B1",
+        "industry": "Healthcare",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Therapy aide cert"
+        ],
+        "skills": [
+            "care",
+            "communication",
+            "safety"
+        ],
+        "employers": [
+            "rehab centres",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist physio/OT",
+            "patient support",
+            "equipment cleaning"
+        ]
+    },
+    {
+        "id": "Transcriber/Brailist",
+        "titles": [
+            "Transcriber/Brailist"
+        ],
+        "sector": "Education/Disability Services",
+        "grade": "B5",
+        "industry": "Education/Disability Services",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Braille training; typing"
+        ],
+        "skills": [
+            "braille",
+            "accuracy",
+            "patience"
+        ],
+        "employers": [
+            "special schools",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "transcribe to/from braille",
+            "maintain braillers",
+            "assist learners"
+        ]
+    },
+    {
+        "id": "Warehouse-Assistant",
+        "titles": [
+            "Warehouse Assistant"
+        ],
+        "sector": "Warehousing",
+        "grade": "B3",
+        "industry": "Warehousing",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "5 O’ Levels"
+        ],
+        "skills": [
+            "inventory basics",
+            "accuracy",
+            "stamina"
+        ],
+        "employers": [
+            "3PLs",
+            "retailers",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "receiving",
+            "picking",
+            "packing",
+            "dispatch",
+            "housekeeping"
+        ]
+    },
+    {
+        "id": "Welder-(Class-I)",
+        "titles": [
+            "Welder (Class I)"
+        ],
+        "sector": "Fabrication",
+        "grade": "C4",
+        "industry": "Fabrication",
+        "yearsExperience": "5+ years",
+        "qualifications": [
+            "Class I Trade Test"
+        ],
+        "skills": [
+            "MIG/TIG/Arc",
+            "reading drawings",
+            "QA"
+        ],
+        "employers": [
+            "mines",
+            "construction",
+            "workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "fabricate per drawings",
+            "pressure welds",
+            "supervise"
+        ]
+    },
+    {
+        "id": "Welder-(Class-II)",
+        "titles": [
+            "Welder (Class II)"
+        ],
+        "sector": "Fabrication",
+        "grade": "C3",
+        "industry": "Fabrication",
+        "yearsExperience": "3-5 years",
+        "qualifications": [
+            "Class II Trade Test"
+        ],
+        "skills": [
+            "welding processes",
+            "safety"
+        ],
+        "employers": [
+            "workshops",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "fabrication",
+            "repairs",
+            "QA checks"
+        ]
+    },
+    {
+        "id": "Welder-(Class-III)",
+        "titles": [
+            "Welder (Class III)"
+        ],
+        "sector": "Fabrication",
+        "grade": "C2",
+        "industry": "Fabrication",
+        "yearsExperience": "2-4 years",
+        "qualifications": [
+            "Class III Trade Test"
+        ],
+        "skills": [
+            "welding basics",
+            "safety"
+        ],
+        "employers": [
+            "SMEs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "basic welding",
+            "cutting",
+            "grinding"
+        ]
+    },
+    {
+        "id": "Welder-(Class-IV)",
+        "titles": [
+            "Welder (Class IV)"
+        ],
+        "sector": "Fabrication",
+        "grade": "C1",
+        "industry": "Fabrication",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Class IV Trade Test"
+        ],
+        "skills": [
+            "tools",
+            "safety",
+            "learning"
+        ],
+        "employers": [
+            "workshops"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist welders",
+            "prep materials"
+        ]
+    },
+    {
+        "id": "Youth-Coordinator",
+        "titles": [
+            "Youth Coordinator"
+        ],
+        "sector": "NGO/Community",
+        "grade": "B5",
+        "industry": "NGO/Community",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Degree/Diploma in Social Work/Development"
+        ],
+        "skills": [
+            "facilitation",
+            "counseling",
+            "planning"
+        ],
+        "employers": [
+            "NGOs",
+            "councils",
+            "faith orgs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "youth programs",
+            "mentorship",
+            "partnerships",
+            "monitoring"
+        ]
+    },
+    {
+        "id": "Chief-Security-Officer",
+        "titles": [
+            "Chief Security Officer"
+        ],
+        "sector": "Security",
+        "grade": "C1",
+        "industry": "Security",
+        "yearsExperience": "6-12 years",
+        "qualifications": [
+            "Security mgmt cert; experience"
+        ],
+        "skills": [
+            "leadership",
+            "investigations",
+            "compliance"
+        ],
+        "employers": [
+            "corporates",
+            "campuses"
+        ],
+        "description": "",
+        "responsibilities": [
+            "security strategy",
+            "risk assessments",
+            "incident mgmt",
+            "team leadership"
+        ]
+    },
+    {
+        "id": "Security-Guard/Watchperson",
+        "titles": [
+            "Security Guard/Watchperson"
+        ],
+        "sector": "Security",
+        "grade": "B1",
+        "industry": "Security",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic security training; vetting"
+        ],
+        "skills": [
+            "alertness",
+            "communication",
+            "integrity"
+        ],
+        "employers": [
+            "security firms",
+            "institutions"
+        ],
+        "description": "",
+        "responsibilities": [
+            "access control",
+            "patrols",
+            "incident reporting"
+        ]
+    },
+    {
+        "id": "Ambulance-Driver",
+        "titles": [
+            "Ambulance Driver"
+        ],
+        "sector": "Emergency Services",
+        "grade": "B3",
+        "industry": "Emergency Services",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Class 2/4 license; defensive driving; first aid"
+        ],
+        "skills": [
+            "safe driving",
+            "calm under pressure"
+        ],
+        "employers": [
+            "ambulance services",
+            "hospitals"
+        ],
+        "description": "",
+        "responsibilities": [
+            "drive ambulance",
+            "patient handling assist",
+            "vehicle checks"
+        ]
+    },
+    {
+        "id": "Driver-(Class-1-Licence)",
+        "titles": [
+            "Driver (Class 1 Licence)"
+        ],
+        "sector": "Transport",
+        "grade": "B4",
+        "industry": "Transport",
+        "yearsExperience": "3-8 years",
+        "qualifications": [
+            "Class 1 license; defensive driving"
+        ],
+        "skills": [
+            "heavy vehicle ops",
+            "safety",
+            "routeing"
+        ],
+        "employers": [
+            "logistics",
+            "mining"
+        ],
+        "description": "",
+        "responsibilities": [
+            "long-haul trucking",
+            "logs",
+            "vehicle checks"
+        ]
+    },
+    {
+        "id": "Driver-(Class-2-Licence)",
+        "titles": [
+            "Driver (Class 2 Licence)"
+        ],
+        "sector": "Transport",
+        "grade": "B3",
+        "industry": "Transport",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Class 2 license; defensive driving"
+        ],
+        "skills": [
+            "driving",
+            "customer service",
+            "safety"
+        ],
+        "employers": [
+            "FMCG",
+            "councils"
+        ],
+        "description": "",
+        "responsibilities": [
+            "deliveries",
+            "route logs",
+            "basic maintenance"
+        ]
+    },
+    {
+        "id": "Driver-(Class-3-Licence)",
+        "titles": [
+            "Driver (Class 3 Licence)"
+        ],
+        "sector": "Transport",
+        "grade": "B1",
+        "industry": "Transport",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Class 3 license"
+        ],
+        "skills": [
+            "driving",
+            "time mgmt"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "light vehicle deliveries",
+            "errands"
+        ]
+    },
+    {
+        "id": "Driver-(Class-4-License)",
+        "titles": [
+            "Driver (Class 4 License)"
+        ],
+        "sector": "Transport",
+        "grade": "B2",
+        "industry": "Transport",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "Class 4 license"
+        ],
+        "skills": [
+            "driving",
+            "customer service"
+        ],
+        "employers": [
+            "schools",
+            "clinics",
+            "SMEs"
+        ],
+        "description": "",
+        "responsibilities": [
+            "light passenger vehicles",
+            "pickups"
+        ]
+    },
+    {
+        "id": "Head-Driver",
+        "titles": [
+            "Head Driver"
+        ],
+        "sector": "Transport",
+        "grade": "B5",
+        "industry": "Transport",
+        "yearsExperience": "5-8 years",
+        "qualifications": [
+            "Class 2/1; leadership"
+        ],
+        "skills": [
+            "leadership",
+            "planning",
+            "records"
+        ],
+        "employers": [
+            "fleets",
+            "NGOs",
+            "corporates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assign routes",
+            "supervise drivers",
+            "fuel & maintenance control"
+        ]
+    },
+    {
+        "id": "Tractor-Driver-1-(Unlicensed)",
+        "titles": [
+            "Tractor Driver 1 (Unlicensed)"
+        ],
+        "sector": "Agriculture",
+        "grade": "A3",
+        "industry": "Agriculture",
+        "yearsExperience": "0-1 years",
+        "qualifications": [
+            "basic training; supervision"
+        ],
+        "skills": [
+            "farm basics",
+            "safety"
+        ],
+        "employers": [
+            "farms",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "assist tractor ops",
+            "field prep",
+            "safety spotting"
+        ]
+    },
+    {
+        "id": "Tractor-Driver-2-(Licensed)",
+        "titles": [
+            "Tractor Driver 2 (Licensed)"
+        ],
+        "sector": "Agriculture",
+        "grade": "B1",
+        "industry": "Agriculture",
+        "yearsExperience": "1-4 years",
+        "qualifications": [
+            "tractor operator license"
+        ],
+        "skills": [
+            "tractor ops",
+            "safety",
+            "basic mechanics"
+        ],
+        "employers": [
+            "farms",
+            "estates"
+        ],
+        "description": "",
+        "responsibilities": [
+            "operate tractor",
+            "ploughing/harrowing",
+            "maintenance checks"
+        ]
+    }
+]
