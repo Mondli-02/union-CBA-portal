@@ -27,7 +27,7 @@
   sector.json
   salaries.json
   terms.json
-index2.html
+index.html
 main.js
 style.css
 README.md
@@ -48,7 +48,7 @@ README.md
 
 1. **Clone or download** this repository.
 2. Ensure all JSON files are in the `data/` folder.
-3. Open `index2.html` in your browser.
+3. Open `index.html` in your browser.
 4. Start searching for jobs or browse by sector. Use the About page for definitions.
 
 ---
@@ -66,7 +66,7 @@ README.md
 
 - **Add more calculators or features** in `main.js`.
 - **Update styles** in `style.css` for branding or accessibility.
-- **Change the home/branding text** in `index2.html`.
+- **Change the home/branding text** in `index.html`.
 
 ---
 
