@@ -44,6 +44,41 @@ let currentCurrency = 'USD';
 let exchangeRate = 13;
 let lastCurrency = 'USD';
 
+// ========== TRY JOB ANIMATION ==========
+function getRandomJobs(count = 3) {
+  const titles = getAllJobTitles();
+  const chosen = [];
+  const used = new Set();
+  while (chosen.length < count && used.size < titles.length) {
+    const idx = Math.floor(Math.random() * titles.length);
+    if (!used.has(idx)) {
+      chosen.push(titles[idx]);
+      used.add(idx);
+    }
+  }
+  return chosen;
+}
+
+function renderTryJobs(jobs) {
+  const el = document.getElementById('tryJobs');
+  if (!el) return;
+  el.innerHTML = jobs.map(j =>
+    `<button class="btn btn--chip" data-demo="${escapeAttr(j)}" type="button">${escapeHTML(j)}</button>`
+  ).join(' ');
+}
+
+function animateTryJobs() {
+  const el = document.getElementById('tryJobs');
+  if (!el) return;
+  el.classList.add('fade-out');
+  setTimeout(() => {
+    renderTryJobs(getRandomJobs(3));
+    el.classList.remove('fade-out');
+    el.classList.add('fade-in');
+    setTimeout(() => el.classList.remove('fade-in'), 500);
+  }, 500);
+}
+
 // ========== POPULAR / RECENT JOBS ==========
 function computePopularJobs() {
   const jobs = MOCK_JOBS.slice().sort((a, b) => b.titles.length - a.titles.length);
@@ -629,6 +664,11 @@ function wire(){
   computeRecentJobs();
   renderPopularSection();
   renderRecentSection();
+
+  // Initial render for Try jobs
+  renderTryJobs(getRandomJobs(3));
+// Animate every 4 seconds
+  setInterval(animateTryJobs, 4000);
 }
 
 // ========== SEARCH ==========

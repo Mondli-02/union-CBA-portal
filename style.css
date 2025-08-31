@@ -790,3 +790,14 @@ body {
     font-size: 0.98em;
   }
 }
+
+.try-jobs {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+.try-jobs.fade-out {
+  opacity: 0;
+}
+.try-jobs.fade-in {
+  opacity: 1;
+}
