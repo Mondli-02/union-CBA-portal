@@ -177,7 +177,7 @@ function computeSectorSalaryRange(sector) {
 function renderSectors() {
   const aside = $('#browseSectors');
   if (!aside) return;
-  html = `<h4 class="popular-jobs-heading" style="text-align:center;">Browse by Sector</h4>
+  html = `<h4 class="popular-jobs-heading" style="text-align:center; font-family: var(--font-b); font-weight: 600;">Browse by Sector</h4>
     <div class="browse-pills" tabindex="0" style="justify-content:center;">`;
   for (const sector in SECTOR_MAP) {
     const jobs = SECTOR_MAP[sector].jobs;
