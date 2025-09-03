@@ -379,9 +379,7 @@ body {
   overflow: hidden;
   border-radius: var(--radius-sm);
   /* mobile-friendly horizontal scroll */
-  display: block;
   overflow-x: auto;
-  white-space: nowrap;
 }
 .table th,
 .table td {
@@ -389,6 +387,8 @@ body {
   padding: 12px 10px;
   border-bottom: 1px solid #eef2f7;
   vertical-align: top;
+  white-space: normal;
+  word-wrap: break-word;
 }
 .table th {
   background: #f8fafc;
@@ -840,39 +840,42 @@ body {
 }
 
 .definition-popup {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.5);
-    display: flex; align-items: center; justify-content: center;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
 }
 
 .definition-content {
-    background: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    max-width: 400px;
-    width: 90%;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 .definition-content h3 {
-    margin-top: 0;
-    color: var(--primary);
+  margin-top: 0;
+  color: var(--primary);
 }
 
 .definition-content button {
-    margin-top: 15px;
-    padding: 8px 14px;
-    background: var(--primary);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+  margin-top: 15px;
+  padding: 8px 14px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 .definition-content button:hover {
-    background: #1d4ed8;
+  background: #1d4ed8;
 }
-

@@ -109,6 +109,45 @@ let currentCurrency = 'USD';
 let exchangeRates = { 'ZWL': 13 }; // USD -> ZWL default
 let lastCurrency = 'USD';
 
+function updateCurrencyDisplay() {
+  // Update salary table
+  $$("#salaryRows td.mono").forEach(td => {
+    const rawUSD = +td.getAttribute("data-raw");
+    td.textContent = `${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', currentCurrency))}`;
+  });
+
+  // Update institution select dropdown
+  const instSelect = $("#instSelect");
+  if (instSelect) {
+    instSelect.querySelectorAll("option").forEach(opt => {
+      const rawUSD = +opt.getAttribute("data-raw"); // safer than splitting text
+      if (!isNaN(rawUSD)) {
+        opt.textContent = `${opt.textContent.split(" - ")[0]} - ${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', currentCurrency))}`;
+      }
+    });
+    instSelect.value = convertCurrency(+instSelect.value, lastCurrency, currentCurrency);
+  }
+
+  // Update calculator inputs
+  if ($("#basicInput")) {
+    $("#basicInput").value = convertCurrency(+$("#basicInput").value, lastCurrency, currentCurrency);
+  }
+
+  $$("#allowancesList input").forEach(inp => {
+    inp.value = convertCurrency(+inp.value, lastCurrency, currentCurrency);
+  });
+
+  // Refresh totals
+  updateCalculatorTotals();
+
+  // Update lastCurrency
+  lastCurrency = currentCurrency;
+  currentCurrency = newCurrencyCode;
+updateCurrencyDisplay();
+
+}
+
+
 // search counters & recent searches persisted
 function loadSearchCounters() {
   try {
@@ -434,8 +473,12 @@ function renderJob(job, q) {
     instOptions.push([inst, amount]);
   });
 
-  const instSelect = $('#instSelect');
-  instSelect.innerHTML = instOptions.map(([inst, amount]) => `<option value="${amount}">${inst}</option>`).join('');
+  instSelect.innerHTML = instOptions.map(([inst, amount]) =>
+  `<option data-raw="${amount}" value="${convertCurrency(amount, 'USD', currentCurrency)}">
+     ${inst} - ${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(amount, 'USD', currentCurrency))}
+   </option>`
+).join('');
+  
   instSelect.selectedIndex = 0;
   const selectedBasic = convertCurrency(+instSelect.value, 'USD', currentCurrency);
 
@@ -1100,3 +1143,5 @@ Promise.all([fetchData(), fetchTerms()]).then(() => {
   // initial focus
   if ($('#homeQuery')) $('#homeQuery').focus();
 });
+
+
