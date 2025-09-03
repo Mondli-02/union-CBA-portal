@@ -109,40 +109,44 @@ let currentCurrency = 'USD';
 let exchangeRates = { 'ZWL': 13 }; // USD -> ZWL default
 let lastCurrency = 'USD';
 
-function updateCurrencyDisplay() {
+// FIXED: Ensure currency update is handled everywhere
+function updateCurrencyDisplay(fromCurrency, toCurrency) {
   // Update salary table
   $$("#salaryRows td.mono").forEach(td => {
     const rawUSD = +td.getAttribute("data-raw");
-    td.textContent = `${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', currentCurrency))}`;
+    td.textContent = `${currencySymbol(toCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', toCurrency))}`;
   });
 
   // Update institution select dropdown
   const instSelect = $("#instSelect");
   if (instSelect) {
     instSelect.querySelectorAll("option").forEach(opt => {
-      const rawUSD = +opt.getAttribute("data-raw"); // safer than splitting text
+      const rawUSD = +opt.getAttribute("data-raw");
       if (!isNaN(rawUSD)) {
-        opt.textContent = `${opt.textContent.split(" - ")[0]} - ${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', currentCurrency))}`;
+        opt.textContent = `${opt.textContent.split(" - ")[0]} - ${currencySymbol(toCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', toCurrency))}`;
+        opt.value = convertCurrency(rawUSD, 'USD', toCurrency);
       }
     });
-    instSelect.value = convertCurrency(+instSelect.value, lastCurrency, currentCurrency);
+    instSelect.value = convertCurrency(+instSelect.value, fromCurrency, toCurrency);
   }
 
   // Update calculator inputs
   if ($("#basicInput")) {
-    $("#basicInput").value = convertCurrency(+$("#basicInput").value, lastCurrency, currentCurrency);
+    $("#basicInput").value = convertCurrency(+$("#basicInput").value, fromCurrency, toCurrency);
   }
 
   $$("#allowancesList input").forEach(inp => {
-    inp.value = convertCurrency(+inp.value, lastCurrency, currentCurrency);
+    inp.value = convertCurrency(+inp.value, fromCurrency, toCurrency);
   });
 
-  // Refresh totals
+  if ($("#coffinCost")) $("#coffinCost").value = convertCurrency(+$("#coffinCost").value || 0, fromCurrency, toCurrency);
+  if ($("#policyCoverage")) $("#policyCoverage").value = convertCurrency(+$("#policyCoverage").value || 0, fromCurrency, toCurrency);
+
   updateCalculatorTotals();
 
-  // Update lastCurrency
+  lastCurrency = toCurrency;
+  currentCurrency = toCurrency;
 }
-
 
 // search counters & recent searches persisted
 function loadSearchCounters() {
