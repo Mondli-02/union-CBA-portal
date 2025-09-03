@@ -37,7 +37,6 @@ body {
 }
 
 .topbar {
-  position: sticky;
   top: 0;
   left: 0;
   width: 100vw;
@@ -330,8 +329,8 @@ body {
 
 .wrap {
   max-width: 980px;
-  margin: 24px auto 80px;
-  padding: 0 16px;
+  margin: auto;
+
 }
 
 .results {
