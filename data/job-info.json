@@ -304,7 +304,7 @@
             "Manufacturing",
             "Services"
         ],
-        "description": "",
+        "description": "This refers to an employee who helps compile and maintain employee records for the organisation.",
         "responsibilities": [
             "Maintain personnel files",
             "Assist recruitment",
@@ -336,7 +336,7 @@
             "Pathology labs",
             "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who, under supervision cleans floors, equipment, collects and records laboratory samples.",
         "responsibilities": [
             "Sample receipt",
             "Labeling",
@@ -372,7 +372,7 @@
             "Schools",
             "Clinics"
         ],
-        "description": "",
+        "description": "This refers to an employee who manages, organizes and directs day to day operations of the organization.",
         "responsibilities": [
             "Oversee office ops",
             "Procurement",
@@ -430,23 +430,23 @@
             "Secretarial/Project Admin Diploma"
         ],
         "skills": [
-            "detail orientation",
+            "Detail orientation",
             "MS Office",
-            "communication",
-            "donor compliance basics"
+            "Communication",
+            "Donor compliance basics"
         ],
         "employers": [
             "NGOs",
-            "development projects",
-            "research"
+            "Development projects",
+            "Research"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides administrative support for the efficient and effective implemenatation of project activities.",
         "responsibilities": [
-            "maintain project files",
-            "schedule meetings",
-            "travel logistics",
-            "timesheets",
-            "compile reports"
+            "Maintain project files",
+            "Schedule meetings",
+            "Travel logistics",
+            "Timesheets",
+            "Compile reports"
         ]
     },
     {
@@ -462,23 +462,23 @@
             "5 O’ Levels; Reception/Typing Cert"
         ],
         "skills": [
-            "customer care",
-            "switchboard",
-            "typing speed",
-            "professionalism"
+            "Customer care",
+            "Switchboard",
+            "Typing speed",
+            "Professionalism"
         ],
         "employers": [
-            "clinics",
-            "schools",
-            "corporate offices"
+            "Clinics",
+            "Schools",
+            "Corporate offices"
         ],
-        "description": "",
+        "description": "This refers to an employee whose duties include the receiving of visitors, making appointment sna other general office duties and in the case of an employee solely as a typist, typing at aspeed of not less than 35 words a minute.",
         "responsibilities": [
-            "front desk",
-            "calls",
-            "visitor register",
-            "typing",
-            "mail handling"
+            "Front desk",
+            "Calls",
+            "Visitor register",
+            "Typing",
+            "Mail handling"
         ]
     },
     {
@@ -494,22 +494,22 @@
             "5 O’ Levels; Records Mgmt cert (adv.)"
         ],
         "skills": [
-            "records systems",
-            "accuracy",
-            "confidentiality"
+            "Records systems",
+            "Accuracy",
+            "Confidentiality"
         ],
         "employers": [
-            "hospitals",
-            "courts",
-            "schools",
-            "councils"
+            "Hospitals",
+            "Courts",
+            "Schools",
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides records management and filing services.",
         "responsibilities": [
-            "file/index records",
-            "retrieve/track files",
-            "archive",
-            "records register"
+            "File - Index records",
+            "Retrieve - Track files",
+            "Archive",
+            "Records register"
         ]
     },
     {
@@ -525,22 +525,22 @@
             "Payroll/Accounting Cert; 5 O’ Levels"
         ],
         "skills": [
-            "payroll systems",
+            "Payroll systems",
             "Excel",
-            "confidentiality",
-            "labour basics"
+            "Confidentiality",
+            "Labour basics"
         ],
         "employers": [
             "SMEs",
             "NGOs",
-            "parastatals"
+            "Parastatals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for processing salaries, wages and statutory payments accurately and timeously under supervision.",
         "responsibilities": [
-            "prepare payroll",
+            "Prepare payroll",
             "NEC/statutory returns (PAYE/NSSA)",
-            "payslips",
-            "resolve queries"
+            "Payslips",
+            "Resolve queries"
         ]
     },
     {
@@ -557,22 +557,22 @@
         ],
         "skills": [
             "POS",
-            "customer service",
-            "numeracy",
+            "Customer service",
+            "Numeracy",
             "Excel"
         ],
         "employers": [
-            "retail",
-            "wholesalers",
-            "hardware"
+            "Retail",
+            "Wholesalers",
+            "Hardware"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for handling cash registers, providing customer service and maintaining cleanliness and order in the shop.",
         "responsibilities": [
-            "process orders",
-            "invoices",
-            "customer queries",
-            "stock checks",
-            "cashing"
+            "Process orders",
+            "Invoices",
+            "Customer queries",
+            "Stock checks",
+            "Cashing"
         ]
     },
     {
@@ -588,21 +588,21 @@
             "Secretarial Cert/Diploma"
         ],
         "skills": [
-            "typing",
+            "Typing",
             "MS Office",
-            "organization",
-            "discretion"
+            "Organization",
+            "Discretion"
         ],
         "employers": [
-            "public & private offices"
+            "Public & private offices"
         ],
-        "description": "",
+        "description": "This refers to an employee with appropriate formal training engaged in the carrying oout of such secretarial functions as taking minutes, calling meetinfs, preparing agendas, keeping of records and other such duties.",
         "responsibilities": [
-            "typing",
-            "filing",
-            "correspondence",
-            "diaries",
-            "office support"
+            "Typing",
+            "Filing",
+            "Correspondence",
+            "Diaries",
+            "Office support"
         ]
     },
     {
@@ -620,20 +620,20 @@
         "skills": [
             "GL",
             "Excel",
-            "attention to detail",
-            "mentoring"
+            "Attention to detail",
+            "Mentoring"
         ],
         "employers": [
-            "manufacturing",
+            "Manufacturing",
             "NGOs",
-            "services"
+            "Services"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the work of an accounts clerk who is engaged in accounting duties, handling and receipting money.",
         "responsibilities": [
-            "manage ledgers",
-            "reconciliations",
-            "assist management accounts",
-            "supervise juniors"
+            "Manage ledgers",
+            "Reconciliations",
+            "Assist management accounts",
+            "Supervise juniors"
         ]
     },
     {
@@ -649,21 +649,21 @@
             "Health Admin Cert/Diploma"
         ],
         "skills": [
-            "hospital systems",
-            "supervision",
-            "cash controls",
-            "customer care"
+            "Hospital systems",
+            "Supervision",
+            "Cash controls",
+            "Customer care"
         ],
         "employers": [
-            "hospitals",
-            "private clinics"
+            "Hospitals",
+            "Private clinics"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the works admissions clerk, admission of patients, cash payment handling, bed allocation, filing, typing, e-mailing and faxing as well as handling patient's queries professionally and confidentially.",
         "responsibilities": [
-            "lead admissions team",
-            "resolve escalations",
-            "reports",
-            "cash controls",
+            "Lead admissions team",
+            "Resolve escalations",
+            "Reports",
+            "Cash controls",
             "SOPs"
         ]
     },
@@ -680,22 +680,22 @@
             "Bookkeeping/Accounting Diploma"
         ],
         "skills": [
-            "billing systems",
+            "Billing systems",
             "Excel",
-            "supervision",
-            "analytics"
+            "Supervision",
+            "Analytics"
         ],
         "employers": [
-            "utilities",
-            "hospitals",
-            "telcos"
+            "Utilities",
+            "Hospitals",
+            "Telcos"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the work of billing clerk and processes, checks and updates all accounts/bills/invoices of a patient in a hospital and sends them to appropriate medical aid societies where applicable.",
         "responsibilities": [
-            "oversee billing cycle",
-            "accuracy checks",
-            "debt control liaison",
-            "reporting"
+            "Oversee billing cycle",
+            "Accuracy checks",
+            "Debt control liaison",
+            "Reporting"
         ]
     },
     {
@@ -711,22 +711,22 @@
             "Basic literacy; horticulture short course (adv.)"
         ],
         "skills": [
-            "plant care",
-            "safety",
-            "stamina"
+            "Plant care",
+            "Safety",
+            "Stamina"
         ],
         "employers": [
-            "estates",
-            "nurseries",
-            "parks"
+            "Estates",
+            "Nurseries",
+            "Parks"
         ],
-        "description": "",
+        "description": "This refers to an employee who is employed to remove unwanted plants on the property by spraying and by hand.",
         "responsibilities": [
-            "planting",
-            "pruning",
-            "pest control",
-            "irrigation",
-            "propagation"
+            "Planting",
+            "Pruning",
+            "Pest control",
+            "Irrigation",
+            "Propagation"
         ]
     },
     {
@@ -742,24 +742,24 @@
             "Basic literacy; horticulture short course (adv.)"
         ],
         "skills": [
-            "gardening",
-            "tools",
-            "safety",
-            "reliability"
+            "Gardening",
+            "Tools",
+            "Safety",
+            "Reliability"
         ],
         "employers": [
-            "schools",
-            "clinics",
-            "estates",
-            "lodges"
+            "Schools",
+            "Clinics",
+            "Estates",
+            "Lodges"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for carrying out numerous gardening duties requiring a minimum amount of supervision, soil cultivation, digging, forking, mulching, watering, raking, weeding, edging, pruning, bed preparation and planting. Lawn maintenance and cultivation. The use and maintenance of hand tools and basic light machinery.",
         "responsibilities": [
-            "lawn care",
-            "pruning",
-            "weeding",
-            "irrigation",
-            "composting"
+            "Lawn care",
+            "Pruning",
+            "Weeding",
+            "Irrigation",
+            "Composting"
         ]
     },
     {
@@ -775,21 +775,21 @@
             "Basic literacy; safety training"
         ],
         "skills": [
-            "tools",
-            "teamwork",
-            "stamina"
+            "Tools",
+            "Teamwork",
+            "Stamina"
         ],
         "employers": [
-            "schools",
-            "sports clubs",
-            "campuses"
+            "Schools",
+            "Sports clubs",
+            "Campuses"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the general maintenance of the grounds and garden at the school. Main duties are to carry out numerous gardening duties, requiring a minimum amount of supervision. Soil cultivation, digging, forking, mulching, watering, raking, weeding, edging, pruning, bed preparation and planting. Lawn maintenance and cultivation. The use and maintenance of hand tools and basic light machinery.",
         "responsibilities": [
-            "grounds upkeep",
-            "litter control",
-            "minor repairs",
-            "assist events"
+            "Grounds upkeep",
+            "Litter control",
+            "Minor repairs",
+            "Assist events"
         ]
     },
     {
@@ -805,21 +805,21 @@
             "O’ Levels Science; water ops cert (adv.)"
         ],
         "skills": [
-            "mechanical aptitude",
-            "safety",
-            "record keeping"
+            "Mechanical aptitude",
+            "Safety",
+            "Record keeping"
         ],
         "employers": [
-            "councils",
-            "estates",
-            "mines"
+            "Councils",
+            "Estates",
+            "Mines"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the maintenance and servicing of pumping equipment under supervision.",
         "responsibilities": [
-            "operate pumps",
-            "monitor treatment",
-            "record readings",
-            "basic maintenance"
+            "Operate pumps",
+            "Monitor treatment",
+            "Record readings",
+            "Basic maintenance"
         ]
     },
     {
@@ -896,21 +896,21 @@
             "Housekeeping Cert"
         ],
         "skills": [
-            "supervision",
-            "hygiene",
-            "customer focus"
+            "Supervision",
+            "Hygiene",
+            "Customer focus"
         ],
         "employers": [
-            "hotels",
-            "hospitals",
-            "schools"
+            "Hotels",
+            "Hospitals",
+            "Schools"
         ],
-        "description": "",
+        "description": "This refers to an employee with formal training or appropriate experience, who is responsible for the care and welfare of residents in an institution and for general cleanliness, hygiene and the supervision os staff and the smooth running of the institution.",
         "responsibilities": [
-            "supervise cleaners",
-            "standards checks",
-            "inventory",
-            "rosters"
+            "Supervise cleaners",
+            "Standards checks",
+            "Inventory",
+            "Rosters"
         ]
     },
     {
@@ -926,22 +926,52 @@
             "Basic literacy; driver/rider (adv.)"
         ],
         "skills": [
-            "time mgmt",
-            "trustworthiness",
-            "communication"
+            "Time management",
+            "Trustworthiness",
+            "Communication"
         ],
         "employers": [
-            "offices",
-            "schools",
-            "clinics"
+            "Offices",
+            "Schools",
+            "Clinics"
         ],
-        "description": "",
+        "description": "This refers to an employee who is specifically engaged in the conveying or delivery of letters, parcels or messages on foot or by bicycles and includes the making of tea or similar beverages.",
         "responsibilities": [
-            "deliver mail",
-            "run errands",
-            "clean assigned areas"
+            "Deliver mail",
+            "Run errands",
+            "Clean assigned areas"
         ]
     },
+     {
+        "id": "Messenger",
+        "titles": [
+            "Messenger"
+        ],
+        "sector": "Facilities & Admin",
+        "grade": "A2",
+        "industry": "Facilities & Admin",
+        "yearsExperience": "0-2 years",
+        "qualifications": [
+            "Basic literacy; driver/rider (adv.)"
+        ],
+        "skills": [
+            "Time management",
+            "Trustworthiness",
+            "Communication"
+        ],
+        "employers": [
+            "Offices",
+            "Schools",
+            "Clinics"
+        ],
+        "description": "This refers to an employee engaged wholly or substantially in delivering messages on foot or by bicycle or tricycle and whose duties may include deliveries to and from a bank.",
+        "responsibilities": [
+            "Deliver mail",
+            "Run errands",
+            "Clean assigned areas"
+        ]
+    },
+   
     {
         "id": "Assistant-Librarian",
         "titles": [
@@ -956,20 +986,20 @@
         ],
         "skills": [
             "Koha/Aleph",
-            "customer service",
-            "organization"
+            "Customer service",
+            "Organization"
         ],
         "employers": [
-            "schools",
-            "colleges",
-            "councils"
+            "Schools",
+            "Colleges",
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in keeping a library in good order and who carries out cleaning and general library duties as directed by the librarian.",
         "responsibilities": [
-            "circulation desk",
-            "shelving",
-            "member support",
-            "cataloguing support"
+            "Circulation desk",
+            "Shelving",
+            "Member support",
+            "Cataloguing support"
         ]
     },
     {
@@ -1013,21 +1043,21 @@
             "Trade/Subject Diploma; teaching cert (adv.)"
         ],
         "skills": [
-            "instructional skills",
-            "assessment",
-            "safety"
+            "Instructional skills",
+            "Assessment",
+            "Safety"
         ],
         "employers": [
             "Polytechnics",
-            "vocational centres",
+            "Vocational centres",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides training services to the organisation.",
         "responsibilities": [
-            "deliver practical training",
-            "assess learners",
-            "workshop safety",
-            "records"
+            "Deliver practical training",
+            "Assess learners",
+            "Workshop safety",
+            "Records"
         ]
     },
     {
@@ -1043,21 +1073,21 @@
             "Diploma in Library & Info Science"
         ],
         "skills": [
-            "cataloguing rules",
+            "Cataloguing rules",
             "ICT",
-            "customer service"
+            "Customer service"
         ],
         "employers": [
-            "schools",
-            "colleges",
-            "public libraries"
+            "Schools",
+            "Colleges",
+            "Public libraries"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides assistance to librarians in library and research service and maintains the library and its collections.",
         "responsibilities": [
-            "cataloguing",
-            "reference services",
-            "circulation",
-            "outreach"
+            "Cataloguing",
+            "Reference services",
+            "Circulation",
+            "Outreach"
         ]
     },
     {
@@ -1073,21 +1103,21 @@
             "Degree/Diploma in Library & Info Science"
         ],
         "skills": [
-            "library systems",
-            "research",
-            "management"
+            "Library systems",
+            "Research",
+            "Management"
         ],
         "employers": [
-            "universities",
-            "councils",
+            "Universities",
+            "Councils",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee with formal training or appropriate experience responsible for all aspects of library administration, classification cataloguing, filing, book selection and acquisition as wellas the supervision of the other library personnel.",
         "responsibilities": [
-            "collection development",
-            "cataloguing",
-            "information literacy",
-            "supervise staff"
+            "Collection development",
+            "Cataloguing",
+            "Information literacy",
+            "Supervise staff"
         ]
     },
     {
@@ -1103,20 +1133,49 @@
             "Diploma in ECD; MoPSE registration"
         ],
         "skills": [
-            "child development",
-            "creativity",
-            "communication"
+            "Child development",
+            "Creativity",
+            "Communication"
         ],
         "employers": [
-            "govt & mission schools",
-            "private ECD"
+            "Govt & Mission schools",
+            "Private ECD"
         ],
-        "description": "",
+        "description": "This refers to an employee who has been certified by the Ministry of Education after successful completion of a three year course of training.",
         "responsibilities": [
-            "plan ECD lessons",
-            "assess learners",
-            "classroom care",
-            "parent engagement"
+            "Plan ECD lessons",
+            "Assess learners",
+            "Classroom care",
+            "Parent engagement"
+        ]
+    },
+    {
+        "id": "Nursery-School-Assistant",
+        "titles": [
+            "Nursery-School-Assistant"
+        ],
+        "sector": "Education & Training",
+        "grade": "C1",
+        "industry": "Education & Training",
+        "yearsExperience": "0-5 years",
+        "qualifications": [
+            "Diploma in ECD; MoPSE registration"
+        ],
+        "skills": [
+            "Child development",
+            "Creativity",
+            "Communication"
+        ],
+        "employers": [
+            "Govt & Mission schools",
+            "Private ECD"
+        ],
+        "description": "This refers to an employee with no special qualifications but who is capable fo conducting educational programs or classes at such an institution.",
+        "responsibilities": [
+            "Plan ECD lessons",
+            "Assess learners",
+            "Classroom care",
+            "Parent engagement"
         ]
     },
     {
@@ -1133,23 +1192,23 @@
         ],
         "skills": [
             "ECD methods",
-            "community work"
+            "Community work"
         ],
         "employers": [
-            "community centres",
+            "Community centres",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is trained by an NGO for one year or more and recommended by the Ministry of Education.",
         "responsibilities": [
-            "deliver ECD curriculum",
-            "play-based learning",
-            "safeguarding"
+            "Deliver ECD curriculum",
+            "Play Based learning",
+            "Safeguarding"
         ]
     },
     {
-        "id": "Nursery-School-Teacher-(Nsta)",
+        "id": "Nursery-School-Teacher-(NSTA trained)",
         "titles": [
-            "Nursery School Teacher (Nsta)"
+            "Nursery School Teacher (NSTA trained)"
         ],
         "sector": "Education",
         "grade": "B4",
@@ -1160,17 +1219,17 @@
         ],
         "skills": [
             "ECD",
-            "creativity",
-            "patience"
+            "Creativity",
+            "Patience"
         ],
         "employers": [
-            "private ECD centres"
+            "Private ECD centres"
         ],
-        "description": "",
+        "description": "This refers to an employee who has been trained by Nursery School Teachers Association and recommended by the Ministry of Education.",
         "responsibilities": [
-            "teach ECD",
-            "observe & assess",
-            "care routines"
+            "Teach ECD",
+            "Observe & assess",
+            "Care routines"
         ]
     },
     {
@@ -1214,19 +1273,19 @@
             "Religious Studies Cert; catechism training"
         ],
         "skills": [
-            "public speaking",
-            "counseling",
-            "planning"
+            "Public speaking",
+            "Counseling",
+            "Planning"
         ],
         "employers": [
-            "church missions",
-            "faith schools"
+            "Church missions",
+            "Faith schools"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for religious teaching and counseling.",
         "responsibilities": [
-            "teach doctrine",
-            "organize classes",
-            "outreach"
+            "Teach doctrine",
+            "Organize classes",
+            "Outreach"
         ]
     },
     {
@@ -1242,21 +1301,21 @@
             "Diploma/Degree in Education; registration"
         ],
         "skills": [
-            "pedagogy",
-            "subject mastery",
-            "communication"
+            "Pedagogy",
+            "Subject mastery",
+            "Communication"
         ],
         "employers": [
-            "government",
-            "private",
-            "mission schools"
+            "Government",
+            "Private",
+            "Mission schools"
         ],
-        "description": "",
+        "description": "This refers to an employee who holds a diploma in education and is qualified to teach and educate students according to guidelines provided by the national curriculum framework under the overall guidance of the Ministry of Education.",
         "responsibilities": [
-            "teach subjects",
-            "assess",
-            "classroom management",
-            "school activities"
+            "Teach subjects",
+            "Assess",
+            "Classroom management",
+            "School activities"
         ]
     },
     {
@@ -1272,19 +1331,19 @@
             "A’ Levels; temporary teaching permit"
         ],
         "skills": [
-            "communication",
-            "adaptability",
-            "discipline"
+            "Communication",
+            "Adaptability",
+            "Discipline"
         ],
         "employers": [
-            "rural schools",
-            "private ECD"
+            "Rural schools",
+            "Private ECD"
         ],
-        "description": "",
+        "description": "This refers to an employee who possesses at least 5 O' Levels who is engaged to teach students in a school or college.",
         "responsibilities": [
-            "assist teaching",
-            "supervise classes",
-            "learn pedagogy"
+            "Assist teaching",
+            "Supervise classes",
+            "Learn pedagogy"
         ]
     },
     {
@@ -1421,19 +1480,19 @@
             "Basic literacy; safety training"
         ],
         "skills": [
-            "customer service",
-            "numeracy",
-            "safety"
+            "Customer service",
+            "Numeracy",
+            "Safety"
         ],
         "employers": [
-            "service stations"
+            "Service stations"
         ],
-        "description": "",
+        "description": "This refers to an employee whose duties include the receiving and distribution of fuel.",
         "responsibilities": [
-            "dispense fuel",
-            "cashing",
-            "stock dips",
-            "safety checks"
+            "Dispense fuel",
+            "Cashing",
+            "Stock dips",
+            "Safety checks"
         ]
     },
     {
@@ -1449,19 +1508,19 @@
             "Basic literacy"
         ],
         "skills": [
-            "stamina",
-            "reliability",
-            "teamwork"
+            "Stamina",
+            "Reliability",
+            "Teamwork"
         ],
         "employers": [
-            "all sectors"
+            "All sectors"
         ],
-        "description": "",
+        "description": "This means, without in any way limiting the generality of this definition, an employee who carries out unskilled work either indoors or outdoors, under supervision.",
         "responsibilities": [
-            "manual tasks",
-            "loading",
-            "cleaning",
-            "simple repairs"
+            "Manual tasks",
+            "Loading",
+            "Cleaning",
+            "Simple repairs"
         ]
     },
     {
@@ -1477,21 +1536,21 @@
             "Basic literacy; animal handling training (adv.)"
         ],
         "skills": [
-            "animal handling",
-            "hygiene",
-            "compassion"
+            "Animal handling",
+            "Hygiene",
+            "Compassion"
         ],
         "employers": [
-            "vets",
-            "kennels",
+            "Vets",
+            "Kennels",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is enegaged in the cleaning, feeding and dipping of the animals under care.",
         "responsibilities": [
-            "clean kennels",
-            "feed",
-            "exercise animals",
-            "monitor health"
+            "Clean kennels",
+            "Feed",
+            "Exercise animals",
+            "Monitor health"
         ]
     },
     {
@@ -1507,20 +1566,20 @@
             "Trade skill cert"
         ],
         "skills": [
-            "multi-trade",
-            "supervision",
-            "problem solving"
+            "Multi-trade",
+            "Supervision",
+            "Problem solving"
         ],
         "employers": [
-            "schools",
-            "estates",
-            "clinics"
+            "Schools",
+            "Estates",
+            "Clinics"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in carrying out repairs without supervision; directing and controlling the work of caretakers and handyperson, routine maintenance of buildings and equipment and the preparation and compliance with maintenance schedule as may be required.",
         "responsibilities": [
-            "coordinate repairs",
-            "supervise handypersons",
-            "plan maintenance"
+            "Coordinate repairs",
+            "Supervise handypersons",
+            "Plan maintenance"
         ]
     },
     {
@@ -1536,20 +1595,20 @@
             "Basic literacy; pool maintenance training"
         ],
         "skills": [
-            "pool care",
-            "safety",
-            "attention"
+            "Pool care",
+            "Safety",
+            "Attention"
         ],
         "employers": [
-            "schools",
-            "lodges"
+            "Schools",
+            "Lodges"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in the general maintenance of a swimming pool and its surroundings, including the pumping and checking of the water level.",
         "responsibilities": [
-            "skimming",
-            "chemicals checks",
-            "cleaning",
-            "safety watch"
+            "Skimming",
+            "Chemicals checks",
+            "Cleaning",
+            "Safety watch"
         ]
     },
     {
@@ -1565,18 +1624,18 @@
             "Pool maintenance cert"
         ],
         "skills": [
-            "technical pool ops",
-            "safety"
+            "Technical pool ops",
+            "Safety"
         ],
         "employers": [
-            "sports clubs",
-            "hotels"
+            "Sports clubs",
+            "Hotels"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in the general maintenance of a swimming pool and its surroundings. His or her duties include the pumping and checking of water levekesm as well as the control, monitoring and recording of the quality of the swimming pool water by the addition of solid, liquid, or gaseous chemicals and the carrying out of simple water analysis tests.",
         "responsibilities": [
-            "test & balance chemicals",
-            "minor repairs",
-            "backwashing"
+            "Test & balance chemicals",
+            "Minor repairs",
+            "Backwashing"
         ]
     },
     {
@@ -1592,20 +1651,20 @@
             "Basic literacy"
         ],
         "skills": [
-            "customer service",
-            "upkeep",
-            "punctuality"
+            "Customer service",
+            "Upkeep",
+            "Punctuality"
         ],
         "employers": [
-            "clubs",
-            "schools"
+            "Clubs",
+            "Schools"
         ],
-        "description": "",
+        "description": "This refers to an employees who is responsible for the maintenance and upkeep of tennis courts. ",
         "responsibilities": [
-            "court upkeep",
-            "bookings",
-            "issue equipment",
-            "basic coaching assist"
+            "Court upkeep",
+            "Bookings",
+            "Issue equipment",
+            "Basic coaching assist"
         ]
     },
     {
@@ -1621,21 +1680,21 @@
             "Basic literacy; safety training"
         ],
         "skills": [
-            "safety",
-            "vigilance",
-            "basic mechanics"
+            "Safety",
+            "Vigilance",
+            "Basic mechanics"
         ],
         "employers": [
-            "estates",
-            "farms",
-            "schools"
+            "Estates",
+            "Farms",
+            "Schools"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in the checking of water in tanks and ensuring that appropriate levels are maintained at all times, as well as carryiny out other related duties.",
         "responsibilities": [
-            "monitor tanks",
-            "pump operation",
-            "leak checks",
-            "records"
+            "Monitor tanks",
+            "Pump operation",
+            "Leak checks",
+            "Records"
         ]
     },
     {
@@ -1672,6 +1731,39 @@
         ]
     },
     {
+        "id": "Registered-General-Nurse",
+        "titles": [
+            "Registered General Nurse"
+        ],
+        "sector": "Healthcare",
+        "grade": "C4",
+        "industry": "Healthcare",
+        "yearsExperience": "2-10 years",
+        "qualifications": [
+            "RGN qualification; Nurses Council registration"
+        ],
+        "skills": [
+            "Clinical skills",
+            "Triage",
+            "Counseling",
+            "EMR basics"
+        ],
+        "employers": [
+            "clinics",
+            "NGOs",
+            "Hospitals",
+            "Mission hospitals"
+        ],
+        "description": "This refers to an employee who is trained and registered with the Health Professions Council who is trained to give care and administer treatment to patients at a clinic or hosptial.",
+        "responsibilities": [
+            "Patient assessment",
+            "Treatment",
+            "Supervise aides",
+            "Drug management",
+            "Reporting"
+        ]
+    },
+    {
         "id": "Health-Officer",
         "titles": [
             "Health Officer"
@@ -1684,21 +1776,21 @@
             "Degree/Diploma in Environmental/Public Health"
         ],
         "skills": [
-            "public health regs",
-            "investigation",
-            "reporting"
+            "Public health regs",
+            "Investigation",
+            "Reporting"
         ],
         "employers": [
-            "local authorities",
+            "Local authorities",
             "MOHCC",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides leadershi in facilitating and ensuring integration and implementat of health services, water and sanitation, nutrition, HIV/AIDS, food security using the integrated programming model.",
         "responsibilities": [
-            "inspections",
-            "health education",
-            "outbreak response",
-            "compliance"
+            "Inspections",
+            "Health education",
+            "Outbreak response",
+            "Compliance"
         ]
     },
     {
@@ -1714,22 +1806,22 @@
             "Nurse Aide Certificate"
         ],
         "skills": [
-            "compassion",
-            "basic clinical",
-            "communication"
+            "Compassion",
+            "Basic clinical",
+            "Communication"
         ],
         "employers": [
-            "hospitals",
-            "clinics",
-            "elder homes"
+            "Hospitals",
+            "Clinics",
+            "Elder homes"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the general cleanliness of residents' rooms and for the general care of residents.",
         "responsibilities": [
-            "bedside care",
-            "vitals",
-            "hygiene",
-            "patient mobility",
-            "records"
+            "Bedside care",
+            "Vitals",
+            "Hygiene",
+            "Patient mobility",
+            "Records"
         ]
     },
     {
@@ -1745,19 +1837,19 @@
             "Nurse Aide Certificate"
         ],
         "skills": [
-            "teamwork",
-            "hygiene",
-            "stamina"
+            "Teamwork",
+            "Hygiene",
+            "Stamina"
         ],
         "employers": [
-            "hospitals"
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in assisting with nursing procedures under supervision, including feeding patients, cleaning wards and performing other functions as required.",
         "responsibilities": [
-            "ward cleaning",
-            "patient support",
-            "transport",
-            "supplies"
+            "Ward cleaning",
+            "Patient support",
+            "Transport",
+            "Supplies"
         ]
     },
     {
@@ -1773,18 +1865,18 @@
             "ECD aide course (adv.)"
         ],
         "skills": [
-            "care",
-            "patience",
-            "communication"
+            "Care",
+            "Patience",
+            "Communication"
         ],
         "employers": [
             "ECD centres"
         ],
-        "description": "",
+        "description": "This refers to an employee with no special qualifications who assists nursery school teachers but does not conduct any educational programs of a nursery school or class.",
         "responsibilities": [
-            "childcare support",
-            "snack prep",
-            "playground duty"
+            "Childcare support",
+            "Snack prep",
+            "Playground duty"
         ]
     },
     {
@@ -1800,20 +1892,20 @@
             "Nurse Aide Cert; additional training"
         ],
         "skills": [
-            "leadership",
-            "patient care",
-            "documentation"
+            "Leadership",
+            "Patient Care",
+            "Documentation"
         ],
         "employers": [
-            "hospitals",
-            "clinics"
+            "Hospitals",
+            "Clinics"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides nursing care as delegated and supervises the work of junio nurse aides and cleaners.",
         "responsibilities": [
-            "lead aides",
-            "allocate tasks",
-            "train newcomers",
-            "quality checks"
+            "Lead aides",
+            "Allocate tasks",
+            "Train newcomers",
+            "Quality checks"
         ]
     },
     {
@@ -1829,20 +1921,20 @@
             "Vet Nursing Diploma"
         ],
         "skills": [
-            "animal care",
-            "anesthesia assist",
-            "records"
+            "Animal care",
+            "Anesthesia assist",
+            "Records"
         ],
         "employers": [
-            "veterinary practices",
+            "Veterinary practices",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for supporting the Vet and ensures the welfare and comfort of all hospital patients.",
         "responsibilities": [
-            "assist surgeries",
-            "animal nursing",
-            "client education",
-            "stock control"
+            "Assist surgeries",
+            "Animal nursing",
+            "Client education",
+            "Stock control"
         ]
     },
     {
@@ -1976,21 +2068,21 @@
             "Culinary Diploma"
         ],
         "skills": [
-            "leadership",
-            "menu design",
-            "hygiene"
+            "Leadership",
+            "Menu design",
+            "Hygiene"
         ],
         "employers": [
-            "lodges",
-            "schools",
-            "hospitals"
+            "Lodges",
+            "Schools",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for controlling at least three cooks and is fully conversant with all aspects of the preparation and serving of meals, stock control, diets, and ordering of supplies.",
         "responsibilities": [
-            "plan menus",
-            "supervise cooks",
-            "cost control",
-            "supplier liaison"
+            "Plan menus",
+            "Supervise cooks",
+            "Cost control",
+            "Supplier liaison"
         ]
     },
     {
@@ -2006,20 +2098,20 @@
             "5 O’ Levels"
         ],
         "skills": [
-            "storekeeping",
-            "numeracy",
-            "hygiene"
+            "Storekeeping",
+            "Numeracy",
+            "Hygiene"
         ],
         "employers": [
-            "canteens",
-            "hotels"
+            "Canteens",
+            "Hotels"
         ],
-        "description": "",
+        "description": "This refers to an employee whose duties include the recording of all foodstuffs into cold-rooms, pantries and or storerooms and is responsible for issuing the imes concerned.",
         "responsibilities": [
-            "receive goods",
-            "stock records",
-            "issue ingredients",
-            "stock-takes"
+            "Receive goods",
+            "Stock records",
+            "Issue ingredients",
+            "Stock Takes"
         ]
     },
     {
@@ -2035,19 +2127,19 @@
             "Basic literacy"
         ],
         "skills": [
-            "hygiene",
-            "speed",
-            "teamwork"
+            "Hygiene",
+            "Speed",
+            "Teamwork"
         ],
         "employers": [
-            "restaurants",
-            "schools"
+            "Restaurants",
+            "Schools"
         ],
-        "description": "",
+        "description": "This refers to an employee who generally cleans kitchenware and the kitchen and or dining room.",
         "responsibilities": [
-            "wash dishes",
-            "clean kitchen/dining",
-            "waste disposal"
+            "Wash dishes",
+            "Clean kitchen/dining",
+            "Waste disposal"
         ]
     },
     {
@@ -2063,19 +2155,19 @@
             "Cooking Cert; experience"
         ],
         "skills": [
-            "culinary",
-            "supervision",
-            "hygiene"
+            "Culinary",
+            "Supervision",
+            "Hygiene"
         ],
         "employers": [
-            "hotels",
-            "hospitals"
+            "Hotels",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the preparation of meals, the purchasing of supplie, and the control of kitchen staff and who carries out duties as supervisor.",
         "responsibilities": [
-            "lead cooking line",
-            "train juniors",
-            "ensure standards"
+            "Lead cooking line",
+            "Train juniors",
+            "Ensure standards"
         ]
     },
     {
@@ -2091,20 +2183,20 @@
             "Customer service training"
         ],
         "skills": [
-            "service",
+            "Service",
             "POS",
-            "communication"
+            "Communication"
         ],
         "employers": [
-            "restaurants",
-            "lodges"
+            "Restaurants",
+            "Lodges"
         ],
-        "description": "",
+        "description": "This refers to an employee who supervises other waiters in all their duties and is in charge of the cutlery and linen.",
         "responsibilities": [
-            "table service",
-            "supervise waiters",
-            "cashing",
-            "complaints handling"
+            "Table service",
+            "Supervise waiters",
+            "Cashing",
+            "Complaints handling"
         ]
     },
     {
@@ -2120,18 +2212,18 @@
             "Basic literacy; theatre protocols training"
         ],
         "skills": [
-            "sterility awareness",
-            "handling",
-            "teamwork"
+            "Sterility awareness",
+            "Handling",
+            "Teamwork"
         ],
         "employers": [
-            "hospitals"
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who carries out general cleaning of theatre instruments and trolley and sluicing of linen, collecting and returning of patients to the wards after patients in the theatre and recovery room, and taking care and collecting dispensary baskets.",
         "responsibilities": [
-            "move patients/equipment",
-            "cleaning theatre",
-            "stock runs"
+            "Move patients/equipment",
+            "Cleaning theatre",
+            "Stock runs"
         ]
     },
     {
@@ -2147,20 +2239,20 @@
             "Basic literacy; service training"
         ],
         "skills": [
-            "customer service",
+            "Customer service",
             "POS",
-            "hygiene"
+            "Hygiene"
         ],
         "employers": [
-            "restaurants",
-            "lodges"
+            "Restaurants",
+            "Lodges"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged wholly or substantially in serving meals or drinks, inside or outside the dining rooms/s of the establishment, and who assists in the preparation and cleaning of the dining room and kitchen and associated equipment and utensils.",
         "responsibilities": [
-            "take orders",
-            "serve",
-            "clear tables",
-            "cashing"
+            "Take orders",
+            "Serve",
+            "Clear tables",
+            "Cashing"
         ]
     },
     {
@@ -2205,50 +2297,80 @@
             "Lab Tech Diploma; Council registration"
         ],
         "skills": [
-            "haematology",
-            "microbiology",
+            "Haematology",
+            "Microbiology",
             "QA",
             "LIS"
         ],
         "employers": [
-            "hospitals",
-            "private labs"
+            "Hospitals",
+            "Private labs"
         ],
-        "description": "",
+        "description": "This refers to an employee who performs laboratory work without direct supervision but reports to a senior laboratory technicians.",
         "responsibilities": [
-            "sample processing",
-            "quality control",
-            "reporting",
-            "equipment care"
+            "Sample processing",
+            "Quality control",
+            "Reporting",
+            "Equipment care"
         ]
     },
     {
-        "id": "Mechanic-(Class-Iii)",
+        "id": "Senior-Laboratory-Technician",
         "titles": [
-            "Mechanic (Class Iii)"
+            "Senior Laboratory Technician"
+        ],
+        "sector": "Healthcare/Labs",
+        "grade": "B5",
+        "industry": "Healthcare/Labs",
+        "yearsExperience": "2-6 years",
+        "qualifications": [
+            "Lab Tech Diploma; Council registration"
+        ],
+        "skills": [
+            "Haematology",
+            "Microbiology",
+            "QA",
+            "LIS"
+        ],
+        "employers": [
+            "Hospitals",
+            "Private labs"
+        ],
+        "description": "This refers to an employee who has successfully completed a recognized laboratory technician's course and carries out work in a laboratory without direct supervision e.g. H.N.D in Chemistry or Microbiology.",
+        "responsibilities": [
+            "Sample processing",
+            "Quality control",
+            "Reporting",
+            "Equipment care"
+        ]
+    },
+    {
+        "id": "Mechanic-(Class-III)",
+        "titles": [
+            "Mechanic (Class III)"
         ],
         "sector": "Automotive",
         "grade": "",
         "industry": "Automotive",
         "yearsExperience": "2-5 years",
         "qualifications": [
-            "Class III Trade Test; apprenticeship"
+            "Skilled Worker Class III (cert. RASM)"
         ],
         "skills": [
-            "mechanics",
-            "diagnostics",
-            "safety"
+            "Mechanics",
+            "Diagnostics",
+            "Safety"
         ],
         "employers": [
-            "garages",
-            "fleets",
-            "councils"
+            "Garages",
+            "Fleets",
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining vehicle engines and other machinery who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker III in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "diagnose/repair vehicles",
-            "service",
-            "parts replacement"
+            "Diagnose Repair vehicles",
+            "Service",
+            "Parts replacement"
         ]
     },
     {
@@ -2261,22 +2383,22 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "5-8 years",
         "qualifications": [
-            "Class III; experience"
+            "Skilled Worker Class III (cert. RASM)"
         ],
         "skills": [
-            "supervision",
-            "problem solving",
-            "diagnostics"
+            "Supervision",
+            "Problem Solving",
+            "Diagnostics"
         ],
         "employers": [
-            "transport firms",
-            "workshops"
+            "Transport firms",
+            "Workshops"
         ],
-        "description": "",
+        "description": "This refers to an employee who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class III in terms of the Manpower Planning and Development Act [Chapter 28:02], who maintains and improves the overall condition and safety of all vehicles by ensuring high quality workmanship, regular vehicle servicing and supervision of vehicle maintenance.",
         "responsibilities": [
-            "oversee repairs",
-            "mentor juniors",
-            "quality checks"
+            "Oversee repairs",
+            "Mentor juniors",
+            "Quality checks"
         ]
     },
     {
@@ -2348,23 +2470,23 @@
         "industry": "Electrical Trades",
         "yearsExperience": "5+ years",
         "qualifications": [
-            "Class I Trade Test"
+            "Skilled Worker Class I (Cert. RASM)"
         ],
         "skills": [
-            "advanced diagnostics",
-            "reading schematics",
-            "safety"
+            "Advanced diagnostics",
+            "Reading schematics",
+            "Safety"
         ],
         "employers": [
-            "mines",
-            "plants",
-            "building sites"
+            "Mines",
+            "Plants",
+            "Building sites"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for installing and maintaining electrical euipment of the organization who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class I in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "install/maintain electrical systems",
-            "fault-finding",
-            "compliance"
+            "Install Maintain electrical systems",
+            "Fault Finding",
+            "Compliance"
         ]
     },
     {
@@ -2377,22 +2499,22 @@
         "industry": "Electrical Trades",
         "yearsExperience": "3-5 years",
         "qualifications": [
-            "Class II Trade Test"
+            "Skilled Worker Class II (cert. RASM)"
         ],
         "skills": [
-            "wiring",
-            "testing",
-            "safety"
+            "Wiring",
+            "Testing",
+            "Safety"
         ],
         "employers": [
-            "construction",
-            "estates"
+            "Construction",
+            "Estates"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for installing and maintaining electrical euipment of the organization who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class II in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "installs",
-            "maintenance",
-            "assist complex faults"
+            "Installations",
+            "Maintenance",
+            "Assist complex faults"
         ]
     },
     {
@@ -2405,21 +2527,21 @@
         "industry": "Electrical Trades",
         "yearsExperience": "2-4 years",
         "qualifications": [
-            "Class III Trade Test"
+            "Skilled Worker Class III Test"
         ],
         "skills": [
-            "tools",
-            "wiring basics",
-            "safety"
+            "Tools",
+            "Wiring basics",
+            "Safety"
         ],
         "employers": [
             "SMEs",
-            "facilities"
+            "Facilities"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for installing and maintaining electrical euipment of the organization who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class III in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "basic installs",
-            "routine maintenance"
+            "Basic installs",
+            "Routine maintenance"
         ]
     },
     {
@@ -2432,20 +2554,20 @@
         "industry": "Electrical Trades",
         "yearsExperience": "0-2 years",
         "qualifications": [
-            "Class IV Trade Test"
+            "Skilled Worker Class IV (Cert. RASM)"
         ],
         "skills": [
-            "hand tools",
-            "safety",
-            "learning mindset"
+            "Hand tools",
+            "Safety",
+            "Learning mindset"
         ],
         "employers": [
-            "construction"
+            "Construction"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for installing and maintaining electrical euipment of the organization who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class IV in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "assist electricians",
-            "materials prep"
+            "Assist electricians",
+            "Materials prep"
         ]
     },
     {
@@ -2458,23 +2580,23 @@
         "industry": "Automotive",
         "yearsExperience": "5+ years",
         "qualifications": [
-            "Class I Trade Test"
+            "Skilled Worker Class I (Cert. RASM)"
         ],
         "skills": [
-            "advanced mechanics",
-            "leadership"
+            "Advanced mechanics",
+            "Leadership"
         ],
         "employers": [
-            "mining",
-            "logistics",
+            "Mining",
+            "Logistics",
             "OEM dealers"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining vehicle engines and other machinery who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker I in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "complex diagnostics",
-            "overhaul",
-            "supervise",
-            "ensure QA"
+            "Complex diagnostics",
+            "Overhaul",
+            "Supervise",
+            "Ensure QA"
         ]
     },
     {
@@ -2487,22 +2609,22 @@
         "industry": "Automotive",
         "yearsExperience": "3-5 years",
         "qualifications": [
-            "Class II Trade Test"
+            "Skilled Worker Class II (cert. RASM)"
         ],
         "skills": [
-            "mechanics",
-            "safety",
-            "documentation"
+            "Mechanics",
+            "Safety",
+            "Documentation"
         ],
         "employers": [
-            "fleets",
-            "workshops"
+            "Fleets",
+            "Workshops"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining vehicle engines and other machinery who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker II in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "repairs",
-            "services",
-            "diagnostics"
+            "Repairs",
+            "Services",
+            "Diagnostics"
         ]
     },
     {
@@ -2515,20 +2637,20 @@
         "industry": "Automotive",
         "yearsExperience": "0-2 years",
         "qualifications": [
-            "Class IV Trade Test"
+            "Skilled Worker Class IV (Cert. RASM)"
         ],
         "skills": [
-            "tools",
-            "safety",
-            "willingness to learn"
+            "Tools",
+            "Safety",
+            "Willingness to learn"
         ],
         "employers": [
-            "garages"
+            "Garages"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining vehicle engines and other machinery who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker IV in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "assist mechanics",
-            "basic services"
+            "Assist mechanics",
+            "Basic services"
         ]
     },
     {
@@ -2541,21 +2663,21 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "5+ years",
         "qualifications": [
-            "Class I Trade Test"
+            "Skilled Worker Class I (Cert. RASM)"
         ],
         "skills": [
-            "motorcycle systems",
-            "leadership"
+            "Motorcycle systems",
+            "Leadership"
         ],
         "employers": [
-            "agri estates",
-            "courier firms"
+            "Agri estates",
+            "Courier firms"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining motorbikes to keep them in a good and roadworthy condition and who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class I in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "diagnose/overhaul bikes",
-            "tune engines",
-            "supervise"
+            "Diagnose Overhaul bikes",
+            "Tune Engines",
+            "Supervise"
         ]
     },
     {
@@ -2568,21 +2690,21 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "3-5 years",
         "qualifications": [
-            "Class II Trade Test"
+            "Skilled Worker Class II (cert. RASM)"
         ],
         "skills": [
-            "two-stroke/four-stroke",
-            "safety"
+            "Two Stroke Four Stroke",
+            "Safety"
         ],
         "employers": [
-            "retail workshops",
-            "fleets"
+            "Retail workshops",
+            "Fleets"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining motorbikes to keep them in a good and roadworthy condition and who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class II in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "repairs",
-            "services",
-            "diagnostics"
+            "Repairs",
+            "Services",
+            "Diagnostics"
         ]
     },
     {
@@ -2595,19 +2717,19 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "2-4 years",
         "qualifications": [
-            "Class III Trade Test"
+            "Skilled Worker Class III (cert. RASM)"
         ],
         "skills": [
-            "mechanical basics",
-            "parts"
+            "Mechanical basics",
+            "Parts"
         ],
         "employers": [
             "SME workshops"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining motorbikes to keep them in a good and roadworthy condition and who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class III in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "basic repairs",
-            "servicing"
+            "Basic repairs",
+            "Servicing"
         ]
     },
     {
@@ -2620,19 +2742,19 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "0-2 years",
         "qualifications": [
-            "Class IV Trade Test"
+            "Skilled Worker Class IV (Cert. RASM)"
         ],
         "skills": [
-            "hand tools",
-            "learning"
+            "Hand tools",
+            "Learning"
         ],
         "employers": [
-            "retail workshops"
+            "Retail workshops"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining motorbikes to keep them in a good and roadworthy condition and who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class IV in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "assist",
-            "tyre/brake service"
+            "Assist",
+            "Tyre Brake service"
         ]
     },
     {
@@ -2648,19 +2770,19 @@
             "Trade Test + Instructor training"
         ],
         "skills": [
-            "instruction",
-            "diagnostics",
-            "safety"
+            "Instruction",
+            "Diagnostics",
+            "Safety"
         ],
         "employers": [
-            "TVETs",
+            "Tve Ts",
             "OEM training centres"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the maintenance of motor cycles so as to keep them in good working condition, timely servicing of fleet thus reducing costs and is also responsible for training and giving regular refresher courses for all motor cycle riders to ensure professional riding practices.",
         "responsibilities": [
-            "develop curriculum",
-            "train apprentices",
-            "assess competence"
+            "Develop curriculum",
+            "Train apprentices",
+            "Assess competence"
         ]
     },
     {
@@ -2673,22 +2795,22 @@
         "industry": "Plumbing",
         "yearsExperience": "5+ years",
         "qualifications": [
-            "Class I Trade Test"
+            "Skilled Worker Class I (Cert. RASM)"
         ],
         "skills": [
-            "codes",
-            "soldering/PPR",
-            "leadership"
+            "Codes",
+            "Soldering & PPR",
+            "Leadership"
         ],
         "employers": [
-            "construction",
-            "councils"
+            "Construction",
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for installing and repairing pipes and fittings for water, drainage and gas who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker ClassI in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "plan & install systems",
-            "troubleshoot",
-            "supervise"
+            "Plan & install systems",
+            "Troubleshoot",
+            "Supervise"
         ]
     },
     {
@@ -2701,21 +2823,21 @@
         "industry": "Plumbing",
         "yearsExperience": "3-5 years",
         "qualifications": [
-            "Class II Trade Test"
+            "Skilled Worker Class II (cert. RASM)"
         ],
         "skills": [
-            "pipefitting",
-            "safety"
+            "Pipefitting",
+            "Safety"
         ],
         "employers": [
-            "building sites",
-            "estates"
+            "Building sites",
+            "Estates"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for installing and repairing pipes and fittings for water, drainage and gas who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class II in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "install",
-            "maintain",
-            "assist complex faults"
+            "Install",
+            "Maintain",
+            "Assist complex faults"
         ]
     },
     {
@@ -2728,21 +2850,21 @@
         "industry": "Plumbing",
         "yearsExperience": "2-4 years",
         "qualifications": [
-            "Class III Trade Test"
+            "Skilled Worker Class III (cert. RASM)"
         ],
         "skills": [
-            "tools",
-            "measurements",
-            "safety"
+            "Tools",
+            "Measurements",
+            "Safety"
         ],
         "employers": [
             "SMEs",
-            "facilities"
+            "Facilities"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for installing and repairing pipes and fittings for water, drainage and gas who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class III in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "basic installs",
-            "repairs"
+            "Basic installs",
+            "Repairs"
         ]
     },
     {
@@ -2755,20 +2877,20 @@
         "industry": "Plumbing",
         "yearsExperience": "0-2 years",
         "qualifications": [
-            "Class IV Trade Test"
+            "Skilled Worker Class IV (Cert. RASM)"
         ],
         "skills": [
-            "hand tools",
-            "learning",
-            "safety"
+            "Hand tools",
+            "Learning",
+            "Safety"
         ],
         "employers": [
-            "construction"
+            "Construction"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for installing and repairing pipes and fittings for water, drainage and gas who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class IV in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "assist plumbers",
-            "materials prep"
+            "Assist plumbers",
+            "Materials prep"
         ]
     },
     {
@@ -2784,20 +2906,20 @@
             "Rehabilitation Tech Diploma"
         ],
         "skills": [
-            "technical skills",
-            "patient care",
-            "documentation"
+            "Technical skills",
+            "Patient care",
+            "Documentation"
         ],
         "employers": [
-            "rehab centres",
-            "hospitals",
+            "Rehab centres",
+            "Hospitals",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for restoring function to maximum level after injury or disability of a patient that is whether it is permanent or temporal, mental or physical active and educates people on the prevention of disabilities or injuries.",
         "responsibilities": [
-            "fabricate/fit assistive devices",
-            "maintain equipment",
-            "patient training"
+            "Fabricate - Fit assistive devices",
+            "Maintain equipment",
+            "Patient training"
         ]
     },
     {
@@ -2839,22 +2961,22 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "8+ years",
         "qualifications": [
-            "Class I; extensive exp"
+            "Skilled Worker Class I (Cert. RASM)"
         ],
         "skills": [
-            "leadership",
-            "advanced diagnostics"
+            "Leadership",
+            "Advanced diagnostics"
         ],
         "employers": [
-            "mines",
-            "fleets"
+            "Mines",
+            "Fleets"
         ],
-        "description": "",
+        "description": "This refers to an employee who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class I in terms of the Manpower Planning and Development Act [Chapter 28:02], who maintains and improves the overall condition and safety of all vehicles by ensuring high quality workmanship, regular vehicle servicing and supervision of vehicle maintenance.",
         "responsibilities": [
-            "lead workshop",
-            "complex diagnostics",
+            "Lead workshop",
+            "Complex diagnostics",
             "QA",
-            "training"
+            "Training"
         ]
     },
     {
@@ -2867,21 +2989,21 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "6+ years",
         "qualifications": [
-            "Class II; exp"
+            "Skilled Worker Class II (cert. RASM)"
         ],
         "skills": [
-            "supervision",
+            "Supervision",
             "QA"
         ],
         "employers": [
-            "workshops",
-            "transport"
+            "Workshops",
+            "Transport"
         ],
-        "description": "",
+        "description": "This refers to an employee who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class II in terms of the Manpower Planning and Development Act [Chapter 28:02], who maintains and improves the overall condition and safety of all vehicles by ensuring high quality workmanship, regular vehicle servicing and supervision of vehicle maintenance.",
         "responsibilities": [
-            "supervise",
-            "allocate jobs",
-            "sign off work"
+            "Supervise",
+            "Allocate jobs",
+            "Sign off work"
         ]
     },
     {
@@ -2894,19 +3016,19 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "3-5 years",
         "qualifications": [
-            "Class IV; exp"
+            "Skilled Worker Class IV (Cert. RASM)"
         ],
         "skills": [
-            "service routines",
-            "mentoring"
+            "Service routines",
+            "Mentoring"
         ],
         "employers": [
-            "garages"
+            "Garages"
         ],
-        "description": "",
+        "description": "This refers to an employee who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class IV in terms of the Manpower Planning and Development Act [Chapter 28:02], who maintains and improves the overall condition and safety of all vehicles by ensuring high quality workmanship, regular vehicle servicing and supervision of vehicle maintenance.",
         "responsibilities": [
-            "lead basic services",
-            "train entrants"
+            "Lead basic services",
+            "Train entrants"
         ]
     },
     {
@@ -2952,21 +3074,21 @@
         ],
         "skills": [
             "TMS/Excel",
-            "coordination",
-            "problem solving"
+            "Coordination",
+            "Problem solving"
         ],
         "employers": [
             "FMCG",
             "NGOs",
-            "manufacturing"
+            "Manufacturing"
         ],
-        "description": "",
+        "description": "This refers to an employee who manages and administers fuel, procurement, transport and maintenance and security",
         "responsibilities": [
-            "plan transport",
-            "routeing",
-            "track deliveries",
-            "manage 3PL",
-            "reports"
+            "Plan transport",
+            "Routeing",
+            "Track deliveries",
+            "Manage 3PL",
+            "Reports"
         ]
     },
     {
@@ -2982,20 +3104,20 @@
             "Relevant trade/sector cert"
         ],
         "skills": [
-            "leadership",
-            "planning",
+            "Leadership",
+            "Planning",
             "HSE"
         ],
         "employers": [
-            "all sectors"
+            "All sectors"
         ],
-        "description": "",
+        "description": "This refers to an employee with appropriate experience who is responsible for the supervision of lower staff in any department of an institution as directed by employer.",
         "responsibilities": [
-            "allocate tasks",
-            "monitor KPIs",
-            "safety",
-            "reporting",
-            "coaching"
+            "Allocate tasks",
+            "Monitor KPIs",
+            "Safety",
+            "Reporting",
+            "Coaching"
         ]
     },
     {
@@ -3249,11 +3371,11 @@
             "NGO/Programs"
         ],
         "skills": [
-            "design logframes",
-            "tools",
-            "data analysis",
-            "reporting",
-            "learning"
+            "Design logframes",
+            "Tools",
+            "Data analysis",
+            "Reporting",
+            "Learning"
         ],
         "employers": [
             "M&E methods",
@@ -3261,15 +3383,18 @@
             "PowerBI",
             "writing"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists the Program Manager with the design and application of sound M & E systems and is also tasked with facilitating the design of relevant data collection tools for periodic, baseline, outcome and impact evaluation studies and the effective administration of the same.",
         "responsibilities": [
-            "3-6"
+            "data collection",
+            "cleaning",
+            "dashboards",
+            "learning events"
         ]
     },
     {
-        "id": "Emergency-And-Special-Projects-Officer",
+        "id": "Emergencies-And-Special-Projects-Officer",
         "titles": [
-            "Emergency And Special Projects Officer"
+            "Emergencies And Special Projects Officer"
         ],
         "sector": "NGO/Relief",
         "grade": "C3",
@@ -3279,20 +3404,20 @@
             "Degree; humanitarian training; security training (adv.)"
         ],
         "skills": [
-            "coordination",
-            "security awareness",
-            "logistics"
+            "Coordination",
+            "Security awareness",
+            "Logistics"
         ],
         "employers": [
             "INGOs",
             "UN partners"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for providing effective project management implementation and training support to the organization on all emergency and special projects.",
         "responsibilities": [
-            "rapid assessments",
-            "project setup",
-            "coordination",
-            "reporting"
+            "Rapid assessments",
+            "Project setup",
+            "Coordination",
+            "Reporting"
         ]
     },
     {
@@ -3308,20 +3433,20 @@
             "Diploma; local language; motorcycle license (adv.)"
         ],
         "skills": [
-            "community facilitation",
-            "data collection"
+            "Community facilitation",
+            "Data collection"
         ],
         "employers": [
             "NGOs",
-            "agri extension"
+            "Agri extension"
         ],
-        "description": "",
+        "description": "This refers to an employee who facilitates the implementation of all programs in the area of operation according to donor standards and guidelines.",
         "responsibilities": [
-            "mobilization",
-            "trainings",
-            "monitoring",
-            "distributions",
-            "reports"
+            "Mobilization",
+            "Trainings",
+            "Monitoring",
+            "Distributions",
+            "Reports"
         ]
     },
     {
@@ -3337,19 +3462,19 @@
             "Diploma; social work background (adv.)"
         ],
         "skills": [
-            "case mgmt",
-            "counseling",
-            "facilitation"
+            "Case management",
+            "Counseling",
+            "Facilitation"
         ],
         "employers": [
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who contributes to the goals and objectives of the Organization by facilitating implementation of the Positive Development Programs.",
         "responsibilities": [
-            "coach beneficiaries",
-            "track progress",
-            "referrals",
-            "reporting"
+            "Coach beneficiaries",
+            "Track progress",
+            "Referrals",
+            "Reporting"
         ]
     },
     {
@@ -3365,20 +3490,20 @@
             "Herbalism training/apprenticeship"
         ],
         "skills": [
-            "herbal knowledge",
-            "ethics",
-            "hygiene"
+            "Herbal knowledge",
+            "Ethics",
+            "Hygiene"
         ],
         "employers": [
-            "herbal clinics",
-            "private practice"
+            "Herbal clinics",
+            "Private practice"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for growing, harvesting and processing of herbs and offers training to other organizations.",
         "responsibilities": [
-            "consult clients",
-            "prepare remedies",
-            "maintain records",
-            "compliance"
+            "Consult clients",
+            "Prepare remedies",
+            "Maintain records",
+            "Compliance"
         ]
     },
     {
@@ -3394,23 +3519,23 @@
             "Degree/Diploma in IT/CS"
         ],
         "skills": [
-            "troubleshooting",
-            "Windows/Linux",
-            "networking",
-            "security"
+            "Troubleshooting",
+            "Windows Linux",
+            "Networking",
+            "Security"
         ],
         "employers": [
             "SMEs",
             "NGOs",
-            "councils"
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the support and maintenance of the day to day operations of an organisation's management informations systems through the provision of a client oriented service that focuses on the support of field staff and the implementation of innovative solutions that automate business processes and informed decision making.",
         "responsibilities": [
-            "support users",
-            "network admin",
-            "systems maintenance",
-            "backups",
-            "security basics"
+            "Support users",
+            "Network admin",
+            "Systems maintenance",
+            "Backups",
+            "Security basics"
         ]
     },
     {
@@ -3426,21 +3551,21 @@
             "Laundry/Hotel Cert"
         ],
         "skills": [
-            "supervision",
-            "hygiene",
-            "inventory"
+            "Supervision",
+            "Hygiene",
+            "Inventory"
         ],
         "employers": [
-            "hospitals",
-            "hotels",
-            "schools"
+            "Hospitals",
+            "Hotels",
+            "Schools"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for supervising laundry employees and coordinating operations of the laundry, monitoring the quality of work and controlling the volume of production.",
         "responsibilities": [
-            "manage laundry ops",
-            "quality",
-            "rosters",
-            "maintenance liaison"
+            "Manage laundry ops",
+            "Quality",
+            "Rosters",
+            "Maintenance liaison"
         ]
     },
     {
@@ -3456,19 +3581,19 @@
             "Payroll Diploma; Excel"
         ],
         "skills": [
-            "payroll systems",
-            "confidentiality",
-            "accuracy"
+            "Payroll systems",
+            "Confidentiality",
+            "Accuracy"
         ],
         "employers": [
-            "all sectors"
+            "All sectors"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for administering, calculating and issuing payroll to employees.",
         "responsibilities": [
-            "process payroll",
+            "Process payroll",
             "PAYE/NSSA/NEC returns",
-            "reconciliations",
-            "audits"
+            "Reconciliations",
+            "Audits"
         ]
     },
     {
@@ -3484,20 +3609,20 @@
             "Degree; project management"
         ],
         "skills": [
-            "coordination",
-            "budgeting",
-            "writing"
+            "Coordination",
+            "Budgeting",
+            "Writing"
         ],
         "employers": [
             "NGOs",
             "UN partners"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists in providing support to programs on Monitoring and Evaluation, proposal development, documentation and gender.",
         "responsibilities": [
-            "implement activities",
-            "budgets",
-            "partner support",
-            "reports"
+            "Implement activities",
+            "Budgets",
+            "Partner support",
+            "Reports"
         ]
     },
     {
@@ -3513,20 +3638,20 @@
             "Degree; ToT experience"
         ],
         "skills": [
-            "facilitation",
-            "curriculum design",
-            "logistics"
+            "Facilitation",
+            "Curriculum design",
+            "Logistics"
         ],
         "employers": [
             "NGOs",
             "TVET projects"
         ],
-        "description": "",
+        "description": "This refers to an employee who identifies and keeps an up-to-date list of potential donors both local and foreign.",
         "responsibilities": [
-            "plan trainings",
-            "develop materials",
+            "Plan trainings",
+            "Develop materials",
             "M&E",
-            "reporting"
+            "Reporting"
         ]
     },
     {
@@ -3573,17 +3698,17 @@
         "skills": [
             "WASH tech",
             "CLTS",
-            "reporting"
+            "Reporting"
         ],
         "employers": [
             "NGOs",
-            "councils"
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for community mobilisation, selection and training of health promotors and community and school health club facilitators and monitorring the applied aspect of health club learning.",
         "responsibilities": [
-            "implement WASH",
-            "hygiene promotion",
-            "water systems",
+            "Implement WASH",
+            "Hygiene promotion",
+            "Water systems",
             "M&E"
         ]
     },
@@ -3629,22 +3754,22 @@
             "Trade Test; leadership"
         ],
         "skills": [
-            "leadership",
-            "diagnostics",
-            "planning"
+            "Leadership",
+            "Diagnostics",
+            "Planning"
         ],
         "employers": [
-            "garages",
-            "fleets",
-            "mines"
+            "Garages",
+            "Fleets",
+            "Mines"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the day to day safe and efficient operations of the workshop and who supervises and or train junior staff.",
         "responsibilities": [
-            "allocate jobs",
+            "Allocate jobs",
             "QA",
-            "inventory",
-            "customer liaison",
-            "safety"
+            "Inventory",
+            "Customer liaison",
+            "Safety"
         ]
     },
     {
@@ -3773,19 +3898,19 @@
             "Vocational training"
         ],
         "skills": [
-            "machine operation",
-            "measurements",
-            "safety"
+            "Machine operation",
+            "Measurements",
+            "Safety"
         ],
         "employers": [
-            "metalworks",
-            "furniture"
+            "Metalworks",
+            "Furniture"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for making and bending frames.",
         "responsibilities": [
-            "bend frames",
-            "operate machines",
-            "quality checks"
+            "Bend frames",
+            "Operate machines",
+            "Quality checks"
         ]
     },
     {
@@ -3801,20 +3926,20 @@
             "Degree in Social Sciences/Gender"
         ],
         "skills": [
-            "advocacy",
-            "facilitation",
-            "writing"
+            "Advocacy",
+            "Facilitation",
+            "Writing"
         ],
         "employers": [
             "NGOs",
             "CSOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who contributes to the goals and objectives of the organization by facilitating the implementation and management of all Positive and Development Projects in gender and advocacy.",
         "responsibilities": [
-            "gender analyses",
-            "advocacy plans",
-            "training",
-            "stakeholder engagement"
+            "Gender analyses",
+            "Advocacy plans",
+            "Training",
+            "Stakeholder engagement"
         ]
     },
     {
@@ -3830,22 +3955,22 @@
             "Diploma/Cert; Excel"
         ],
         "skills": [
-            "coordination",
-            "data",
-            "communication"
+            "Coordination",
+            "Data",
+            "Communication"
         ],
         "employers": [
             "FMCG",
             "NGOs",
-            "transporters"
+            "Transporters"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists in administrative support on fuel, procurement and security.",
         "responsibilities": [
-            "orders",
-            "dispatch",
+            "Orders",
+            "Dispatch",
             "PODs",
-            "inventory",
-            "filing"
+            "Inventory",
+            "Filing"
         ]
     },
     {
@@ -3861,22 +3986,22 @@
             "Procurement/SCM Cert"
         ],
         "skills": [
-            "procurement rules",
+            "Procurement rules",
             "Excel",
-            "communication"
+            "Communication"
         ],
         "employers": [
             "NGOs",
-            "public sector",
-            "corporates"
+            "Public sector",
+            "Corporates"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for assisting in the procurement of goods and services for the office in line with policy and given guidelines.",
         "responsibilities": [
             "RFQs",
-            "supplier database",
+            "Supplier database",
             "LPOs",
-            "expediting",
-            "records"
+            "Expediting",
+            "Records"
         ]
     },
     {
@@ -3892,17 +4017,17 @@
             "Cane weaving training"
         ],
         "skills": [
-            "craftsmanship",
-            "leadership"
+            "Craftsmanship",
+            "Leadership"
         ],
         "employers": [
-            "furniture workshops"
+            "Furniture workshops"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for weaving baskets and chairs and supervises junior cane weavers.",
         "responsibilities": [
-            "produce cane furniture",
-            "supervise",
-            "quality"
+            "Produce cane furniture",
+            "Supervise",
+            "Quality"
         ]
     },
     {
@@ -3918,20 +4043,20 @@
             "5 O’ Levels"
         ],
         "skills": [
-            "etiquette",
-            "clarity",
-            "multitasking"
+            "Etiquette",
+            "Clarity",
+            "Multitasking"
         ],
         "employers": [
-            "offices",
-            "hospitals",
-            "hotels"
+            "Offices",
+            "Hospitals",
+            "Hotels"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in the operation of a telephone switchboard.",
         "responsibilities": [
-            "route calls",
-            "message logs",
-            "front-line info"
+            "Route calls",
+            "Message logs",
+            "Front Line info"
         ]
     },
     {
@@ -3947,19 +4072,19 @@
             "Upholstery training"
         ],
         "skills": [
-            "sewing",
-            "measurements",
-            "quality"
+            "Sewing",
+            "Measurements",
+            "Quality"
         ],
         "employers": [
-            "furniture workshops",
-            "auto trim"
+            "Furniture workshops",
+            "Auto trim"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides upholstery services to the institution.",
         "responsibilities": [
-            "cut/assemble upholstery",
-            "repairs",
-            "patterning"
+            "Cut/Assemble upholstery",
+            "Repairs",
+            "Patterning"
         ]
     },
     {
@@ -4750,19 +4875,19 @@
             "RGN/Midwife; supervisory training"
         ],
         "skills": [
-            "leadership",
-            "triage",
-            "decision making"
+            "Leadership",
+            "Triage",
+            "Decision making"
         ],
         "employers": [
-            "hospitals"
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for directing the delivery of total nursing care to patients and supervising nursing staff and other health care workers during the night.",
         "responsibilities": [
-            "lead night staff",
-            "allocate wards",
-            "incident mgmt",
-            "reporting"
+            "Lead night staff",
+            "Allocate wards",
+            "Incident mgmt",
+            "Reporting"
         ]
     },
     {
@@ -4778,20 +4903,20 @@
             "Chemistry basics training"
         ],
         "skills": [
-            "chemical handling",
-            "QA",
+            "Chemical handling",
+            "Quality Assurrance",
             "PPE"
         ],
         "employers": [
             "SMEs",
-            "factories"
+            "Factories"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for making detergents.",
         "responsibilities": [
-            "mix batches",
-            "QA",
-            "packaging",
-            "safety"
+            "Mix batches",
+            "Quality Assurrance",
+            "Packaging",
+            "Safety"
         ]
     },
     {
@@ -4807,18 +4932,18 @@
             "Basic training"
         ],
         "skills": [
-            "machine operation",
-            "quality"
+            "Machine operation",
+            "Quality"
         ],
         "employers": [
-            "schools",
-            "offices"
+            "Schools",
+            "Offices"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for opering and maintaining a duplicating machine.",
         "responsibilities": [
-            "operate duplicator",
-            "copy jobs",
-            "maintenance"
+            "Operate duplicator",
+            "Copy jobs",
+            "Maintenance"
         ]
     },
     {
@@ -4835,19 +4960,19 @@
         ],
         "skills": [
             "KOBO/ONA",
-            "interviewing",
-            "accuracy"
+            "Interviewing",
+            "Accuracy"
         ],
         "employers": [
             "NGOs",
-            "research firms"
+            "Research firms"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for contributing to the accurate targeting for feeding programs primarily through verification of registered beneficiaries and non-beneficiaries and or complaints.",
         "responsibilities": [
-            "household surveys",
-            "consent",
-            "tool use",
-            "upload data"
+            "Household surveys",
+            "Consent",
+            "Tool use",
+            "Upload data"
         ]
     },
     {
@@ -4863,20 +4988,20 @@
             "Vocational training"
         ],
         "skills": [
-            "tools",
-            "accuracy",
-            "safety"
+            "Tools",
+            "Accuracy",
+            "Safety"
         ],
         "employers": [
-            "estates",
-            "farms"
+            "Estates",
+            "Farms"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for making fences.",
         "responsibilities": [
-            "measure",
-            "set posts",
-            "fix mesh/wire",
-            "gates"
+            "Measure",
+            "Set posts",
+            "Fix mesh/wire",
+            "Gates"
         ]
     },
     {
@@ -4892,19 +5017,19 @@
             "Vocational training"
         ],
         "skills": [
-            "tools",
-            "safety",
-            "teamwork"
+            "Tools",
+            "Safety",
+            "Teamwork"
         ],
         "employers": [
-            "farms",
-            "estates"
+            "Farms",
+            "Estates"
         ],
-        "description": "",
+        "description": "This refers to an employee who erects and maintains fences as per requirement. These include electric, plain wire and pole fences.",
         "responsibilities": [
-            "install fences",
-            "repairs",
-            "stock counts"
+            "Install fences",
+            "Repairs",
+            "Stock counts"
         ]
     },
     {
@@ -4920,20 +5045,20 @@
             "Nutrition/Teaching cert (adv.)"
         ],
         "skills": [
-            "hygiene",
-            "record keeping",
-            "comms"
+            "Hygiene",
+            "Record Keeping",
+            "Comms"
         ],
         "employers": [
-            "schools",
+            "Schools",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who monitors and supervises the day to day distributions of food within the school and solves problems encountered during the operations. He or she will foster good relations with local rural districts officials, school heads and teachers in charge of the program in the schools to facilitate the smooth implementation of the feeding program in the district.",
         "responsibilities": [
-            "monitor school feeding",
-            "hygiene",
-            "records",
-            "reporting"
+            "Monitor school feeding",
+            "Hygiene",
+            "Records",
+            "Reporting"
         ]
     },
     {
@@ -4949,20 +5074,21 @@
             "Basic literacy; security training (adv.)"
         ],
         "skills": [
-            "alertness",
-            "communication",
-            "integrity"
+            "Alertness",
+            "Communication",
+            "Integrity"
         ],
         "employers": [
-            "schools",
-            "factories",
-            "clinics"
+            "Schools",
+            "Factories",
+            "Clinics",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for controlling the entrance to and exit from the employer's premises and who may also be involved in carrying out security patrols of the premises.",
         "responsibilities": [
-            "control access",
-            "logs",
-            "patrols"
+            "Control access",
+            "Logs",
+            "Patrols"
         ]
     },
     {
@@ -4978,19 +5104,19 @@
             "Degree/Diploma; logistics knowledge"
         ],
         "skills": [
-            "coordination",
+            "Coordination",
             "Excel",
-            "communication"
+            "Communication"
         ],
         "employers": [
             "NGOs",
-            "faith orgs"
+            "Faith organizations"
         ],
-        "description": "",
+        "description": "This refers to an employee who facilitates the GIK management process in the sector so as to ensure that there is a liason between the GIK sector support offices and to plan, receive, distribute and report on all on behalf of the programme manager.",
         "responsibilities": [
-            "manage GIK pipeline",
-            "donor reporting",
-            "distributions"
+            "Manage GIK pipeline",
+            "Donor reporting",
+            "Distributions"
         ]
     },
     {
@@ -5006,20 +5132,19 @@
             "Animal handling training"
         ],
         "skills": [
-            "animal care",
-            "safety",
-            "stamina"
+            "Animal care",
+            "Safety",
+            "Stamina"
         ],
         "employers": [
-            "farms",
-            "lodges"
+            "Farms",
+            "Lodges"
         ],
-        "description": "",
+        "description": "This refers to an employee who is employed to take care of horses.",
         "responsibilities": [
-            "stable care",
-            "feeding",
-            "exercise horses",
-            "tack care"
+            "Stable care",
+            "Feeding",
+            "Exercise horses"
         ]
     },
     {
@@ -5035,20 +5160,20 @@
             "Tour guiding cert; first aid"
         ],
         "skills": [
-            "navigation",
-            "customer service",
-            "safety"
+            "Navigation",
+            "Customer service",
+            "Safety"
         ],
         "employers": [
-            "lodges",
-            "conservancies"
+            "Lodges",
+            "Conservancies"
         ],
-        "description": "",
+        "description": "This refers to an employee who guides and informs guests on the fauna and flora of the estate either on horseback or walking.",
         "responsibilities": [
-            "lead trails",
-            "safety briefings",
-            "interpretive talks",
-            "emergency response"
+            "Lead trails",
+            "Safety briefings",
+            "Interpretive talks",
+            "Emergency response"
         ]
     },
     {
@@ -5064,20 +5189,20 @@
             "Basic training"
         ],
         "skills": [
-            "hygiene",
-            "stamina",
-            "attention"
+            "Hygiene",
+            "Stamina",
+            "Attention"
         ],
         "employers": [
-            "hotels",
-            "hospitals"
+            "Hotels",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in the washing and ironing by hand of articles of clothing or linen, which are normally subject to the process of laundering.",
         "responsibilities": [
-            "hand wash",
-            "stain removal",
-            "drying",
-            "ironing"
+            "Hand wash",
+            "Stain removal",
+            "Drying",
+            "Ironing"
         ]
     },
     {
@@ -5093,19 +5218,19 @@
             "Basic trade skills"
         ],
         "skills": [
-            "multi-skill",
-            "safety",
-            "tools"
+            "Multi Skill",
+            "Safety",
+            "Tools"
         ],
         "employers": [
-            "schools",
-            "clinics"
+            "Schools",
+            "Clinics"
         ],
-        "description": "",
+        "description": "This refers to an employee who is employed on mechanical, electrical or carpentry work, boiler maintenance, welding, painting, repairs and renovations of a minor nature to his employer's property, who works under supervision and is not required to embark upon or carry out any task in occupations prescribed for trade designated or deemed to have been.",
         "responsibilities": [
-            "minor repairs",
-            "painting",
-            "plumbing/electrical assists"
+            "Minor repairs",
+            "Painting",
+            "Plumbing Electrical assists"
         ]
     },
     {
@@ -5121,19 +5246,19 @@
             "Basic trade skills"
         ],
         "skills": [
-            "tools",
-            "eagerness",
-            "safety"
+            "Tools",
+            "Eagerness",
+            "Safety"
         ],
         "employers": [
-            "estates",
-            "offices"
+            "Estates",
+            "Offices"
         ],
-        "description": "",
+        "description": "This refers to an employee who is employed on mechanical, electrical or carpentry work, boiler maintenance, welding, painting, repairs and renovations of minor nature to his employer's property, who works under supervision who has undergone a course of instruction form a vocational training institution, government polytechnic college or any registered training institution but does not possess a skilled worker's certificate and is not required to embark upon or carry out any task in occupations prescribed for trade designated or deemed to have been.",
         "responsibilities": [
-            "assist repairs",
-            "carry materials",
-            "cleanup"
+            "Assist repairs",
+            "Carry materials",
+            "Cleanup"
         ]
     },
     {
@@ -5149,21 +5274,21 @@
             "Horticulture cert"
         ],
         "skills": [
-            "leadership",
-            "landscaping",
-            "scheduling"
+            "Leadership",
+            "Landscaping",
+            "Scheduling"
         ],
         "employers": [
-            "schools",
-            "estates",
-            "sports clubs"
+            "Schools",
+            "Estates",
+            "Sports clubs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in the organization and supervision of grounds staff and who is responsible for the maintenance of tools and equipment and all aspects of the care and maintenance of grounds, car parks, walkaways and similar areas.",
         "responsibilities": [
-            "plan grounds work",
-            "supervise team",
-            "irrigation",
-            "procurement"
+            "Plan grounds work",
+            "Supervise team",
+            "Irrigation",
+            "Procurement"
         ]
     },
     {
@@ -5179,22 +5304,22 @@
             "Production/Industrial Eng. Degree/Diploma"
         ],
         "skills": [
-            "leadership",
-            "planning",
+            "Leadership",
+            "Planning",
             "Lean",
-            "data analysis"
+            "Data analysis"
         ],
         "employers": [
-            "factories",
-            "food processing"
+            "Factories",
+            "Food processing"
         ],
-        "description": "",
+        "description": "This refers to an employee who manages production by assigning projects to the production team and managing the flow of production.",
         "responsibilities": [
-            "plan production",
+            "Plan production",
             "KPIs",
-            "quality",
-            "maintenance liaison",
-            "cost control"
+            "Quality",
+            "Maintenance liaison",
+            "Cost control"
         ]
     },
     {
@@ -5210,21 +5335,21 @@
             "Horticulture Diploma/Degree"
         ],
         "skills": [
-            "plant science",
+            "Plant science",
             "IPM",
-            "irrigation"
+            "Irrigation"
         ],
         "employers": [
-            "farms",
-            "estates",
-            "councils"
+            "Farms",
+            "Estates",
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for growing, selling and harvesting flowers, plants, shrubs and trees under the direction of a supervision.",
         "responsibilities": [
-            "crop plans",
-            "pest control",
-            "nursery mgmt",
-            "quality"
+            "Crop plans",
+            "Pest control",
+            "Nursery mgmt",
+            "Quality"
         ]
     },
     {
@@ -5240,18 +5365,18 @@
             "Basic training"
         ],
         "skills": [
-            "customer service",
-            "hygiene"
+            "Customer service",
+            "Hygiene"
         ],
         "employers": [
-            "boarding schools",
-            "hostels"
+            "Boarding schools",
+            "Hostels"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the general cleanliness of residents' rooms and for taking general care of residents.",
         "responsibilities": [
-            "clean rooms",
-            "assist boarders",
-            "linen handling"
+            "Clean rooms",
+            "Assist boarders",
+            "Linen handling"
         ]
     },
     {
@@ -5267,19 +5392,19 @@
             "Childcare/education background"
         ],
         "skills": [
-            "pastoral care",
-            "communication",
-            "first aid"
+            "Pastoral care",
+            "Communication",
+            "First aid"
         ],
         "employers": [
-            "boarding schools"
+            "Boarding schools"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in all aspects of the care of children being cared for in an institution which provides special care.",
         "responsibilities": [
-            "welfare of boarders",
-            "discipline",
-            "liaise parents",
-            "activities"
+            "Welfare of boarders",
+            "Discipline",
+            "Liaise parents",
+            "Activities"
         ]
     },
     {
@@ -5295,21 +5420,21 @@
             "IT Cert; 5 O’ Levels"
         ],
         "skills": [
-            "troubleshooting",
-            "customer service",
-            "basics networking"
+            "Troubleshooting",
+            "Customer service",
+            "Basics networking"
         ],
         "employers": [
             "SMEs",
-            "schools",
+            "Schools",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists in support and maintenance of the day to day operations of an organisation's management information systems through the provision of a client oriented service that focuses on the support of field staff and the implementation of innovative solutions that automate business processes and informed decision making.",
         "responsibilities": [
-            "helpdesk",
-            "setups",
+            "Helpdesk",
+            "Setups",
             "printer/network support",
-            "inventory"
+            "Inventory"
         ]
     },
     {
@@ -5326,20 +5451,20 @@
         ],
         "skills": [
             "IC best practice",
-            "data",
-            "training"
+            "Data",
+            "Training"
         ],
         "employers": [
-            "hospitals",
-            "clinics"
+            "Hospitals",
+            "Clinics"
         ],
-        "description": "",
+        "description": "This refers to an employee who is a State Registered General Nurse responsible for supervising infection control activities and instructing other nurses and health care workers on proper consultation procedures.",
         "responsibilities": [
             "IC policy",
-            "audits",
-            "training",
-            "surveillance",
-            "reporting"
+            "Audits",
+            "Training",
+            "Surveillance",
+            "Reporting"
         ]
     },
     {
@@ -5355,20 +5480,20 @@
             "Basic literacy"
         ],
         "skills": [
-            "speed",
-            "accuracy",
-            "teamwork"
+            "Speed",
+            "Accuracy",
+            "Teamwork"
         ],
         "employers": [
-            "factories",
-            "warehouses"
+            "Factories",
+            "Warehouses"
         ],
-        "description": "",
+        "description": "This refers to an employee who carries out and collects, cleans, checks, pack and sterilizes equipment and sterile packs and trays to theatre and wards",
         "responsibilities": [
-            "pack goods",
-            "label",
-            "count",
-            "quality checks"
+            "Pack goods",
+            "Label",
+            "Count",
+            "Quality checks"
         ]
     },
     {
@@ -5384,19 +5509,19 @@
             "Science O’ Levels; Lab assistant cert (adv.)"
         ],
         "skills": [
-            "accuracy",
-            "safety",
-            "PPE"
+            "Accuracy",
+            "Safety",
+            "Ppe"
         ],
         "employers": [
-            "hospitals",
-            "labs"
+            "Hospitals",
+            "Labs"
         ],
-        "description": "",
+        "description": "This refers to an employee whose responsible to the teacher in charge of science whose duties include the preparation of materials equipment, washing up cleanliness of laboratories and ancillary rooms etc.",
         "responsibilities": [
-            "sample handling",
-            "cleaning",
-            "records"
+            "Sample handling",
+            "Cleaning",
+            "Records"
         ]
     },
     {
@@ -5412,21 +5537,21 @@
             "Basic training"
         ],
         "skills": [
-            "hygiene",
-            "stamina",
-            "time mgmt"
+            "Hygiene",
+            "Stamina",
+            "Time management"
         ],
         "employers": [
-            "hospitals",
-            "hotels"
+            "Hospitals",
+            "Hotels"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for assisting in the washing and ironing of clothes.",
         "responsibilities": [
-            "sort",
-            "wash",
-            "dry",
-            "fold",
-            "deliver linen"
+            "Sort",
+            "Wash",
+            "Dry",
+            "Fold",
+            "Deliver linen"
         ]
     },
     {
@@ -5442,19 +5567,19 @@
             "Basic training"
         ],
         "skills": [
-            "attention",
-            "hygiene",
-            "speed"
+            "Attention",
+            "Hygiene",
+            "Speed"
         ],
         "employers": [
-            "laundries",
-            "hospitals"
+            "Laundries",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who receives and records all types of clothing, linen, etc. for laundering and is responsible for their dispatch and receiving.",
         "responsibilities": [
-            "sort by color/fabric",
-            "inspect stains",
-            "route loads"
+            "Sort by color/fabric",
+            "Inspect stains",
+            "Route Loads"
         ]
     },
     {
@@ -5498,19 +5623,19 @@
             "Sewing training"
         ],
         "skills": [
-            "sewing",
-            "quality",
-            "time mgmt"
+            "Sewing",
+            "Quality",
+            "Time management"
         ],
         "employers": [
-            "hotels",
-            "hospitals"
+            "Hotels",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who carries out repairs to garments and or linen.",
         "responsibilities": [
-            "repair linen",
-            "hemming",
-            "alterations"
+            "Repair linen",
+            "Hemming",
+            "Alterations"
         ]
     },
     {
@@ -5526,19 +5651,19 @@
             "Laundry/machine operation training"
         ],
         "skills": [
-            "machine operation",
-            "hygiene",
-            "safety"
+            "Machine operation",
+            "Hygiene",
+            "Safety"
         ],
         "employers": [
-            "laundries",
-            "hospitals"
+            "Laundries",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in washing and ironing articles of clothing and linen using an electric or mechanical laundry machne (such as a washing machine, a tumble drier, a roller iron or an extractor.",
         "responsibilities": [
-            "operate washers/dryers",
-            "dosing",
-            "maintenance checks"
+            "Operate washers/dryers",
+            "Dosing",
+            "Maintenance checks"
         ]
     },
     {
@@ -5554,22 +5679,22 @@
             "Marketing Diploma"
         ],
         "skills": [
-            "content",
-            "analytics",
-            "design basics",
-            "comms"
+            "Content",
+            "Analytics",
+            "Design basics",
+            "Comms"
         ],
         "employers": [
-            "agencies",
+            "Agencies",
             "SMEs",
             "FMCG"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists in identifying markets and keeping an up-to-date list of potential donors both local and foreign.",
         "responsibilities": [
-            "support campaigns",
-            "social media",
-            "events",
-            "reports"
+            "Support campaigns",
+            "Social media",
+            "Events",
+            "Reports"
         ]
     },
     {
@@ -5585,19 +5710,19 @@
             "Milling/Production Cert"
         ],
         "skills": [
-            "process control",
+            "Process control",
             "QA",
-            "safety"
+            "Safety"
         ],
         "employers": [
-            "milling companies"
+            "Milling companies"
         ],
-        "description": "",
+        "description": "This refers to an employee who is enaged in the grinding of grains for use at the employers' establishment.",
         "responsibilities": [
-            "operate mills",
+            "Operate mills",
             "QC",
-            "silo mgmt",
-            "maintenance liaison"
+            "Silo management",
+            "Maintenance liaison"
         ]
     },
     {
@@ -5615,18 +5740,18 @@
         "skills": [
             "Excel/PowerBI",
             "KOBO",
-            "analysis"
+            "Analysis"
         ],
         "employers": [
             "NGOs",
-            "research"
+            "Research"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists the monitoring and evaluation officer to monitor and evaluate programs.",
         "responsibilities": [
-            "data collection",
-            "cleaning",
-            "dashboards",
-            "learning events"
+            "Data collection",
+            "Cleaning",
+            "Dashboards",
+            "Learning events"
         ]
     },
     {
@@ -5642,18 +5767,18 @@
             "Basic training"
         ],
         "skills": [
-            "customer service",
-            "equipment use"
+            "Customer service",
+            "Equipment use"
         ],
         "employers": [
-            "schools",
-            "estates"
+            "Schools",
+            "Estates"
         ],
-        "description": "",
+        "description": "This refers to an employee who is employed in the operation of a mowing machine and assists in the coffee shop.",
         "responsibilities": [
-            "mow lawns",
-            "assist coffee shop service",
-            "cleaning"
+            "Mow lawns",
+            "Assist coffee shop service",
+            "Cleaning"
         ]
     },
     {
@@ -5669,21 +5794,21 @@
             "OT Degree; registration"
         ],
         "skills": [
-            "clinical OT",
-            "empathy",
-            "teamwork"
+            "Clinical OT",
+            "Empathy",
+            "Teamwork"
         ],
         "employers": [
-            "hospitals",
-            "rehab centres",
+            "Hospitals",
+            "Rehab centres",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for providing occupational therapy services in an optimum environment for patients.",
         "responsibilities": [
-            "assess function",
-            "treatment plans",
-            "assistive devices",
-            "documentation"
+            "Assess function",
+            "Treatment plans",
+            "Assistive devices",
+            "Documentation"
         ]
     },
     {
@@ -5700,19 +5825,19 @@
         ],
         "skills": [
             "reliability",
-            "hygiene",
-            "time mgmt"
+            "Hygiene",
+            "Time management"
         ],
         "employers": [
-            "offices",
-            "clinics",
-            "schools"
+            "Offices",
+            "Clinics",
+            "Schools"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in cleaning of offices, windows, mopping, sweeping floors, making tea and moving files or mail from one office to another.",
         "responsibilities": [
-            "serve refreshments",
-            "tidy offices",
-            "run errands"
+            "Serve refreshments",
+            "Tidy offices",
+            "Run errands"
         ]
     },
     {
@@ -5725,22 +5850,22 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "5+ years",
         "qualifications": [
-            "Class I Trade Test"
+            "Skilled Worker Class I (Cert. RASM)"
         ],
         "skills": [
-            "finishes",
-            "color",
-            "leadership"
+            "Finishes",
+            "Color",
+            "Leadership"
         ],
         "employers": [
-            "construction",
-            "estates"
+            "Construction",
+            "Estates"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides painting services in maintenance of the organisation's buildings and premises who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker class I in terms of the Manpower Planning and Development Act [Chapter 28:05].",
         "responsibilities": [
-            "plan finishes",
-            "advanced techniques",
-            "supervise"
+            "Plan finishes",
+            "Advanced techniques",
+            "Supervise"
         ]
     },
     {
@@ -5753,20 +5878,20 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "3-5 years",
         "qualifications": [
-            "Class II Trade Test"
+            "Skilled Worker Class II (cert. RASM)"
         ],
         "skills": [
-            "painting",
-            "safety"
+            "Painting",
+            "Safety"
         ],
         "employers": [
-            "sites"
+            "Sites"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides painting services in maintenance of the organisation's buildings and premises who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker class II in terms of the Manpower Planning and Development Act [Chapter 28:05].",
         "responsibilities": [
-            "paint",
-            "minor repairs",
-            "surface prep"
+            "Paint",
+            "Minor repairs",
+            "Surface prep"
         ]
     },
     {
@@ -5779,20 +5904,20 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "2-4 years",
         "qualifications": [
-            "Class III Trade Test"
+            "Skilled Worker Class III (cert. RASM)"
         ],
         "skills": [
-            "tools",
-            "safety"
+            "Tools",
+            "Safety"
         ],
         "employers": [
             "SMEs"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides painting services in maintenance of the organisation's buildings and premises who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker class III in terms of the Manpower Planning and Development Act [Chapter 28:05].",
         "responsibilities": [
-            "basic painting",
-            "sanding",
-            "undercoats"
+            "Basic painting",
+            "Sanding",
+            "Undercoats"
         ]
     },
     {
@@ -5805,19 +5930,19 @@
         "industry": "Skilled Trades & Technical Services",
         "yearsExperience": "0-2 years",
         "qualifications": [
-            "Class IV Trade Test"
+            "Skilled Worker Class IV (Cert. RASM)"
         ],
         "skills": [
-            "tools",
-            "safety"
+            "Tools",
+            "Safety"
         ],
         "employers": [
-            "construction"
+            "Construction"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides painting services in maintenance of the organisation's buildings and premises who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker class IV in terms of the Manpower Planning and Development Act [Chapter 28:05].",
         "responsibilities": [
-            "assist painters",
-            "cleanup"
+            "Assist painters",
+            "Cleanup"
         ]
     },
     {
@@ -5833,19 +5958,19 @@
             "Basic training"
         ],
         "skills": [
-            "machine ops",
-            "customer service",
-            "quality"
+            "Machine ops",
+            "Customer service",
+            "Quality"
         ],
         "employers": [
-            "print shops",
-            "offices"
+            "Print shops",
+            "Offices"
         ],
-        "description": "",
+        "description": "This refers to an employee who operates a photocopier and or copy printer and is responsible for reporting faults and irregularities that inevitably occur from time to time.",
         "responsibilities": [
-            "operate copier/printer",
-            "finishing",
-            "maintenance calls"
+            "Operate copier/printer",
+            "Finishing",
+            "Maintenance calls"
         ]
     },
     {
@@ -5861,21 +5986,21 @@
             "Physio Degree; registration"
         ],
         "skills": [
-            "manual therapy",
-            "exercise therapy",
-            "empathy"
+            "Manual therapy",
+            "Exercise therapy",
+            "Empathy"
         ],
         "employers": [
-            "hospitals",
-            "private practice",
-            "sports"
+            "Hospitals",
+            "Private practice",
+            "Sports"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for providing physiotherapy services to patients in an optimum environment.",
         "responsibilities": [
-            "assess",
-            "rehab programmes",
-            "documentation",
-            "patient education"
+            "Assess",
+            "Rehab programmes",
+            "Documentation",
+            "Patient education"
         ]
     },
     {
@@ -5891,18 +6016,18 @@
             "ECD aide course (adv.)"
         ],
         "skills": [
-            "care",
-            "patience",
-            "teamwork"
+            "Care",
+            "Patience",
+            "Teamwork"
         ],
         "employers": [
             "ECD centres"
         ],
-        "description": "",
+        "description": "This refers to an employee with no special qualifications who assists in the supervision of children who have not reached school age and are in the care of the establishment concerned.",
         "responsibilities": [
-            "support teacher",
-            "child care",
-            "activities setup"
+            "Support teacher",
+            "Child care",
+            "Activities setup"
         ]
     },
     {
@@ -5946,20 +6071,20 @@
             "Diploma"
         ],
         "skills": [
-            "organization",
+            "Organization",
             "MS Office",
-            "comms"
+            "Comms"
         ],
         "employers": [
             "NGOs",
-            "corporates"
+            "Corporates"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists in performing a variety of administrative, coordinative and monitoring services to ensure efficient daily running of the food security and livelihoods office and in support of the program activities.",
         "responsibilities": [
-            "support planning",
-            "procurement",
-            "reporting",
-            "filing"
+            "Support planning",
+            "Procurement",
+            "Reporting",
+            "Filing"
         ]
     },
     {
@@ -5975,18 +6100,18 @@
             "Rehab assistant cert"
         ],
         "skills": [
-            "patient handling",
-            "documentation"
+            "Patient handling",
+            "Documentation"
         ],
         "employers": [
-            "rehab centres",
-            "hospitals"
+            "Rehab centres",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for assisting in physiotherapy or occupational theray under the supervision of qualified staff.",
         "responsibilities": [
-            "assist therapists",
-            "patient exercises",
-            "equipment care"
+            "Assist therapists",
+            "Patient exercises",
+            "Equipment care"
         ]
     },
     {
@@ -6002,20 +6127,20 @@
             "Basic business/admin"
         ],
         "skills": [
-            "customer service",
-            "basic tech",
-            "record keeping"
+            "Customer service",
+            "Basic tech",
+            "Record keeping"
         ],
         "employers": [
-            "rehab NGOs",
+            "Rehab NGOs",
             "SMEs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for arranging the hiring of equipment which is used in the rehabilitation of patients.",
         "responsibilities": [
-            "rent out devices",
-            "maintenance",
-            "client training",
-            "records"
+            "Rent out devices",
+            "Maintenance",
+            "Client training",
+            "Records"
         ]
     },
     {
@@ -6031,20 +6156,20 @@
             "5 O’ Levels"
         ],
         "skills": [
-            "customer service",
+            "Customer service",
             "POS",
-            "product knowledge"
+            "Product knowledge"
         ],
         "employers": [
-            "retail stores",
-            "pharmacies"
+            "Retail stores",
+            "Pharmacies"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists the salesperson or the retailer in serving customers in a shop.",
         "responsibilities": [
-            "serve customers",
-            "restock",
-            "cashing",
-            "merchandising"
+            "Serve customers",
+            "Restock",
+            "Cashing",
+            "Merchandising"
         ]
     },
     {
@@ -6060,18 +6185,18 @@
             "Lab assistant cert; exp"
         ],
         "skills": [
-            "supervision",
-            "accuracy"
+            "Supervision",
+            "Accuracy"
         ],
         "employers": [
-            "labs",
-            "hospitals"
+            "Labs",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is in possession of a trade test certificate, or has been promoted, or with appropriate experience responsible for the supervision of other laboratory assistants.",
         "responsibilities": [
-            "lead assistants",
-            "supplies",
-            "records QA"
+            "Lead assistants",
+            "Supplies",
+            "Records QA"
         ]
     },
     {
@@ -6087,18 +6212,18 @@
             "Basic literacy; rider/driver (adv.)"
         ],
         "skills": [
-            "supervision",
-            "reliability"
+            "Supervision",
+            "Reliability"
         ],
         "employers": [
-            "corporates",
-            "schools"
+            "Corporates",
+            "Schools"
         ],
-        "description": "",
+        "description": "This refers to an employee who performs the functions of a messenger together with such additional similar responsibilites as may be required.",
         "responsibilities": [
-            "oversee messengers",
-            "route planning",
-            "mail logs"
+            "Oversee messengers",
+            "Route planning",
+            "Mail logs"
         ]
     },
     {
@@ -6114,19 +6239,19 @@
             "Basic literacy; exp"
         ],
         "skills": [
-            "leadership",
-            "speed",
-            "accuracy"
+            "Leadership",
+            "Speed",
+            "Accuracy"
         ],
         "employers": [
-            "factories",
-            "warehouses"
+            "Factories",
+            "Warehouses"
         ],
-        "description": "",
+        "description": "This refers to an employee who oversees a junior packer and collects, cleans, checks, packs and sterilises equipment and supplies sterile packs and trays to theatre and wards while overseeing a junior packer.",
         "responsibilities": [
-            "lead packing team",
-            "quality checks",
-            "counts"
+            "Lead packing team",
+            "Quality checks",
+            "Counts"
         ]
     },
     {
@@ -6142,19 +6267,19 @@
             "Basic literacy; cash handling"
         ],
         "skills": [
-            "customer service",
-            "numeracy"
+            "Customer service",
+            "Numeracy"
         ],
         "employers": [
-            "schools",
-            "communities"
+            "Schools",
+            "Communities"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in ordering goods, maintaining stocks, and keeping all items for sale and the selling of such goods.",
         "responsibilities": [
-            "stock",
-            "sales",
-            "cashing",
-            "supplier liaison"
+            "Stock",
+            "Sales",
+            "Cashing",
+            "Supplier liaison"
         ]
     },
     {
@@ -6170,20 +6295,20 @@
             "Speech & Language Therapy Degree"
         ],
         "skills": [
-            "clinical skills",
-            "empathy",
-            "communication"
+            "Clinical skills",
+            "Empathy",
+            "Communication"
         ],
         "employers": [
-            "hospitals",
-            "schools",
+            "Hospitals",
+            "Schools",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for controlling the quality of work and controlling the volume of prodcution in accordance with the Medical Rehabilitation Council of Zimbabwe standards.",
         "responsibilities": [
-            "assess & treat speech/language/swallowing",
-            "caregiver training",
-            "records"
+            "Assess & treat speech/language/swallowing",
+            "Caregiver training",
+            "Records"
         ]
     },
     {
@@ -6199,18 +6324,18 @@
             "Informal training"
         ],
         "skills": [
-            "machine operation",
-            "attention",
-            "safety"
+            "Machine operation",
+            "Attention",
+            "Safety"
         ],
         "employers": [
             "textile/craft workshops"
         ],
-        "description": "",
+        "description": "This refers to an employee who provides Sponsorship Operations on Step 1 and SD PLUS support to the ADP in establishing, maintaining and facilitating positive relationships between registered children and their sponsors, parents, communities and the Support Offices.",
         "responsibilities": [
-            "operate step (loom) equipment",
-            "quality",
-            "maintenance checks"
+            "Operate step (loom) equipment",
+            "Quality",
+            "Maintenance checks"
         ]
     },
     {
@@ -6226,22 +6351,22 @@
             "Stores/Warehouse Cert"
         ],
         "skills": [
-            "inventory",
+            "Inventory",
             "Excel",
-            "accuracy"
+            "Accuracy"
         ],
         "employers": [
-            "factories",
+            "Factories",
             "NGOs",
-            "retailers"
+            "Retailers"
         ],
-        "description": "",
+        "description": "This refers to an employee who receives goods against an invoice, issues or allocates them to certain jobs, keeps records and whose duties also include handing out equipment and ensuring that it is returned into the storeroom/s.",
         "responsibilities": [
             "GRVs",
-            "binning",
-            "issues",
-            "stock-takes",
-            "reorder levels"
+            "Binning",
+            "Issues",
+            "Stock Takes",
+            "Reorder levels"
         ]
     },
     {
@@ -6257,21 +6382,21 @@
             "Journalism/Media Diploma"
         ],
         "skills": [
-            "editing",
-            "style guides",
-            "detail"
+            "Editing",
+            "Style guides",
+            "Detail"
         ],
         "employers": [
-            "newspapers",
-            "magazines",
-            "online media"
+            "Newspapers",
+            "Magazines",
+            "Online media"
         ],
-        "description": "",
+        "description": "This refers to an employee who edits copies written by reporters and corrects spelling mistakes as well as grammatical errors.",
         "responsibilities": [
-            "edit copy",
-            "headlines",
-            "fact-check",
-            "layout coordination"
+            "Edit copy",
+            "Headlines",
+            "Fact Check",
+            "Layout coordination"
         ]
     },
     {
@@ -6287,21 +6412,21 @@
             "Tailoring training"
         ],
         "skills": [
-            "sewing",
-            "pattern making",
-            "customer service"
+            "Sewing",
+            "Pattern making",
+            "Customer service"
         ],
         "employers": [
-            "markets",
-            "boutiques"
+            "Markets",
+            "Boutiques"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in cutting out and assembling garments and linen and in the repair of the same.",
         "responsibilities": [
-            "measure",
-            "cut",
-            "sew",
-            "fittings",
-            "alterations"
+            "Measure",
+            "Cut",
+            "Sew",
+            "Fittings",
+            "Alterations"
         ]
     },
     {
@@ -6317,19 +6442,19 @@
             "Therapy aide cert"
         ],
         "skills": [
-            "care",
-            "communication",
-            "safety"
+            "Care",
+            "Communication",
+            "Safety"
         ],
         "employers": [
-            "rehab centres",
-            "hospitals"
+            "Rehab centres",
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for assisting patients in therapies during their session.",
         "responsibilities": [
-            "assist physio/OT",
-            "patient support",
-            "equipment cleaning"
+            "Assist physio/OT",
+            "Patient support",
+            "Equipment cleaning"
         ]
     },
     {
@@ -6345,19 +6470,47 @@
             "Braille training; typing"
         ],
         "skills": [
-            "braille",
-            "accuracy",
-            "patience"
+            "Braille",
+            "Accuracy",
+            "Patience"
         ],
         "employers": [
-            "special schools",
+            "Special schools",
             "NGOs"
         ],
-        "description": "",
+        "description": "This is an employee who is responsible for converting prints into Braille and vice versa.",
         "responsibilities": [
-            "transcribe to/from braille",
-            "maintain braillers",
-            "assist learners"
+            "Transcribe to/from braille",
+            "Maintain braillers",
+            "Assist learners"
+        ]
+    },
+    {
+        "id": "Senior-Transcriber/Brailist",
+        "titles": [
+            "Senior Transcriber/Brailist"
+        ],
+        "sector": "Education/Disability Services",
+        "grade": "B5",
+        "industry": "Education/Disability Services",
+        "yearsExperience": "1-3 years",
+        "qualifications": [
+            "Braille training; typing"
+        ],
+        "skills": [
+            "Braille",
+            "Accuracy",
+            "Patience"
+        ],
+        "employers": [
+            "Special schools",
+            "NGOs"
+        ],
+        "description": "This refers to an employee who converts print into Braille or vice versa and is responsible for supervising other Braillists.",
+        "responsibilities": [
+            "Transcribe to/from braille",
+            "Maintain braillers",
+            "Assist learners"
         ]
     },
     {
@@ -6373,22 +6526,22 @@
             "5 O’ Levels"
         ],
         "skills": [
-            "inventory basics",
-            "accuracy",
-            "stamina"
+            "Inventory basics",
+            "Accuracy",
+            "Stamina"
         ],
         "employers": [
             "3PLs",
-            "retailers",
+            "Retailers",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists the Warehouse supervisor in the management of records, inspection of trucks, stacking of commodities, receiving and dispatching of commodities.",
         "responsibilities": [
-            "receiving",
-            "picking",
-            "packing",
-            "dispatch",
-            "housekeeping"
+            "Receiving",
+            "Picking",
+            "Packing",
+            "Dispatch",
+            "Housekeeping"
         ]
     },
     {
@@ -6401,23 +6554,23 @@
         "industry": "Fabrication",
         "yearsExperience": "5+ years",
         "qualifications": [
-            "Class I Trade Test"
+            "Skilled Worker Class I (Cert. RASM)"
         ],
         "skills": [
             "MIG/TIG/Arc",
-            "reading drawings",
+            "Reading drawings",
             "QA"
         ],
         "employers": [
             "mines",
-            "construction",
-            "workshops"
+            "Construction",
+            "Workshops"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining any mechanical equipment within the organisation by welding who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skiller worker Class I in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "fabricate per drawings",
-            "pressure welds",
-            "supervise"
+            "Fabricate per drawings",
+            "Pressure welds",
+            "Supervise"
         ]
     },
     {
@@ -6430,20 +6583,20 @@
         "industry": "Fabrication",
         "yearsExperience": "3-5 years",
         "qualifications": [
-            "Class II Trade Test"
+            "Skilled Worker Class II (cert. RASM)"
         ],
         "skills": [
-            "welding processes",
-            "safety"
+            "Welding processes",
+            "Safety"
         ],
         "employers": [
-            "workshops",
-            "estates"
+            "Workshops",
+            "Estates"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining any mechanical equipment within the organisation by welding who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skiller worker Class II in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "fabrication",
-            "repairs",
+            "Fabrication",
+            "Repairs",
             "QA checks"
         ]
     },
@@ -6457,20 +6610,20 @@
         "industry": "Fabrication",
         "yearsExperience": "2-4 years",
         "qualifications": [
-            "Class III Trade Test"
+            "Skilled Worker Class III (cert. RASM)"
         ],
         "skills": [
-            "welding basics",
-            "safety"
+            "Welding basics",
+            "Safety"
         ],
         "employers": [
             "SMEs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining any mechanical equipment within the organisation by welding who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skiller worker Class III in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "basic welding",
-            "cutting",
-            "grinding"
+            "Basic welding",
+            "Cutting",
+            "Grinding"
         ]
     },
     {
@@ -6483,20 +6636,20 @@
         "industry": "Fabrication",
         "yearsExperience": "0-2 years",
         "qualifications": [
-            "Class IV Trade Test"
+            "Skilled Worker Class IV (Cert. RASM)"
         ],
         "skills": [
-            "tools",
-            "safety",
-            "learning"
+            "Tools",
+            "Safety",
+            "Learning"
         ],
         "employers": [
-            "workshops"
+            "Workshops"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for repairing and maintaining any mechanical equipment within the organisation by welding who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skiller worker Class IV in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
-            "assist welders",
-            "prep materials"
+            "Assist welders",
+            "Prep materials"
         ]
     },
     {
@@ -6512,21 +6665,21 @@
             "Degree/Diploma in Social Work/Development"
         ],
         "skills": [
-            "facilitation",
-            "counseling",
-            "planning"
+            "Facilitation",
+            "Counseling",
+            "Planning"
         ],
         "employers": [
             "NGOs",
-            "councils",
-            "faith orgs"
+            "Councils",
+            "Faith orgs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for coordinating all the activities relating to youth and children in an organisation.",
         "responsibilities": [
-            "youth programs",
-            "mentorship",
-            "partnerships",
-            "monitoring"
+            "Youth programs",
+            "Mentorship",
+            "Partnerships",
+            "Monitoring"
         ]
     },
     {
@@ -6571,19 +6724,19 @@
             "Basic security training; vetting"
         ],
         "skills": [
-            "alertness",
-            "communication",
-            "integrity"
+            "Alertness",
+            "Communication",
+            "Integrity"
         ],
         "employers": [
-            "security firms",
-            "institutions"
+            "Security firms",
+            "Institutions"
         ],
-        "description": "",
+        "description": "This refers to an employee who carries out routine patrol work and or gate control duties to assist in the protection of the organisation's premises and the checking of personnel and goods in and out of the organisation.",
         "responsibilities": [
-            "access control",
-            "patrols",
-            "incident reporting"
+            "Access control",
+            "Patrols",
+            "Incident reporting"
         ]
     },
     {
@@ -6626,19 +6779,19 @@
             "Class 1 license; defensive driving"
         ],
         "skills": [
-            "heavy vehicle ops",
-            "safety",
-            "routeing"
+            "Heavy vehicle ops",
+            "Safety",
+            "Routeing"
         ],
         "employers": [
-            "logistics",
-            "mining"
+            "Logistics",
+            "Mining"
         ],
-        "description": "",
+        "description": "This refers to an employee who is employed primarily to drive an omnibus and who is in possession of a class 1 driver's licence.",
         "responsibilities": [
-            "long-haul trucking",
-            "logs",
-            "vehicle checks"
+            "Long Haul trucking",
+            "Logs",
+            "Vehicle checks"
         ]
     },
     {
@@ -6654,19 +6807,19 @@
             "Class 2 license; defensive driving"
         ],
         "skills": [
-            "driving",
-            "customer service",
-            "safety"
+            "Driving",
+            "Customer service",
+            "Safety"
         ],
         "employers": [
             "FMCG",
-            "councils"
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is employed primarily to drive heavy-duty vehicles except those that carry passengers (omnibuses) and who is in possession of a class 2 driver's licence.",
         "responsibilities": [
-            "deliveries",
-            "route logs",
-            "basic maintenance"
+            "Deliveries",
+            "Route logs",
+            "Basic maintenance"
         ]
     },
     {
@@ -6682,17 +6835,17 @@
             "Class 3 license"
         ],
         "skills": [
-            "driving",
-            "time mgmt"
+            "Driving",
+            "Time management"
         ],
         "employers": [
             "SMEs",
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee whose duties include the driving of a motorbike or a scooter and who is in possession of a class 3 driver's licence.",
         "responsibilities": [
-            "light vehicle deliveries",
-            "errands"
+            "Light vehicle deliveries",
+            "Errands"
         ]
     },
     {
@@ -6708,18 +6861,18 @@
             "Class 4 license"
         ],
         "skills": [
-            "driving",
-            "customer service"
+            "Driving",
+            "Customer service"
         ],
         "employers": [
-            "schools",
-            "clinics",
+            "Schools",
+            "Clinics",
             "SMEs"
         ],
-        "description": "",
+        "description": "This refers to an employee whose duties include the driving of light motor vehicles and who is in possession of a class 4 driver's licence.",
         "responsibilities": [
-            "light passenger vehicles",
-            "pickups"
+            "Light passenger vehicles",
+            "Pickups"
         ]
     },
     {
@@ -6735,20 +6888,20 @@
             "Class 2/1; leadership"
         ],
         "skills": [
-            "leadership",
-            "planning",
-            "records"
+            "Leadership",
+            "Planning",
+            "Records"
         ],
         "employers": [
-            "fleets",
+            "Fleets",
             "NGOs",
-            "corporates"
+            "Corporates"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the transportation of staff and goods and maintenance of vehicles and supervises other drivers.",
         "responsibilities": [
-            "assign routes",
-            "supervise drivers",
-            "fuel & maintenance control"
+            "Assign routes",
+            "Supervise drivers",
+            "Fuel & maintenance control"
         ]
     },
     {
@@ -6764,18 +6917,18 @@
             "basic training; supervision"
         ],
         "skills": [
-            "farm basics",
-            "safety"
+            "Farm basics",
+            "Safety"
         ],
         "employers": [
-            "farms",
-            "estates"
+            "Farms",
+            "Estates"
         ],
-        "description": "",
+        "description": "This refers to an employee whose duties are primarily to drive a tractor, but who is not in possession of a class 5 driver's licence.",
         "responsibilities": [
-            "assist tractor ops",
-            "field prep",
-            "safety spotting"
+            "Assist tractor ops",
+            "Field prep",
+            "Safety spotting"
         ]
     },
     {
@@ -6791,19 +6944,19 @@
             "tractor operator license"
         ],
         "skills": [
-            "tractor ops",
-            "safety",
-            "basic mechanics"
+            "Tractor ops",
+            "Safety",
+            "Basic mechanics"
         ],
         "employers": [
-            "farms",
-            "estates"
+            "Farms",
+            "Estates"
         ],
-        "description": "",
+        "description": "This refers to an employee whose duties are primarily to drive a tractor, but who is in possession of a class 5 driver's licence.",
         "responsibilities": [
-            "operate tractor",
-            "ploughing/harrowing",
-            "maintenance checks"
+            "Operate tractor",
+            "Ploughing Harrowing",
+            "Maintenance checks"
         ]
     }
 ]
