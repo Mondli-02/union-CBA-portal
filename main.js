@@ -141,10 +141,6 @@ function updateCurrencyDisplay() {
   updateCalculatorTotals();
 
   // Update lastCurrency
-  lastCurrency = currentCurrency;
-  currentCurrency = newCurrencyCode;
-updateCurrencyDisplay();
-
 }
 
 
@@ -839,6 +835,8 @@ function wire() {
     }
   });
 
+  
+
   $('#backHomeBtn').addEventListener('click', gotoHome);
   $('#backToHomeFromSector').addEventListener('click', gotoHome);
   $('#aboutBtn').addEventListener('click', () => {
@@ -1090,9 +1088,15 @@ function findJob(query) {
   const q = normalize(query);
   if (!q) return null;
   for (const job of MOCK_JOBS) {
-    if (job.titles.map(normalize).some(t => t === q || t.includes(q) || q.includes(t))) {
-      return job;
-    }
+    if (job.titles.map(normalize).some(t => t === q)) {
+  return job;
+}
+if (job.titles.map(normalize).some(t => t.startsWith(q))) {
+  return job;
+}
+if (job.titles.map(normalize).some(t => t.includes(q))) {
+  return job;
+}
   }
   const score = (title) => {
     const a = new Set(normalize(title).split(/\s+/));

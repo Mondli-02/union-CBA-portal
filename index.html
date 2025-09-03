@@ -18,12 +18,20 @@
     <!-- Home (centered) -->
     <main id="home" class="hero">
       <section class="hero__inner">
-        <div class="logo" id="homeLogo" role="link" tabindex="0" aria-label="Go to JobScope home">
+        <div
+          class="logo"
+          id="homeLogo"
+          role="link"
+          tabindex="0"
+          aria-label="Go to JobScope home"
+        >
           JobScope <i aria-hidden="true"></i>
         </div>
         <div class="intro">
           Search for a job title to instantly view its description, grade, and
-          recommended salaries. This tool is a simplified breakdown of the Continuous Bargaining Agreement <strong>CBA</strong>. Use the built-in calculators to estimate your total pay package and allowances.
+          recommended salaries. This tool is a simplified breakdown of the
+          Continuous Bargaining Agreement <strong>CBA</strong>. Use the built-in
+          calculators to estimate your total pay package and allowances.
         </div>
         <form
           id="homeSearchForm"
@@ -77,12 +85,20 @@
           <p class="about-intro">
             Below are clear, concise definitions for every term used in our job
             search platform. Each definition is designed to provide clarity and
-            understanding of the specific terminology used to classify institutions in the CBA.
+            understanding of the specific terminology used to classify
+            institutions in the CBA.
           </p>
         </div>
         <ul class="term-list" id="termList"></ul>
 
-        <div style="display:flex; gap:8px; margin-top:22px; justify-content:center;">
+        <div
+          style="
+            display: flex;
+            gap: 8px;
+            margin-top: 22px;
+            justify-content: center;
+          "
+        >
           <button
             class="btn btn--ghost"
             id="backToHomeFromAbout"
@@ -126,7 +142,14 @@
     <!-- Results view -->
     <header id="resultsHeader" class="topbar hidden" role="banner">
       <div class="topbar__inner">
-        <div class="logo" id="topLogo" style="width: 140px; height: 44px; font-size: 16px" role="link" tabindex="0" aria-label="Go to JobScope home">
+        <div
+          class="logo"
+          id="topLogo"
+          style="width: 140px; height: 44px; font-size: 16px"
+          role="link"
+          tabindex="0"
+          aria-label="Go to JobScope home"
+        >
           JobScope <i></i>
         </div>
         <form
@@ -218,12 +241,31 @@
               </table>
 
               <!-- Inst definition quick card -->
-              <div id="instDefBox" class="card card--soft hidden" style="margin-top:10px;">
-                <div style="display:flex; justify-content:space-between; align-items:center;">
-                  <div id="instDefTitle" style="font-weight:700;"></div>
-                  <button id="closeInstDef" class="btn btn--ghost" style="padding:6px 8px;">Close</button>
+              <div
+                id="instDefBox"
+                class="card card--soft hidden"
+                style="margin-top: 10px"
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  "
+                >
+                  <div id="instDefTitle" style="font-weight: 700"></div>
+                  <button
+                    id="closeInstDef"
+                    class="btn btn--ghost"
+                    style="padding: 6px 8px"
+                  >
+                    Close
+                  </button>
                 </div>
-                <div id="instDefText" style="margin-top:8px;color:var(--muted);"></div>
+                <div
+                  id="instDefText"
+                  style="margin-top: 8px; color: var(--muted)"
+                ></div>
               </div>
 
               <div
@@ -255,10 +297,43 @@
                   <option value="ZWL">ZWL</option>
                 </select>
 
-                <div id="customCurrencyWrap" style="display:none; align-items:center; gap:8px;">
-                  <input id="customCurrencyCode" placeholder="Currency e.g ZiG" style="padding:8px;border:1px solid #e5e7eb;border-radius:10px;font-family:var(--font-b);" maxlength="6" />
-                  <input id="customExchangeRate" placeholder="USD → X (rate)" type="number" inputmode="decimal" step="0.01" min="0" style="padding:8px;border:1px solid #e5e7eb;border-radius:10px;width:120px;font-family:var(--font-b);" />
-                  <button id="addCustomCurrencyBtn" class="btn btn--chip" type="button">Add</button>
+                <div
+                  id="customCurrencyWrap"
+                  style="display: none; align-items: center; gap: 8px"
+                >
+                  <input
+                    id="customCurrencyCode"
+                    placeholder="Currency e.g ZiG"
+                    style="
+                      padding: 8px;
+                      border: 1px solid #e5e7eb;
+                      border-radius: 10px;
+                      font-family: var(--font-b);
+                    "
+                    maxlength="6"
+                  />
+                  <input
+                    id="customExchangeRate"
+                    placeholder="USD → X (rate)"
+                    type="number"
+                    inputmode="decimal"
+                    step="0.01"
+                    min="0"
+                    style="
+                      padding: 8px;
+                      border: 1px solid #e5e7eb;
+                      border-radius: 10px;
+                      width: 120px;
+                      font-family: var(--font-b);
+                    "
+                  />
+                  <button
+                    id="addCustomCurrencyBtn"
+                    class="btn btn--chip"
+                    type="button"
+                  >
+                    Add
+                  </button>
                 </div>
 
                 <label
@@ -410,7 +485,7 @@
           <div class="grid--3" style="margin-top: 10px" id="suggestions"></div>
 
           <!-- Similar jobs (same sector) -->
-          <div id="similarSectorWrap" style="margin-top:14px;"></div>
+          <div id="similarSectorWrap" style="margin-top: 14px"></div>
         </article>
 
         <!-- Not found -->
