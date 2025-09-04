@@ -57,7 +57,6 @@ body {
   gap: 12px;
 }
 
-
 @media (max-width: 800px) {
   .topbar__inner {
     grid-template-columns: 120px 1fr;
@@ -330,7 +329,6 @@ body {
 .wrap {
   max-width: 980px;
   margin: auto;
-
 }
 
 .results {
@@ -628,7 +626,26 @@ body {
 /* Autocomplete styles */
 .autocomplete-list {
   position: absolute;
-  z-index: 100;
+  z-index: 2000;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14), 0 1.5px 6px rgba(0, 0, 0, 0.04);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #e5e7eb;
+  border-top: none;
+  max-height: 228px;
+  overflow-y: auto;
+  font-size: 15px;
+}
+
+#autocompleteListResults {
+  position: absolute;
+  z-index: 2000; /* fix: ensure dropdown is on top */
   top: 100%;
   left: 0;
   right: 0;

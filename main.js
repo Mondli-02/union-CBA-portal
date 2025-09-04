@@ -1150,6 +1150,7 @@ Promise.all([fetchData(), fetchTerms()]).then(() => {
   wire();
   // initial focus
   if ($('#homeQuery')) $('#homeQuery').focus();
+  if ($('#resultsQuery')) $('#resultsQuery').focus();
 });
 
 
