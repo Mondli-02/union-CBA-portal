@@ -10,66 +10,6 @@ let lastSector = "";
 
 
 // Institution Definitions
-const institutionDefinitions = {
-  "ECDS": "Early Childhood Education Development Centres (ECDs)/ Nursery Schools /Pre-Schools - means centres for the early development of children from the age two in preparation for primary education.",
-  "Ind. A-Trust schools": "Independent A - Trust Schools - means schools which are run by registered trusts or board of governors whose employees are employed by the trust or boards of governors.",
-  "Ind. B-Private Schools": "Independent B - Private Schools - means schools which are run and managed by private individuals or organizations and whose employees are either employed by the private individuals or organizations.",
-  "Ind. C-Private Colleges": "Independent C - Private Schools - Means colleges which are run by private individuals or organizations which provide for academic and professional courses. The employees are employed by private individuals, organizations or registered companies.",
-  "Ind. D-Home Schools A": "Independent D - Home Schools A - means private schools which operate from a residential property or a home set up with an enrolment of between 1 - 50 students, which are run by individuals, organizations or private companies whose employees are employed by the same.",
-  "Ind. D-Home Schools B": "Independent D - Home Schools B - means private schools which operate from a residential property or a home set up with an enrolment of 51 students and above, which are run by individuals, organizations or private companies whose employees are employed by the same.",
-  "Ind. E-Boarding": "Independent E - Boarding means any boarding school whose employees are employed by SDCs which do not under under mission school, local authority schools or government schools.",
-  "Ind. F-Day-Urban Schools": "Independent F - Day-Urban - means any day school in urban areas whose employees are employed by SDCs which do not fall under mission schools, local authority schools or government schools.",
-  "Ind. F-Day-Rural Schools": "Independent F - Day-Rural - means any day school in rural areas whose employees are employed by SDCs which do not fall under mission schools, local authority schools or government schools.",
-  "Ind. G-Boarding Schools": "Independent G - Boarding Schools - means a non-formal boarding college which charges tuiition and booarding fees which do not exceed USD$750.00 per term.",
-  "Ind. H2-Day-Urban Schools": "Independent H2 - Day-Urban Schools - means a non-formal day school in urban areas (low density, high density and CBD) which charges tuition fees which do not exceed USD$300.00 per term.",
-  "Ind. H1-Day-Rural Schools": "Independent H1 - Day-Rural Schools - means a non-formal day college in rural, farming or settlement areas which charges tuition fees which do not exceed USD$150.00 per term.",
-  "Mission Boarding Schools": "Mission Boarding Schools - means schools which are run by religious organizations as responsible authorities which offer boarding facilities. The employees are either directly employed by the responsible authority or SDC.",
-  "Mission Day Schools": "Mission Day Schools - means schools which are run by religious organizations as responsible authorities which do not offer boarding facilities. The employees are either directly employed by the responsible authority or SDC.",
-  "Mission Hospitals & Clinics": "Mission Hospitals and Clinics - means health care institutions which are run by religious organizations and whose employees are employed by the responsible authority",
-  "NGOs": "Non-Governmental Organizations - means registered Private Voluntary Organizations or Trusts which operate in Zimbabwe and provide relief and developmental assistance to communities.",
-  "Private ECDs": "Private ECDs - means ECDs which operate on a private school and are run by private individuals, organizations or registered companies whose employees are employed by the same.",
-  "Religious Organizations (Administrative Offices)": "This refers to places where the church administration is done",
-  "Religious Organizations (Presbyteries and Convents": "This refers to places where Ministers stay or their domiciles",
-  "Rural ECDs": "Rural ECDs - means ECDs which are located in a rural set up and are run by private individuals, organizations or registered companies whose employees are employed by the same.",
-  "Tertiary Institutions": "Tertiary Institutions - means colleges, training institutions and universities which are run by non-governmental organizations e.g. religious organizations (Churches) or other organizations, whose employees are not employed by government or local authorities",
-  "Trust ECDs": "Trust ECDs - means ECDs/Nursery Schools/Pre-Schools which operate under trsut schools and are run by the board of governors or trusts whose employees are employed by the same.",
-  "Urban 1 ECDs": "Urban 1 ECDs - means ECDs which are located in low or medium density suburbs which are run by private individuals, organizations or registered companies whose employees are employed by the same.",
-  "Urban 2 ECDs": "Urban 2 ECDs - means ECDs which are located in high density suburbs which are run by private individuals, organizations or registered companies whose employees are employed by the same.",
-  "Welfare A": "Welfare A - means registered Private Voluntary Organizations that provide institutional care to persons or animals and charge a nominal fee for the services and these rely on donations and grants",
-  "Welfare B": "Welfare B - means registered Private Voluntary Organizations providing institutional care to persons or animals but do not charge fees for the service.",
-  "Welfare C": "Welfare C - means institutions which are run by registered Private Voluntary Organizations as special education institutions and/or training institutions and rehabilitation institutions for physically and mentally handicapped people which are requred to be registered in terms of the Education Act and Manpower Planning and Development Act. These charge fees for services provided.",
-  "Welfare D": "Welfare D - means registered Private Voluntary Organizations which provide institutional care, support, protect, home and educational facilities to children who are orphaned, abandoned, and vulnerable and are in need of care. These are run by local or international organizations, depend on donations and grants for funding and do not charge fees for the services provided."
-};
-
-// Popup to show definition
-function showDefinitionPopup(name, definition) {
-  let popup = document.createElement("div");
-  popup.className = "definition-popup";
-  popup.innerHTML = `
-    <div class="definition-content">
-        <h3>${name}</h3>
-        <p>${definition}</p>
-        <button id="closePopup">Close</button>
-    </div>
-  `;
-  document.body.appendChild(popup);
-  document.getElementById("closePopup").addEventListener("click", () => {
-    popup.remove();
-  });
-}
-
-// Attach definitions to institution-type elements
-function attachInstitutionDefinitions() {
-  document.querySelectorAll(".institution-type").forEach(el => {
-    el.style.cursor = "pointer";
-    el.title = "Click for definition";
-    el.addEventListener("click", () => {
-      const name = el.textContent.trim();
-      const def = institutionDefinitions[name] || "Definition not available.";
-      showDefinitionPopup(name, def);
-    });
-  });
-}
 
 
 // Util: Save/load persistent state (search/sector)
@@ -488,7 +428,7 @@ function renderJob(job, q) {
 
   renderExtras(job);
   renderSimilarSector(job);
-  attachInstitutionDefinitions();
+  
 
   $('#jobCard').style.display = '';
   $('#calcCard').style.display = '';
@@ -1150,7 +1090,7 @@ Promise.all([fetchData(), fetchTerms()]).then(() => {
   wire();
   // initial focus
   if ($('#homeQuery')) $('#homeQuery').focus();
-  if ($('#resultsQuery')) $('#resultsQuery').focus();
+  if ($('#jobCard')) $('#jobCard').focus();
 });
 
 
