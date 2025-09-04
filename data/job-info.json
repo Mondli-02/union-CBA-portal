@@ -884,9 +884,9 @@
         ]
     },
     {
-        "id": "Housekeeper",
+        "id": "Housekeeper (B5)",
         "titles": [
-            "Housekeeper"
+            "Housekeeper (B5)"
         ],
         "sector": "Hospitality, Catering & Housekeeping",
         "grade": "B5",
@@ -905,7 +905,7 @@
             "Hospitals",
             "Schools"
         ],
-        "description": "This refers to an employee with formal training or appropriate experience, who is responsible for the care and welfare of residents in an institution and for general cleanliness, hygiene and the supervision os staff and the smooth running of the institution.",
+        "description": "This refers to an employee with formal training or appropriate experience, who is responsible for the care and welfare of residents in an institution and for general cleanliness, hygiene and the supervision of staff and the smooth running of the institution.",
         "responsibilities": [
             "Supervise cleaners",
             "Standards checks",
@@ -1091,9 +1091,9 @@
         ]
     },
     {
-        "id": "Librarian",
+        "id": "Librarian (C1)",
         "titles": [
-            "Librarian"
+            "Librarian (C1)"
         ],
         "sector": "Education/Libraries",
         "grade": "C1",
@@ -1181,7 +1181,7 @@
     {
         "id": "Nursery-School-Teacher-(Ngo-Trained)",
         "titles": [
-            "Nursery School Teacher (Ngo Trained)"
+            "Nursery School Teacher (NGO Trained)"
         ],
         "sector": "Education/Community",
         "grade": "B5",
@@ -1291,7 +1291,7 @@
     {
         "id": "Teacher-(Qualified)-(Excluding-ATS)",
         "titles": [
-            "Teacher (Qualified) (Excluding ATS)"
+            "Teacher-(Qualified)"
         ],
         "sector": "Education",
         "grade": "C4",
@@ -1321,7 +1321,7 @@
     {
         "id": "Teacher-(Untrained)",
         "titles": [
-            "Teacher (Untrained)"
+            "Teacher-(Untrained)"
         ],
         "sector": "Education",
         "grade": "C1",
@@ -1378,6 +1378,37 @@
         ]
     },
     {
+        "id": "Finance-Officer",
+        "titles": [
+            "Finance Officer"
+        ],
+        "sector": "Finance",
+        "grade": "C4",
+        "industry": "Finance",
+        "yearsExperience": "2-5 years",
+        "qualifications": [
+            "Diploma/Degree (Accounting); AAT/ACCA (adv.)"
+        ],
+        "skills": [
+            "Excel",
+            "IFRS basics",
+            "Attention to detail",
+            "Pastel/Sage"
+        ],
+        "employers": [
+            "SMEs",
+            "NGOs",
+            "Manufacturing"
+        ],
+        "description": "This refers to an employee who provides effective capturing of accounting information, safe keeping of accounting documents and processing of all transactions for the organisation.",
+        "responsibilities": [
+            "Journals",
+            "Reconciliations",
+            "Assist financial statements",
+            "Tax support"
+        ]
+    },
+    {
         "id": "Bursar",
         "titles": [
             "Bursar"
@@ -1399,7 +1430,7 @@
             "Schools",
             "Colleges"
         ],
-        "description": "This refers to an employee who is responsible for professional handling of all finances for educational institutions, submitting returns and the preparation of all books for audit.",
+        "description": "This refers to an employee who is responsible for the professional handling of all finances for educational institutions, submitting returns and the preparation of all books for audit.",
         "responsibilities": [
             "School budgets",
             "fees billing",
@@ -1900,7 +1931,7 @@
             "Hospitals",
             "Clinics"
         ],
-        "description": "This refers to an employee who provides nursing care as delegated and supervises the work of junio nurse aides and cleaners.",
+        "description": "This refers to an employee who provides nursing care as delegated and supervises the work of junior nurse aides and cleaners.",
         "responsibilities": [
             "Lead aides",
             "Allocate tasks",
@@ -1950,18 +1981,18 @@
             "Basic literacy; patient handling training"
         ],
         "skills": [
-            "manual handling",
-            "empathy",
-            "teamwork"
+            "Manual handling",
+            "Empathy",
+            "Teamwork"
         ],
         "employers": [
-            "hospitals"
+            "Hospitals"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for receiving patients on admission and helps them fill admission forms and accompany them to the wards after the admission process has been completed.",
         "responsibilities": [
-            "patient transfers",
-            "admissions support",
-            "wheelchair use"
+            "Patient transfers",
+            "Admissions support",
+            "Wheelchair use"
         ]
     },
     {
@@ -2058,7 +2089,7 @@
     {
         "id": "Head-Cook",
         "titles": [
-            "Head Cook"
+            "Head-Cook"
         ],
         "sector": "Hospitality",
         "grade": "B4",
@@ -2315,9 +2346,9 @@
         ]
     },
     {
-        "id": "Senior-Laboratory-Technician",
+        "id": "Laboratory-Technician",
         "titles": [
-            "Senior Laboratory Technician"
+            "Laboratory Technician"
         ],
         "sector": "Healthcare/Labs",
         "grade": "B5",
@@ -2336,7 +2367,7 @@
             "Hospitals",
             "Private labs"
         ],
-        "description": "This refers to an employee who has successfully completed a recognized laboratory technician's course and carries out work in a laboratory without direct supervision e.g. H.N.D in Chemistry or Microbiology.",
+        "description": "This refers to an employee who performs laboratory work without direct supervision but reports to a senior laboratory technician.",
         "responsibilities": [
             "Sample processing",
             "Quality control",
@@ -2349,9 +2380,9 @@
         "titles": [
             "Mechanic (Class III)"
         ],
-        "sector": "Automotive",
-        "grade": "",
-        "industry": "Automotive",
+        "sector": "Automotive/Mechanical",
+        "grade": "C2",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "2-5 years",
         "qualifications": [
             "Skilled Worker Class III (cert. RASM)"
@@ -2378,9 +2409,9 @@
         "titles": [
             "Senior Mechanic (Class III)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Automotive/Mechanical",
         "grade": "C2",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "5-8 years",
         "qualifications": [
             "Skilled Worker Class III (cert. RASM)"
@@ -2575,9 +2606,9 @@
         "titles": [
             "Mechanic (Class I)"
         ],
-        "sector": "Automotive",
+        "sector": "Automotive/Mechanical",
         "grade": "C4",
-        "industry": "Automotive",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "5+ years",
         "qualifications": [
             "Skilled Worker Class I (Cert. RASM)"
@@ -2604,9 +2635,9 @@
         "titles": [
             "Mechanic (Class II)"
         ],
-        "sector": "Automotive",
+        "sector": "Automotive/Mechanical",
         "grade": "C3",
-        "industry": "Automotive",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "3-5 years",
         "qualifications": [
             "Skilled Worker Class II (cert. RASM)"
@@ -2632,9 +2663,9 @@
         "titles": [
             "Mechanic (Class IV)"
         ],
-        "sector": "Automotive",
+        "sector": "Automotive/Mechanical",
         "grade": "C1",
-        "industry": "Automotive",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "0-2 years",
         "qualifications": [
             "Skilled Worker Class IV (Cert. RASM)"
@@ -2658,9 +2689,9 @@
         "titles": [
             "Motorbike Mechanic (Class I)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Automotive/Mechanical",
         "grade": "C4",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "5+ years",
         "qualifications": [
             "Skilled Worker Class I (Cert. RASM)"
@@ -2685,9 +2716,9 @@
         "titles": [
             "Motorbike Mechanic (Class II)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Automotive/Mechanical",
         "grade": "C3",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "3-5 years",
         "qualifications": [
             "Skilled Worker Class II (cert. RASM)"
@@ -2712,9 +2743,9 @@
         "titles": [
             "Motorbike Mechanic (Class III)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Automotive/Mechanical",
         "grade": "C2",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "2-4 years",
         "qualifications": [
             "Skilled Worker Class III (cert. RASM)"
@@ -2737,9 +2768,9 @@
         "titles": [
             "Motorbike Mechanic (Class IV)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Automotive/Mechanical",
         "grade": "C1",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "0-2 years",
         "qualifications": [
             "Skilled Worker Class IV (Cert. RASM)"
@@ -2762,9 +2793,9 @@
         "titles": [
             "Motorcycle Mechanic Trainer"
         ],
-        "sector": "Education & Training",
+        "sector": "Automotive/Mechanical",
         "grade": "C2",
-        "industry": "Education & Training",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "5+ years",
         "qualifications": [
             "Trade Test + Instructor training"
@@ -2806,7 +2837,7 @@
             "Construction",
             "Councils"
         ],
-        "description": "This refers to an employee who is responsible for installing and repairing pipes and fittings for water, drainage and gas who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker ClassI in terms of the Manpower Planning and Development Act [Chapter 28:02].",
+        "description": "This refers to an employee who is responsible for installing and repairing pipes and fittings for water, drainage and gas who has been certified by the Registrar of Apprenticeship and Skilled Manpower as a skilled worker Class I in terms of the Manpower Planning and Development Act [Chapter 28:02].",
         "responsibilities": [
             "Plan & install systems",
             "Troubleshoot",
@@ -2923,9 +2954,9 @@
         ]
     },
     {
-        "id": "Senior-Lab-Technician",
+        "id": "Senior-Laboratory-Technician",
         "titles": [
-            "Senior Lab Technician"
+            "Senior Laboratory Technician"
         ],
         "sector": "Healthcare/Labs",
         "grade": "C1",
@@ -2935,20 +2966,20 @@
             "Lab Tech Diploma; experience"
         ],
         "skills": [
-            "leadership",
+            "Leadership",
             "QC",
             "LIS"
         ],
         "employers": [
-            "hospitals",
-            "private labs"
+            "Hospitals",
+            "Private labs"
         ],
-        "description": "",
+        "description": "This refers to an employee who has successfully completed a recognized laboratory technician's course and carries out work in a laboratory without direct supervision e.g. H.N.D in Chemistry or Microbiology.",
         "responsibilities": [
-            "oversee lab section",
+            "Oversee lab section",
             "QA",
-            "mentorship",
-            "inventory"
+            "Mentorship",
+            "Inventory"
         ]
     },
     {
@@ -2956,9 +2987,9 @@
         "titles": [
             "Senior Mechanic (Class I)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Automotive/Mechanical",
         "grade": "C4",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "8+ years",
         "qualifications": [
             "Skilled Worker Class I (Cert. RASM)"
@@ -2984,9 +3015,9 @@
         "titles": [
             "Senior Mechanic (Class II)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Automotive/Mechanical",
         "grade": "C3",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "6+ years",
         "qualifications": [
             "Skilled Worker Class II (cert. RASM)"
@@ -3011,9 +3042,9 @@
         "titles": [
             "Senior Mechanic (Class IV)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Automotive/Mechanical",
         "grade": "C1",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Automotive/Mechanical",
         "yearsExperience": "3-5 years",
         "qualifications": [
             "Skilled Worker Class IV (Cert. RASM)"
@@ -3092,9 +3123,9 @@
         ]
     },
     {
-        "id": "Supervisor",
+        "id": "Supervisor (B4)",
         "titles": [
-            "Supervisor"
+            "Supervisor (B4)"
         ],
         "sector": "Operations (Generic)",
         "grade": "B4",
@@ -3261,7 +3292,7 @@
             "Telecomms",
             "Hospitals"
         ],
-        "description": "This refers to an employee who is responsible for receipting of drungs bougt over the counter, food supplied, telephone bills etc. and all debtors payments, then processes the retail accounts and follow up R.D cheques while preparing banking on a daily basis.",
+        "description": "This refers to an employee who is responsible for receipting of drugs bought over the counter, food supplied, telephone bills etc. and all debtors payments, then processes retail accounts and follows up on R.D cheques while preparing banking statements on a daily basis.",
         "responsibilities": [
             "Oversee Billing",
             "Accuracy",
@@ -3272,7 +3303,7 @@
     {
         "id": "Cleaning-Supervisor",
         "titles": [
-            "Cleaning Supervisor"
+            "Cleaning-Supervisor"
         ],
         "sector": "Facilities",
         "grade": "B2",
@@ -3335,27 +3366,32 @@
         "titles": [
             "Demining Supervisor/Section Supervisor"
         ],
-        "sector": "NGOs (Security & Humanitarian Aid",
+        "sector": "Security & Humanitarian Aid",
         "grade": "B2",
-        "industry": "NGOs (Security & Humanitarian Aid",
+        "industry": "Security & Humanitarian Aid",
         "yearsExperience": "3-6 years",
         "qualifications": [
-            "Demining cert."
+            "formal training: more years for supervisory roles"
         ],
         "skills": [
-            "production planning",
-            "QA",
-            "leadership"
+            "Attention to detail under stressful conditions",
+            "Follow strict international safety protocols",
+            "Physical fitness and stamina",
+            "Leadership"
         ],
         "employers": [
-            "textile mills"
+            "United Nations Mine Action Service (UNMAS)",
+            "HALO Trust",
+            "National Defense Forces",
+            "Mines Advisory Group (MAG)",
+            "Humanitarian NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for the removing and safely detonating landmines and unexploded ordnance (UXO) from affected areas to ensure the safety of local communities and facilitate post-conflict recovery and development.",
         "responsibilities": [
-            "oversee denim line",
-            "quality",
-            "throughput",
-            "staffing"
+            "Oversee demining operations",
+            "Maintenance & use of mine detection equipment",
+            "Conduct risk education for local communities",
+            "Record and report cleared areas"
         ]
     },
     {
@@ -3363,9 +3399,9 @@
         "titles": [
             "Design, Monitoring and Evaluation Officer"
         ],
-        "sector": "Monitoring and Evaluation Officer",
+        "sector": "Monitoring and Evaluation",
         "grade": "C4",
-        "industry": "Monitoring and Evaluation Officer",
+        "industry": "Monitoring and Evaluation",
         "yearsExperience": "Degree in M&E/Statistics/Development years",
         "qualifications": [
             "NGO/Programs"
@@ -3381,14 +3417,14 @@
             "M&E methods",
             "DHIS2",
             "PowerBI",
-            "writing"
+            "Writing"
         ],
         "description": "This refers to an employee who assists the Program Manager with the design and application of sound M & E systems and is also tasked with facilitating the design of relevant data collection tools for periodic, baseline, outcome and impact evaluation studies and the effective administration of the same.",
         "responsibilities": [
-            "data collection",
-            "cleaning",
-            "dashboards",
-            "learning events"
+            "Data collection",
+            "Cleaning",
+            "Dashboards",
+            "Learning events"
         ]
     },
     {
@@ -3396,9 +3432,9 @@
         "titles": [
             "Emergencies And Special Projects Officer"
         ],
-        "sector": "NGO/Relief",
+        "sector": "Security & Humanitarian Aid",
         "grade": "C3",
-        "industry": "NGO/Relief",
+        "industry": "Security & Humanitarian Aid",
         "yearsExperience": "3-6 years",
         "qualifications": [
             "Degree; humanitarian training; security training (adv.)"
@@ -3452,11 +3488,11 @@
     {
         "id": "Field-Officer-Positive-Development",
         "titles": [
-            "Field Officer Positive Development"
+            "Field Officer (Positive Development)"
         ],
-        "sector": "NGO/Youth/Disability",
+        "sector": "Community & Development Work",
         "grade": "C3",
-        "industry": "NGO/Youth/Disability",
+        "industry": "Community & Development Work",
         "yearsExperience": "1-4 years",
         "qualifications": [
             "Diploma; social work background (adv.)"
@@ -3507,9 +3543,9 @@
         ]
     },
     {
-        "id": "It-Officer",
+        "id": "IT-Officer",
         "titles": [
-            "It Officer"
+            "IT Officer"
         ],
         "sector": "IT",
         "grade": "C1",
@@ -3626,9 +3662,9 @@
         ]
     },
     {
-        "id": "Project-And-Training-Officer",
+        "id": "Projects-and-Training-Officer",
         "titles": [
-            "Project And Training Officer"
+            "Projects and Training Officer"
         ],
         "sector": "NGO/Projects",
         "grade": "C2",
@@ -3657,7 +3693,7 @@
     {
         "id": "Projects-Officer",
         "titles": [
-            "Projects Officer"
+            "Projects-Officer"
         ],
         "sector": "Projects",
         "grade": "C1",
@@ -3667,20 +3703,20 @@
             "Degree; PMP (adv.)"
         ],
         "skills": [
-            "project mgmt",
+            "Project management",
             "MS Project",
-            "communication"
+            "Communication"
         ],
         "employers": [
             "NGOs",
-            "private sector"
+            "Private sector"
         ],
-        "description": "",
+        "description": "This refers to an employee who identifies and keeps an up-to-date list of potential donors both local and foreign.",
         "responsibilities": [
-            "workplans",
-            "procurement support",
-            "monitoring",
-            "reporting"
+            "Workplans",
+            "Procurement support",
+            "Monitoring",
+            "Reporting"
         ]
     },
     {
@@ -3727,17 +3763,17 @@
         "skills": [
             "WASH tech",
             "CLTS",
-            "reporting"
+            "Reporting"
         ],
         "employers": [
             "NGOs",
-            "councils"
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is responsible for community mobilisation, selection and training of health promotors and community and school health club facilitators and monitorring the applied aspect of health club learning.",
         "responsibilities": [
-            "implement WASH",
-            "hygiene promotion",
-            "water systems",
+            "Implement WASH",
+            "Hygiene promotion",
+            "Water systems",
             "M&E"
         ]
     },
@@ -3763,7 +3799,7 @@
             "Fleets",
             "Mines"
         ],
-        "description": "This refers to an employee who is responsible for the day to day safe and efficient operations of the workshop and who supervises and or train junior staff.",
+        "description": "This refers to an employee who is responsible for the safe and efficient  day to day operations of the workshop and who supervises and or trains junior staff.",
         "responsibilities": [
             "Allocate jobs",
             "QA",
@@ -3914,9 +3950,9 @@
         ]
     },
     {
-        "id": "Gender-And-Advocacy-Offier",
+        "id": "Gender-And-Advocacy-Officer",
         "titles": [
-            "Gender And Advocacy Offier"
+            "Gender And Advocacy Officer"
         ],
         "sector": "NGO/Gender",
         "grade": "C2",
@@ -4100,19 +4136,19 @@
             "5 O’ Levels; Admin cert"
         ],
         "skills": [
-            "organization",
+            "Organization",
             "MS Office",
-            "communication"
+            "Communication"
         ],
         "employers": [
-            "all sectors"
+            "All sectors"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists in administrative and secretarial support to the organisation.",
         "responsibilities": [
-            "document control",
-            "meeting support",
-            "travel",
-            "supplies"
+            "Document control",
+            "Meeting support",
+            "Travel",
+            "Supplies"
         ]
     },
     {
@@ -4120,9 +4156,9 @@
         "titles": [
             "Animal Inspector"
         ],
-        "sector": "Public/Agri",
+        "sector": "Animal Health",
         "grade": "B2",
-        "industry": "Public/Agri",
+        "industry": "Animal Health",
         "yearsExperience": "2-5 years",
         "qualifications": [
             "Diploma in Animal Health/Inspection"
@@ -4232,9 +4268,9 @@
         "titles": [
             "Assistant Painter"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Painting & Construction",
         "grade": "A2",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Painting & Construction",
         "yearsExperience": "0-2 years",
         "qualifications": [
             "Apprenticeship/NC"
@@ -4533,7 +4569,7 @@
     {
         "id": "Cane-Weaver",
         "titles": [
-            "Cane Weaver"
+            "Cane-Weaver"
         ],
         "sector": "Manufacturing/Artisan",
         "grade": "B3",
@@ -4841,24 +4877,30 @@
         "titles": [
             "Deminer"
         ],
-        "sector": "Manufacturing (Textiles)",
+        "sector": "Security & Humanitarian Aid",
         "grade": "A2",
-        "industry": "Manufacturing (Textiles)",
-        "yearsExperience": "1-3 years",
+        "industry": "Security & Humanitarian Aid",
+        "yearsExperience": "0-3 years",
         "qualifications": [
-            "Textile training"
+            "Mine detection training","Entry-level"
         ],
         "skills": [
-            "machine skills",
-            "QA"
+            "Mine detection",
+            "Risk assessment & hazard awareness",
+            "First aid & Trauma Response",
+            "Explosives Safety & controlled detonation"
         ],
         "employers": [
-            "Textile mills"
+            "United Nations Mine Action Service (UNMAS)",
+            "HALO Trust",
+            "National Defense Forces",
+            "Mines Advisory Group (MAG)",
+            "Humanitarian NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in demining using a metal detector and basic hand tools for digging and cutting grass. Everything else on the detector would have been preset by a technician.",
         "responsibilities": [
-            "Operate denim machines",
-            "Quality checks",
+            "Operate demining machines",
+            "Detect and mark landmines",
             "Meet targets"
         ]
     },
@@ -5408,9 +5450,9 @@
         ]
     },
     {
-        "id": "It-Assistant",
+        "id": "IT-Assistant",
         "titles": [
-            "It Assistant"
+            "IT Assistant"
         ],
         "sector": "IT",
         "grade": "B5",
@@ -5472,9 +5514,9 @@
         "titles": [
             "Junior Packer"
         ],
-        "sector": "Manufacturing/Warehouse",
+        "sector": "Healthcare",
         "grade": "A3",
-        "industry": "Manufacturing/Warehouse",
+        "industry": "Healthcare",
         "yearsExperience": "0-2 years",
         "qualifications": [
             "Basic literacy"
@@ -5499,7 +5541,7 @@
     {
         "id": "Laboratory-Assistant",
         "titles": [
-            "Laboratory Assistant"
+            "Laboratory-Assistant"
         ],
         "sector": "Healthcare/Labs",
         "grade": "B2",
@@ -5595,19 +5637,19 @@
             "Library Cert"
         ],
         "skills": [
-            "customer service",
-            "cataloguing basics"
+            "Customer service",
+            "Cataloguing basics"
         ],
         "employers": [
-            "schools",
-            "councils"
+            "Schools",
+            "Councils"
         ],
-        "description": "",
+        "description": "This refers to an employee who is engaged in keeping a library in good order and who carries out cleaning and general library duties as directed by the librarian",
         "responsibilities": [
-            "circulation",
-            "shelving",
-            "membership",
-            "assist searches"
+            "Circulation",
+            "Shelving",
+            "Membership",
+            "Assist searches"
         ]
     },
     {
@@ -5845,9 +5887,9 @@
         "titles": [
             "Painter (Class I)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Painting & Construction",
         "grade": "C4",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Painting & Construction",
         "yearsExperience": "5+ years",
         "qualifications": [
             "Skilled Worker Class I (Cert. RASM)"
@@ -5869,13 +5911,13 @@
         ]
     },
     {
-        "id": "Painter-(Class-II)",
+        "id": "Painter (Class II)",
         "titles": [
             "Painter (Class II)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Painting & Construction",
         "grade": "C3",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Painting & Construction",
         "yearsExperience": "3-5 years",
         "qualifications": [
             "Skilled Worker Class II (cert. RASM)"
@@ -5895,13 +5937,13 @@
         ]
     },
     {
-        "id": "Painter-(Class-III)",
+        "id": "Painter (Class III)",
         "titles": [
             "Painter (Class III)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Painting & Construction",
         "grade": "",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Painting & Construction",
         "yearsExperience": "2-4 years",
         "qualifications": [
             "Skilled Worker Class III (cert. RASM)"
@@ -5921,13 +5963,13 @@
         ]
     },
     {
-        "id": "Painter-(Class-IV)",
+        "id": "Painter (Class IV)",
         "titles": [
             "Painter (Class IV)"
         ],
-        "sector": "Skilled Trades & Technical Services",
+        "sector": "Painting & Construction",
         "grade": "C1",
-        "industry": "Skilled Trades & Technical Services",
+        "industry": "Painting & Construction",
         "yearsExperience": "0-2 years",
         "qualifications": [
             "Skilled Worker Class IV (Cert. RASM)"
@@ -6043,19 +6085,19 @@
             "Diploma; admin & M&E basics"
         ],
         "skills": [
-            "organization",
+            "Organization",
             "Excel",
-            "comms"
+            "Comms"
         ],
         "employers": [
             "NGOs"
         ],
-        "description": "",
+        "description": "This refers to an employee who assists in providing support to programs on Monitoring and Evaluation, proposal development, documentation and gender.",
         "responsibilities": [
-            "activity support",
-            "logistics",
-            "data",
-            "reports"
+            "Activity support",
+            "Logistics",
+            "Data",
+            "Reports"
         ]
     },
     {
@@ -6231,9 +6273,9 @@
         "titles": [
             "Senior Packer"
         ],
-        "sector": "Manufacturing/Warehouse",
+        "sector": "Healthcare",
         "grade": "B1",
-        "industry": "Manufacturing/Warehouse",
+        "industry": "Healthcare",
         "yearsExperience": "2-4 years",
         "qualifications": [
             "Basic literacy; exp"
@@ -6458,9 +6500,9 @@
         ]
     },
     {
-        "id": "Transcriber/Brailist",
+        "id": "Transcriber/Braillist",
         "titles": [
-            "Transcriber/Brailist"
+            "Transcriber/Braillist"
         ],
         "sector": "Education/Disability Services",
         "grade": "B5",
@@ -6486,9 +6528,9 @@
         ]
     },
     {
-        "id": "Senior-Transcriber/Brailist",
+        "id": "Senior-Transcriber/Braillist",
         "titles": [
-            "Senior Transcriber/Brailist"
+            "Senior Transcriber/Braillist"
         ],
         "sector": "Education/Disability Services",
         "grade": "B5",
@@ -6849,9 +6891,9 @@
         ]
     },
     {
-        "id": "Driver-(Class-4-License)",
+        "id": "Driver-(Class-4-Licence)",
         "titles": [
-            "Driver (Class 4 License)"
+            "Driver (Class 4 Licence)"
         ],
         "sector": "Transport",
         "grade": "B2",
