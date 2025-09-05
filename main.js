@@ -1,3 +1,7 @@
+// main.js — patched single-file version
+// Reworked: safer wire(), fixed currency double-convert bug, improved findJob matching,
+// ensured instSelect stores RAW USD, hardened DOM guards, fixed about page wiring.
+
 // ========== DATA LOADING ==========
 let MOCK_JOBS = [];
 let SECTOR_MAP = {};
@@ -7,10 +11,6 @@ let POPULAR_JOBS = [];
 let RECENT_JOBS = [];
 let lastSearch = "";
 let lastSector = "";
-
-
-// Institution Definitions
-
 
 // Util: Save/load persistent state (search/sector)
 function saveState() {
@@ -33,7 +33,6 @@ function fetchTerms() {
   return fetch('data/terms.json').then(res => res.json()).then(data => { TERMS = data; });
 }
 
-
 // ========== DOM REFS & UTILITIES ==========
 const $ = (sel, ctx = document) => ctx.querySelector(sel);
 const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
@@ -49,46 +48,15 @@ let currentCurrency = 'USD';
 let exchangeRates = { 'ZWL': 13 }; // USD -> ZWL default
 let lastCurrency = 'USD';
 
-// FIXED: Ensure currency update is handled everywhere
-function updateCurrencyDisplay(fromCurrency, toCurrency) {
-  // Update salary table
-  $$("#salaryRows td.mono").forEach(td => {
-    const rawUSD = +td.getAttribute("data-raw");
-    td.textContent = `${currencySymbol(toCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', toCurrency))}`;
-  });
-
-  // Update institution select dropdown
-  const instSelect = $("#instSelect");
-  if (instSelect) {
-    instSelect.querySelectorAll("option").forEach(opt => {
-      const rawUSD = +opt.getAttribute("data-raw");
-      if (!isNaN(rawUSD)) {
-        opt.textContent = `${opt.textContent.split(" - ")[0]} - ${currencySymbol(toCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', toCurrency))}`;
-        opt.value = convertCurrency(rawUSD, 'USD', toCurrency);
-      }
-    });
-    instSelect.value = convertCurrency(+instSelect.value, fromCurrency, toCurrency);
-  }
-
-  // Update calculator inputs
-  if ($("#basicInput")) {
-    $("#basicInput").value = convertCurrency(+$("#basicInput").value, fromCurrency, toCurrency);
-  }
-
-  $$("#allowancesList input").forEach(inp => {
-    inp.value = convertCurrency(+inp.value, fromCurrency, toCurrency);
-  });
-
-  if ($("#coffinCost")) $("#coffinCost").value = convertCurrency(+$("#coffinCost").value || 0, fromCurrency, toCurrency);
-  if ($("#policyCoverage")) $("#policyCoverage").value = convertCurrency(+$("#policyCoverage").value || 0, fromCurrency, toCurrency);
-
-  updateCalculatorTotals();
-
-  lastCurrency = toCurrency;
-  currentCurrency = toCurrency;
+// ========== HELPERS ==========
+function escapeHTML(str = '') {
+  return String(str).replace(/[&<>"']/g, s => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[s]));
+}
+function escapeAttr(str = '') {
+  return escapeHTML(String(str)).replace(/"/g, '&quot;');
 }
 
-// search counters & recent searches persisted
+// ========== SEARCH COUNTERS & RECENT SEARCHES ==========
 function loadSearchCounters() {
   try {
     const raw = localStorage.getItem('job_search_counts');
@@ -117,7 +85,6 @@ function loadRecentSearches() {
 function pushRecentSearch(title) {
   if (!title) return;
   const arr = loadRecentSearches();
-  // keep unique with most recent first
   const filtered = [title].concat(arr.filter(x => x !== title)).slice(0, 8);
   localStorage.setItem('recent_job_searches', JSON.stringify(filtered));
 }
@@ -126,7 +93,7 @@ function getRecentSearches(limit = 4) {
   return arr.slice(0, limit);
 }
 
-// ========== TRY JOB ANIMATION ==========
+// ========== TRY JOBS ANIMATION ==========
 function getRandomJobs(count = 3) {
   const titles = getAllJobTitles();
   const chosen = [];
@@ -163,7 +130,6 @@ function animateTryJobs() {
 
 // ========== POPULAR / RECENT JOBS ==========
 function computePopularJobs() {
-  // Rank by search counts (persisted). If no counts, fall back to title-count heuristic.
   const counts = loadSearchCounters();
   const jobs = MOCK_JOBS.slice();
   jobs.sort((a, b) => {
@@ -177,7 +143,6 @@ function computePopularJobs() {
 function computeRecentJobs() {
   const recent = getRecentSearches();
   if (recent.length) {
-    // map titles to job entries where possible
     const jobs = recent.map(title => MOCK_JOBS.find(j => j.titles[0] === title)).filter(Boolean);
     RECENT_JOBS = jobs.slice(0, 4);
   } else {
@@ -217,6 +182,7 @@ function filterAutocomplete(q) {
 function renderAutocomplete(inputId, listId) {
   const input = $(inputId);
   const list = $(listId);
+  if (!input || !list) return;
 
   let currentSelection = -1;
   let matches = [];
@@ -246,7 +212,6 @@ function renderAutocomplete(inputId, listId) {
 
   input.addEventListener('keydown', function (e) {
     if (!matches.length || list.style.display === "none") {
-      // allow normal submit if no matches visible
       return;
     }
     if (e.key === "ArrowDown") {
@@ -260,14 +225,11 @@ function renderAutocomplete(inputId, listId) {
       updateAutocompleteSelection(list, currentSelection);
       e.preventDefault();
     } else if (e.key === "Enter") {
-      // only intercept Enter when a selection is active
       if (currentSelection >= 0 && matches[currentSelection]) {
         input.value = matches[currentSelection];
         list.style.display = "none";
         input.focus();
         e.preventDefault();
-      } else {
-        // no active selection -> allow form to submit normally
       }
     } else if (e.key === "Escape") {
       list.style.display = "none";
@@ -343,7 +305,7 @@ function renderSectors() {
   aside.innerHTML = html;
 }
 
-// ========== HANDLE SECTOR PILL CLICK ==========
+// ========== SECTOR HANDLING ==========
 function sectorPillClickHandler(e) {
   const pill = e.target.closest('.sector-pill');
   if (!pill) return;
@@ -353,26 +315,33 @@ function sectorPillClickHandler(e) {
   displaySectorResults(sector);
 }
 
-// ========== DISPLAY SECTOR RESULTS ==========
 function displaySectorResults(sector) {
-  $('#home').classList.add('hidden');
-  $('#resultsHeader').classList.add('hidden');
-  $('#results').classList.add('hidden');
-  $('#sectorResults').classList.remove('hidden');
-  $('#sectorResultsHeading').textContent = `Jobs in ${sector}`;
+  const homeEl = $('#home'); if (homeEl) homeEl.classList.add('hidden');
+  const headerEl = $('#resultsHeader'); if (headerEl) headerEl.classList.add('hidden');
+  const resultsEl = $('#results'); if (resultsEl) resultsEl.classList.add('hidden');
+  const sectorResults = $('#sectorResults'); if (sectorResults) sectorResults.classList.remove('hidden');
+  const heading = $('#sectorResultsHeading'); if (heading) heading.textContent = `Jobs in ${sector}`;
 
-  $('#sectorDesc').innerHTML = SECTOR_MAP[sector]?.desc
-    ? `<div class="sector-desc">${escapeHTML(SECTOR_MAP[sector].desc)}</div>` : '';
+  const descEl = $('#sectorDesc');
+  if (descEl) {
+    descEl.innerHTML = SECTOR_MAP[sector]?.desc
+      ? `<div class="sector-desc">${escapeHTML(SECTOR_MAP[sector].desc)}</div>` : '';
+  }
 
   const range = computeSectorSalaryRange(sector);
-  $('#sectorSalaryRange').innerHTML = range
-    ? `<div class="sector-salary-range">Salary range: $${formatMoney(range.min)} – $${formatMoney(range.max)}</div>`
-    : "";
+  const salaryRangeEl = $('#sectorSalaryRange');
+  if (salaryRangeEl) {
+    salaryRangeEl.innerHTML = range
+      ? `<div class="sector-salary-range">Salary range: $${formatMoney(range.min)} – $${formatMoney(range.max)}</div>`
+      : "";
+  }
 
   const jobsInSector = getJobsForSector(sector);
   const list = $('#sectorResultsList');
+  if (!list) return;
   if (!jobsInSector.length) {
     list.innerHTML = `<div class="muted">No jobs found in this sector. Try another sector or search above.</div>`;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     return;
   }
   list.innerHTML = jobsInSector.map(job => `
@@ -382,6 +351,7 @@ function displaySectorResults(sector) {
       <button class="btn btn--chip" data-jobid="${escapeAttr(job.id)}">View More</button>
     </div>
   `).join('');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 function getJobsForSector(sector) {
   const titles = new Set((SECTOR_MAP[sector]?.jobs || []));
@@ -396,102 +366,100 @@ function renderJob(job, q) {
   incrementSearchCount(job.id);
 
   currentJob = job;
-  $('#jobTitle').textContent = job.titles[0];
-  $('#jobMeta').textContent = `${job.industry} • Typical Experience: ${job.yearsExperience}`;
-  $('#jobDesc').textContent = job.description;
-  $('#jobGradeBadge').textContent = `Grade: ${job.grade}`;
+  if ($('#jobTitle')) $('#jobTitle').textContent = job.titles[0];
+  if ($('#jobMeta')) $('#jobMeta').textContent = `${job.industry} • Typical Experience: ${job.yearsExperience}`;
+  if ($('#jobDesc')) $('#jobDesc').textContent = job.description;
+  if ($('#jobGradeBadge')) $('#jobGradeBadge').textContent = `Grade: ${job.grade}`;
 
   const salaryRows = $('#salaryRows');
-  salaryRows.innerHTML = '';
-  const salaryTable = SALARIES[job.grade] || {};
-  const instOptions = [];
-  Object.entries(salaryTable).forEach(([inst, amount]) => {
-    const tr = document.createElement('tr');
-    // make the inst cell clickable to reveal definition (if available)
-    tr.innerHTML = `<td class="inst-cell" data-inst="${escapeAttr(inst)}" style="cursor:pointer;">${escapeHTML(inst)}</td><td class="mono" data-raw="${amount}">${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(amount, 'USD', currentCurrency))}</td>`;
-    salaryRows.appendChild(tr);
-    instOptions.push([inst, amount]);
-  });
+  if (salaryRows) {
+    salaryRows.innerHTML = '';
+    const salaryTable = SALARIES[job.grade] || {};
+    const instOptions = [];
+    Object.entries(salaryTable).forEach(([inst, amount]) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td class="inst-cell" data-inst="${escapeAttr(inst)}" style="cursor:pointer;">${escapeHTML(inst)}</td>
+                      <td class="mono" data-raw="${amount}">${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(amount, 'USD', currentCurrency))}</td>`;
+      salaryRows.appendChild(tr);
+      instOptions.push([inst, amount]);
+    });
 
-  instSelect.innerHTML = instOptions.map(([inst, amount]) =>
-  `<option data-raw="${amount}" value="${convertCurrency(amount, 'USD', currentCurrency)}">
-     ${inst} - ${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(amount, 'USD', currentCurrency))}
-   </option>`
-).join('');
-  
-  instSelect.selectedIndex = 0;
-  const selectedBasic = convertCurrency(+instSelect.value, 'USD', currentCurrency);
+    const instSelect = $('#instSelect');
+    if (instSelect) {
+      instSelect.innerHTML = instOptions.map(([inst, amount]) =>
+        `<option data-raw="${amount}" value="${amount}">${escapeHTML(inst)} - ${currencySymbol(currentCurrency)} ${formatMoney(convertCurrency(amount, 'USD', currentCurrency))}</option>`
+      ).join('');
+      instSelect.selectedIndex = 0;
+      const selectedRaw = +instSelect.value || 0;
+      if ($('#basicInput')) $('#basicInput').value = convertCurrency(selectedRaw, 'USD', currentCurrency);
+    }
+  }
 
-  $('#basicInput').value = selectedBasic;
   resetAllowances();
   updateCalculatorTotals();
 
   renderExtras(job);
   renderSimilarSector(job);
-  
 
-  $('#jobCard').style.display = '';
-  $('#calcCard').style.display = '';
-  $('#serviceCard').style.display = '';
-  $('#nightCard').style.display = '';
-  $('#funeralCard').style.display = '';
-  $('#extraCard').style.display = '';
-  $('#notFoundCard').style.display = 'none';
-  $('#results').classList.remove('hidden');
-  $('#resultsHeader').classList.remove('hidden');
-  $('#sectorResults').classList.add('hidden');
+  ['jobCard','calcCard','serviceCard','nightCard','funeralCard','extraCard'].forEach(id => {
+    const el = $(`#${id}`);
+    if (el) el.style.display = '';
+  });
+  const nf = $('#notFoundCard'); if (nf) nf.style.display = 'none';
+  const results = $('#results'); if (results) results.classList.remove('hidden');
+  const header = $('#resultsHeader'); if (header) header.classList.remove('hidden');
+  const sectorResults = $('#sectorResults'); if (sectorResults) sectorResults.classList.add('hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function renderNotFound(q) {
-  $('#jobCard').style.display = 'none';
-  $('#calcCard').style.display = 'none';
-  $('#extraCard').style.display = 'none';
-  $('#serviceCard').style.display = 'none';
-  $('#nightCard').style.display = 'none';
-  $('#funeralCard').style.display = 'none';
-  $('#notFoundCard').style.display = '';
-  $('#results').classList.remove('hidden');
-  $('#resultsHeader').classList.remove('hidden');
-  $('#sectorResults').classList.add('hidden');
+  const hideIds = ['jobCard','calcCard','extraCard','serviceCard','nightCard','funeralCard'];
+  hideIds.forEach(id => { const el = $(`#${id}`); if (el) el.style.display = 'none'; });
+  const nf = $('#notFoundCard'); if (nf) nf.style.display = '';
+  const results = $('#results'); if (results) results.classList.remove('hidden');
+  const header = $('#resultsHeader'); if (header) header.classList.remove('hidden');
+  const sectorResults = $('#sectorResults'); if (sectorResults) sectorResults.classList.add('hidden');
+
   let msg = "We couldn’t find an exact job title match.";
   if (q && q.length > 2 && filterAutocomplete(q).length === 0) {
     msg += " No jobs matched your keyword.";
   }
   msg += " Try a simpler keyword or browse jobs by sector:";
+  const notFoundMsg = $('#notFoundMsg'); if (notFoundMsg) notFoundMsg.textContent = msg;
 
-  $('#notFoundMsg').textContent = msg;
-
-  // Replace suggestions with sector buttons
   const sectorBtns = Object.keys(SECTOR_MAP).map(sector =>
     `<button type="button" class="btn btn--chip sector-suggestion-btn" data-sector="${escapeAttr(sector)}">${escapeHTML(sector)}</button>`
   ).join('') || `<span class="muted">No sectors available.</span>`;
-  $('#suggestionChips').innerHTML = sectorBtns;
+  const suggestionChips = $('#suggestionChips');
+  if (suggestionChips) suggestionChips.innerHTML = sectorBtns;
 
-  // Add click handler for sector buttons (delegation for robustness)
-  $('#suggestionChips').onclick = function (e) {
-    const btn = e.target.closest('.sector-suggestion-btn');
-    if (btn) {
-      const sector = btn.getAttribute('data-sector');
-      if (sector) {
-        displaySectorResults(sector);
+  if (suggestionChips) {
+    suggestionChips.onclick = function (e) {
+      const btn = e.target.closest('.sector-suggestion-btn');
+      if (btn) {
+        const sector = btn.getAttribute('data-sector');
+        if (sector) displaySectorResults(sector);
       }
-    }
-  };
+    };
+  }
 }
+
 function renderExtras(job) {
   const items = [
-    { label: "Required Qualifications", content: job.qualifications },
+    { label: "Required Qualifications", content: job.qualifications || [] },
     { label: "Years of Experience", content: [job.yearsExperience] },
     { label: "Industry", content: [job.industry] },
-    { label: "Top Skills", content: job.skills },
-    { label: "Common Employers", content: job.employers },
+    { label: "Top Skills", content: job.skills || [] },
+    { label: "Common Employers", content: job.employers || [] },
     { label: "Key Responsibilities", content: (job.responsibilities || []).slice(0, 4) },
   ];
-  $('#suggestions').innerHTML = items.map(it => `
+  const suggestions = $('#suggestions');
+  if (!suggestions) return;
+  suggestions.innerHTML = items.map(it => `
     <div class="card card--soft">
       <div class="muted" style="font-size:12px; text-transform:uppercase; letter-spacing:.04em;">${it.label}</div>
       <div style="margin-top:8px; display:flex; flex-wrap:wrap; gap:8px;">
-        ${it.content.map(v => `<span class="pill">${escapeHTML(v)}</span>`).join('')}
+        ${(it.content || []).map(v => `<span class="pill">${escapeHTML(v)}</span>`).join('')}
       </div>
     </div>
   `).join('');
@@ -499,15 +467,13 @@ function renderExtras(job) {
 
 function renderSimilarSector(job) {
   const wrap = $('#similarSectorWrap');
+  if (!wrap) return;
   wrap.innerHTML = '';
-  // Find all sectors that include this job's main title
   const jobTitle = job.titles[0];
-  // Get all sector keys containing this job
   const sectorsWithThisJob = Object.keys(SECTOR_MAP).filter(s =>
     (SECTOR_MAP[s].jobs || []).includes(jobTitle)
   );
 
-  // If job has an industry field that is a sector, prefer that
   let sectorKeys = sectorsWithThisJob.length ? sectorsWithThisJob : [];
   if (job.industry && SECTOR_MAP[job.industry]) {
     if (!sectorKeys.includes(job.industry)) sectorKeys.unshift(job.industry);
@@ -518,7 +484,7 @@ function renderSimilarSector(job) {
   sectorKeys.forEach(sectorKey => {
     const jobs = getJobsForSector(sectorKey)
       .filter(j => j.id !== job.id)
-      .slice(0, 6); // limit to 6 per sector
+      .slice(0, 6);
     if (!jobs.length) return;
     html += `<div style="margin-bottom:10px;">
       <div class="muted" style="font-size:11px; margin-bottom:3px;">${escapeHTML(sectorKey)}</div>
@@ -529,6 +495,7 @@ function renderSimilarSector(job) {
   });
   wrap.innerHTML = html;
 }
+
 // ========== CALCULATOR ==========
 const DEFAULT_ALLOWANCES = [
   { name: "Housing", key: "housing", amount: 150 },
@@ -548,6 +515,7 @@ function makeAllowanceRow(name, key, amount = 0) {
 
 function resetAllowances() {
   const allowancesList = $('#allowancesList');
+  if (!allowancesList) return;
   allowancesList.innerHTML = '';
   DEFAULT_ALLOWANCES.forEach(a => {
     allowancesList.appendChild(
@@ -561,31 +529,32 @@ function collectAllowances() {
 }
 
 function updateCalculatorTotals() {
-  const basic = +$('#basicInput').value || 0;
+  const basic = +($('#basicInput')?.value || 0);
   const allowancesTotal = collectAllowances().reduce((a, b) => a + b, 0);
   const grand = basic + allowancesTotal;
 
-  $('#allowancesTotal').textContent = `${currencySymbol(currentCurrency)} ${formatMoney(allowancesTotal)}`;
-  $('#grandTotal').textContent = `${currencySymbol(currentCurrency)} ${formatMoney(grand)}`;
+  const allowancesTotalEl = $('#allowancesTotal'); if (allowancesTotalEl) allowancesTotalEl.textContent = `${currencySymbol(currentCurrency)} ${formatMoney(allowancesTotal)}`;
+  const grandTotalEl = $('#grandTotal'); if (grandTotalEl) grandTotalEl.textContent = `${currencySymbol(currentCurrency)} ${formatMoney(grand)}`;
 
   const years = +($('#yearsService')?.value || 0);
-  $('#serviceTotal').textContent = `${currencySymbol(currentCurrency)} ${(basic * 0.01 * years).toFixed(2)}`;
+  const serviceTotalEl = $('#serviceTotal'); if (serviceTotalEl) serviceTotalEl.textContent = `${currencySymbol(currentCurrency)} ${(basic * 0.01 * years).toFixed(2)}`;
 
   const nights = +($('#nightsWorked')?.value || 0);
-  $('#nightTotal').textContent = `${currencySymbol(currentCurrency)} ${(basic * 0.01 * nights).toFixed(2)}`;
+  const nightTotalEl = $('#nightTotal'); if (nightTotalEl) nightTotalEl.textContent = `${currencySymbol(currentCurrency)} ${(basic * 0.01 * nights).toFixed(2)}`;
 
   const hasPolicy = $('#hasPolicy')?.value;
   const coffin = +($('#coffinCost')?.value || 0);
   let owed = 0;
+  const policyRow = $('#policyRow');
   if (hasPolicy === "yes") {
     const coverage = +($('#policyCoverage')?.value || 0);
     owed = coverage >= coffin ? 0 : coffin - coverage;
-    $('#policyRow').style.display = "";
+    if (policyRow) policyRow.style.display = "";
   } else {
     owed = coffin * 0.5;
-    $('#policyRow').style.display = "none";
+    if (policyRow) policyRow.style.display = "none";
   }
-  $('#funeralTotal').textContent = `${currencySymbol(currentCurrency)} ${owed.toFixed(2)}`;
+  const funeralTotalEl = $('#funeralTotal'); if (funeralTotalEl) funeralTotalEl.textContent = `${currencySymbol(currentCurrency)} ${owed.toFixed(2)}`;
 }
 
 // ========== CURRENCY ==========
@@ -602,10 +571,11 @@ function convertCurrency(amount, fromCurrency, toCurrency) {
   if (!toCurrency) toCurrency = currentCurrency;
   if (fromCurrency === toCurrency) return +amount || 0;
 
-  // if both USD and target have rates
+  // if fromCurrency is USD and toCurrency has rate
   if (fromCurrency === 'USD' && exchangeRates[toCurrency]) {
     return (+amount || 0) * exchangeRates[toCurrency];
   }
+  // if toCurrency is USD and fromCurrency has rate
   if (toCurrency === 'USD' && exchangeRates[fromCurrency]) {
     return (+amount || 0) / exchangeRates[fromCurrency];
   }
@@ -614,11 +584,11 @@ function convertCurrency(amount, fromCurrency, toCurrency) {
     const inUSD = (+amount || 0) / exchangeRates[fromCurrency];
     return inUSD * exchangeRates[toCurrency];
   }
-  // fallback: if from is USD and to is ZWL default
+  // fallback: from USD to ZWL default
   if (fromCurrency === 'USD' && toCurrency === 'ZWL') {
     return (+amount || 0) * (exchangeRates['ZWL'] || 1);
   }
-  // best-effort: if currencies unknown, return amount unchanged
+  // best-effort: unknown currencies -> return amount unchanged
   return +amount || 0;
 }
 
@@ -631,8 +601,10 @@ function refreshSalaryTableCurrency() {
 }
 
 function convertAllCalculatorInputs(fromCurrency, toCurrency) {
-  let b = +$('#basicInput').value || 0;
-  $('#basicInput').value = convertCurrency(b, fromCurrency, toCurrency);
+  if (!fromCurrency) fromCurrency = lastCurrency || 'USD';
+  if (!toCurrency) toCurrency = currentCurrency || 'USD';
+  const b = +($('#basicInput')?.value || 0);
+  if ($('#basicInput')) $('#basicInput').value = convertCurrency(b, fromCurrency, toCurrency);
   $$('#allowancesList input').forEach(input => {
     input.value = convertCurrency(+input.value || 0, fromCurrency, toCurrency);
   });
@@ -642,34 +614,31 @@ function convertAllCalculatorInputs(fromCurrency, toCurrency) {
 
 // ========== NAVIGATION ==========
 function gotoResults() {
-  $('#home').classList.add('hidden');
-  $('#resultsHeader').classList.remove('hidden');
-  $('#results').classList.remove('hidden');
-  $('#sectorResults').classList.add('hidden');
-  $('#aboutPage').classList.add('hidden');
-  $('#results').setAttribute('aria-busy', 'false');
-  $('#resultsQuery').focus();
+  const home = $('#home'); if (home) home.classList.add('hidden');
+  const header = $('#resultsHeader'); if (header) header.classList.remove('hidden');
+  const results = $('#results'); if (results) results.classList.remove('hidden');
+  const sectorResults = $('#sectorResults'); if (sectorResults) sectorResults.classList.add('hidden');
+  const about = $('#aboutPage'); if (about) about.classList.add('hidden');
+  if ($('#results')) $('#results').setAttribute('aria-busy', 'false');
+  const query = $('#resultsQuery'); if (query) query.focus();
 }
 function gotoHome() {
-  $('#home').classList.remove('hidden');
-  $('#resultsHeader').classList.add('hidden');
-  $('#results').classList.add('hidden');
-  $('#sectorResults').classList.add('hidden');
-  $('#aboutPage').classList.add('hidden');
-  $('#resultsQuery').value = '';
-  $('#jobCard').style.display = 'none';
-  $('#calcCard').style.display = 'none';
-  $('#serviceCard').style.display = 'none';
-  $('#nightCard').style.display = 'none';
-  $('#funeralCard').style.display = 'none';
-  $('#extraCard').style.display = 'none';
-  $('#notFoundCard').style.display = 'none';
-  $('#homeQuery').focus();
+  const home = $('#home'); if (home) home.classList.remove('hidden');
+  const header = $('#resultsHeader'); if (header) header.classList.add('hidden');
+  const results = $('#results'); if (results) results.classList.add('hidden');
+  const sectorResults = $('#sectorResults'); if (sectorResults) sectorResults.classList.add('hidden');
+  const about = $('#aboutPage'); if (about) about.classList.add('hidden');
+  const resultsQuery = $('#resultsQuery'); if (resultsQuery) resultsQuery.value = '';
+  ['jobCard','calcCard','serviceCard','nightCard','funeralCard','extraCard','notFoundCard'].forEach(id => {
+    const el = $(`#${id}`); if (el) el.style.display = 'none';
+  });
+  const homeQuery = $('#homeQuery'); if (homeQuery) homeQuery.focus();
 }
 
 // ========== ABOUT PAGE ==========
 function renderAboutPage() {
   const termListEl = $('#termList');
+  if (!termListEl) return;
   let html = "";
   Object.entries(TERMS).forEach(([term, def]) => {
     html += `<li tabindex="0">
@@ -679,7 +648,9 @@ function renderAboutPage() {
     </li>`;
   });
   termListEl.innerHTML = html;
-  $$('.term-list li').forEach(li => {
+
+  const items = Array.from(termListEl.querySelectorAll('li'));
+  items.forEach(li => {
     li.addEventListener('click', function () {
       const text = li.querySelector('.term-def').textContent;
       navigator.clipboard.writeText(text).catch(() => { });
@@ -695,6 +666,7 @@ function renderAboutPage() {
 }
 function showCopyFeedback(li) {
   const feedback = li.querySelector('.copy-feedback');
+  if (!feedback) return;
   feedback.style.display = "";
   li.classList.add('copied');
   setTimeout(() => {
@@ -703,16 +675,16 @@ function showCopyFeedback(li) {
   }, 1100);
 }
 function gotoAbout() {
-  $('#aboutPage').classList.remove('hidden');
-  $('#home').classList.add('hidden');
-  $('#results').classList.add('hidden');
-  $('#resultsHeader').classList.add('hidden');
-  $('#sectorResults').classList.add('hidden');
+  const about = $('#aboutPage'); if (about) about.classList.remove('hidden');
+  const home = $('#home'); if (home) home.classList.add('hidden');
+  const results = $('#results'); if (results) results.classList.add('hidden');
+  const header = $('#resultsHeader'); if (header) header.classList.add('hidden');
+  const sectorResults = $('#sectorResults'); if (sectorResults) sectorResults.classList.add('hidden');
   window.scrollTo(0, 0);
 }
 function hideAbout() {
-  $('#aboutPage').classList.add('hidden');
-  $('#home').classList.remove('hidden');
+  const about = $('#aboutPage'); if (about) about.classList.add('hidden');
+  const home = $('#home'); if (home) home.classList.remove('hidden');
 }
 
 // ========== INSTITUTION DEFINITION POPUP HANDLING ==========
@@ -720,338 +692,52 @@ function showInstDefinition(inst) {
   const titleEl = $('#instDefTitle');
   const textEl = $('#instDefText');
   const box = $('#instDefBox');
-  titleEl.textContent = inst;
+  if (titleEl) titleEl.textContent = inst;
   const def = TERMS[inst] || TERMS[inst.toLowerCase()] || TERMS[inst.toUpperCase()] || "Definition not available.";
-  textEl.textContent = def;
-  box.classList.remove('hidden');
-  box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  if (textEl) textEl.textContent = def;
+  if (box) {
+    box.classList.remove('hidden');
+    box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
 }
 function hideInstDefinition() {
-  const box = $('#instDefBox');
-  box.classList.add('hidden');
+  const box = $('#instDefBox'); if (box) box.classList.add('hidden');
 }
 
-// ========== EVENT WIRING ==========
-function wire() {
-  loadState();
-
-  $('#homeSearchForm').addEventListener('submit', (e) => {
-    e.preventDefault();
-    const q = $('#homeQuery').value;
-    performSearch(q);
-  });
-
-  $('#resultsSearchForm').addEventListener('submit', (e) => {
-    e.preventDefault();
-    const q = $('#resultsQuery').value;
-    performSearch(q);
-  });
-
-  document.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-demo]');
-    if (btn) {
-      const q = btn.getAttribute('data-demo');
-      $('#homeQuery').value = q;
-      $('#resultsQuery').value = q;
-      performSearch(q);
-      return;
-    }
-    if (e.target.closest('.sector-pill')) {
-      sectorPillClickHandler(e);
-      return;
-    }
-    const viewBtn = e.target.closest('button[data-jobid]');
-    if (viewBtn) {
-      const jobId = viewBtn.getAttribute('data-jobid');
-      const job = MOCK_JOBS.find(j => j.id === jobId);
-      if (job) {
-        renderJob(job, job.titles[0]);
-      }
-      return;
-    }
-
-    // salary table inst click -> show def
-    const instCell = e.target.closest('.inst-cell');
-    if (instCell) {
-      const inst = instCell.getAttribute('data-inst');
-      showInstDefinition(inst);
-      return;
-    }
-  });
-
-  
-
-  $('#backHomeBtn').addEventListener('click', gotoHome);
-  $('#backToHomeFromSector').addEventListener('click', gotoHome);
-  $('#aboutBtn').addEventListener('click', () => {
-    gotoAbout();
-    renderAboutPage();
-  });
-  $('#backToHomeFromAbout').addEventListener('click', hideAbout);
-
-  // Back to previous search button on about page
-  $('#backToPreviousSearch').addEventListener('click', () => {
-    const ls = localStorage.getItem('jobs_last_search') || '';
-    if (ls) {
-      // attempt to perform search
-      performSearch(ls);
-    } else {
-      gotoHome();
-    }
-  });
-
-  $('#instSelect').addEventListener('change', () => {
-    $('#basicInput').value = convertCurrency(+$('#instSelect').value || 0, 'USD', currentCurrency);
-    updateCalculatorTotals();
-  });
-
-  // Currency selection handler
-  function setupCurrencySelect() {
-    const sel = $('#currencySelect');
-    sel.innerHTML = `
-    <option value="USD">$ USD</option>
-    <option value="ZWL">ZWL</option>
-  `;
-    sel.value = 'USD';
-    $('#customCurrencyWrap').style.display = 'none';
-  }
-  setupCurrencySelect();
-
-  // On change: only USD or ZWL possible
-  $('#currencySelect').addEventListener('change', () => {
-    const newCurrency = $('#currencySelect').value;
-
-    if (newCurrency === "USD") {
-      $('#customCurrencyWrap').style.display = "none";
-      const fromCurrency = lastCurrency || 'USD';
-      convertAllCalculatorInputs(fromCurrency, "USD");
-      lastCurrency = "USD";
-      currentCurrency = "USD";
-      refreshSalaryTableCurrency();
-      updateCalculatorTotals();
-      return;
-    }
-
-    // ZWL or custom: show UI to edit code and rate
-    if (newCurrency === "ZWL") {
-      $('#customCurrencyWrap').style.display = "";
-      $('#customCurrencyCode').value = "ZWL";
-      $('#customExchangeRate').value = exchangeRates['ZWL'] || 13;
-      const fromCurrency = lastCurrency || 'USD';
-      convertAllCalculatorInputs(fromCurrency, "ZWL");
-      lastCurrency = "ZWL";
-      currentCurrency = "ZWL";
-      refreshSalaryTableCurrency();
-      updateCalculatorTotals();
-      return;
-    }
-  });
-
-  // PATCH: Only allow editing code/rate for ZWL (alternate currency)
-  $('#customCurrencyCode').addEventListener('input', () => {
-    // Update label in select if user changes code
-    const code = ($('#customCurrencyCode').value || '').trim().toUpperCase();
-    const sel = $('#currencySelect');
-    let opt = sel.querySelector('option[value="ZWL"]');
-    if (opt) opt.textContent = code;
-    // Set currentCurrency for calculations
-    currentCurrency = code;
-    refreshSalaryTableCurrency();
-    updateCalculatorTotals();
-  });
-
-  $('#customExchangeRate').addEventListener('input', () => {
-    const val = parseFloat($('#customExchangeRate').value);
-    const code = ($('#customCurrencyCode').value || '').trim().toUpperCase();
-    if (!isNaN(val) && val > 0 && code) {
-      exchangeRates[code] = val;
-      currentCurrency = code;
-      refreshSalaryTableCurrency();
-      updateCalculatorTotals();
-    }
-  });
-
-  // PATCH: Remove addCustomCurrencyBtn and logic
-  const addBtn = $('#addCustomCurrencyBtn');
-  if (addBtn) addBtn.style.display = "none";
-
-  // PATCH: On page load, only show two currencies and setup initial state
-  function initCurrency() {
-    setupCurrencySelect();
-    currentCurrency = 'USD';
-    lastCurrency = 'USD';
-    exchangeRates = { 'ZWL': 13 };
-    $('#customCurrencyWrap').style.display = 'none';
-  }
-  initCurrency();
-
-  // Add custom currency button
-  $('#addCustomCurrencyBtn').addEventListener('click', () => {
-    const code = ($('#customCurrencyCode').value || '').trim().toUpperCase();
-    const rate = parseFloat($('#customExchangeRate').value || '');
-    if (!code || !rate || rate <= 0) {
-      alert('Enter a valid currency code and USD → X rate (number).');
-      return;
-    }
-    // add to exchangeRates and set current currency
-    exchangeRates[code] = rate;
-    // add to select
-    const opt = document.createElement('option');
-    opt.value = code;
-    opt.textContent = `${code}`;
-    // insert before OTHER
-    const sel = $('#currencySelect');
-    sel.insertBefore(opt, sel.querySelector('option[value="OTHER"]'));
-    sel.value = code;
-    $('#customCurrencyWrap').style.display = 'none';
-    const fromCurrency = lastCurrency || 'USD';
-    convertAllCalculatorInputs(fromCurrency, code);
-    lastCurrency = code;
-    currentCurrency = code;
-    refreshSalaryTableCurrency();
-    updateCalculatorTotals();
-  });
-
-  $('#closeInstDef').addEventListener('click', hideInstDefinition);
-
-  document.addEventListener('input', (e) => {
-    if (
-      e.target === $('#basicInput') ||
-      e.target.closest('#allowancesList') ||
-      e.target.id === "yearsService" ||
-      e.target.id === "nightsWorked" ||
-      e.target.id === "coffinCost" ||
-      e.target.id === "policyCoverage" ||
-      e.target.id === "hasPolicy"
-    ) {
-      updateCalculatorTotals();
-    }
-  });
-
-  document.addEventListener('change', (e) => {
-    if (
-      e.target.id === "yearsService" ||
-      e.target.id === "nightsWorked" ||
-      e.target.id === "coffinCost" ||
-      e.target.id === "policyCoverage" ||
-      e.target.id === "hasPolicy"
-    ) {
-      updateCalculatorTotals();
-    }
-  });
-
-  $('#addAllowanceBtn').addEventListener('click', () => {
-    const name = prompt('Allowance name:', 'Other');
-    if (!name) return;
-    const key = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 20) || 'custom';
-    $('#allowancesList').appendChild(makeAllowanceRow(name, key, 0));
-    updateCalculatorTotals();
-  });
-
-  $('#resetCalcBtn').addEventListener('click', () => {
-    $('#basicInput').value = convertCurrency(+$('#instSelect').value || 0, 'USD', currentCurrency);
-    resetAllowances();
-    updateCalculatorTotals();
-  });
-
-  // keyboard accessibility for chip buttons (they are dynamically created too)
-  document.addEventListener('keydown', function (e) {
-    if ((e.target.classList && e.target.classList.contains('btn--chip')) && (e.key === 'Enter' || e.key === ' ')) {
-      e.target.click();
-      e.preventDefault();
-    }
-  });
-
-  renderAutocomplete("#homeQuery", "#autocompleteList");
-  renderAutocomplete("#resultsQuery", "#autocompleteListResults");
-  resetAllowances();
-  renderSectors();
-  computePopularJobs();
-  computeRecentJobs();
-  renderPopularSection();
-  renderRecentSection();
-
-  // Initial render for Try jobs
-  renderTryJobs(getRandomJobs(3));
-  // Animate every 4 seconds; pause on hover
-  let tryJobInterval = setInterval(animateTryJobs, 4000);
-  const tryWrap = document.getElementById('tryJobs');
-  if (tryWrap) {
-    tryWrap.addEventListener("mouseenter", () => clearInterval(tryJobInterval));
-    tryWrap.addEventListener("mouseleave", () => tryJobInterval = setInterval(animateTryJobs, 4000));
-  }
-
-  // Logo links to home
-  $('#homeLogo').addEventListener('click', gotoHome);
-  $('#topLogo').addEventListener('click', gotoHome);
-  $('#homeLogo').addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { gotoHome(); e.preventDefault(); } });
-  $('#topLogo').addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { gotoHome(); e.preventDefault(); } });
-
-  // salary table click delegation for term definitions handled in document click above
-
-  // when clicking similar sector pill -> perform search
-  document.addEventListener('click', function (e) {
-    const sim = e.target.closest('.similar-pill');
-    if (sim) {
-      const q = sim.getAttribute('data-demo');
-      if (q) performSearch(q);
-    }
-  });
-
-  // hide inst def on outside click
-  document.addEventListener('click', function (e) {
-    if (!e.target.closest('#instDefBox') && !e.target.closest('.inst-cell')) {
-      hideInstDefinition();
-    }
-  });
-}
-
-// ========== SEARCH ==========
-function performSearch(q) {
-  $('#results').setAttribute('aria-busy', 'true');
-  $('#resultsQuery').value = q;
-  gotoResults();
-
-  const job = findJob(q);
-  if (job) {
-    renderJob(job, q);
-  } else {
-    renderNotFound(q);
-  }
-
-  // update computed lists
-  computePopularJobs();
-  computeRecentJobs();
-  renderPopularSection();
-  renderRecentSection();
-
-  $('#results').setAttribute('aria-busy', 'false');
-}
-
+// ========== FIND / SUGGESTIONS ==========
 function findJob(query) {
   const q = normalize(query);
   if (!q) return null;
+
+  // 1) exact title match (any job)
   for (const job of MOCK_JOBS) {
-    if (job.titles.map(normalize).some(t => t === q)) {
-  return job;
-}
-if (job.titles.map(normalize).some(t => t.startsWith(q))) {
-  return job;
-}
-if (job.titles.map(normalize).some(t => t.includes(q))) {
-  return job;
-}
+    if (job.titles.map(normalize).some(t => t === q)) return job;
   }
-  const score = (title) => {
-    const a = new Set(normalize(title).split(/\s+/));
-    const b = new Set(q.split(/\s+/));
-    let hits = 0; for (const w of a) if (b.has(w)) hits++;
-    return hits / Math.max(1, a.size);
-  };
+
+  // 2) title startsWith (e.g. "cook helper" when query "cook")
+  for (const job of MOCK_JOBS) {
+    if (job.titles.map(normalize).some(t => t.startsWith(q))) return job;
+  }
+
+  // 3) whole-word match in the title (e.g. "assistant cook" contains word "cook")
+  for (const job of MOCK_JOBS) {
+    if (job.titles.map(normalize).some(t => t.split(/\s+/).includes(q))) return job;
+  }
+
+  // 4) includes fallback (less precise)
+  for (const job of MOCK_JOBS) {
+    if (job.titles.map(normalize).some(t => t.includes(q))) return job;
+  }
+
+  // 5) scoring fallback
   let best = null, bestScore = 0;
   for (const job of MOCK_JOBS) {
     for (const t of job.titles) {
-      const s = score(t);
+      const a = new Set(normalize(t).split(/\s+/));
+      const b = new Set(q.split(/\s+/));
+      let hits = 0;
+      for (const w of a) if (b.has(w)) hits++;
+      const s = hits / Math.max(1, a.size);
       if (s > bestScore) { bestScore = s; best = job; }
     }
   }
@@ -1077,20 +763,372 @@ function getSuggestions(query, max = 4) {
     .slice(0, max);
 }
 
-// ========== HELPERS ==========
-function escapeHTML(str = '') {
-  return String(str).replace(/[&<>"']/g, s => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[s]));
+// ========== HELPERS (again usable) ==========
+function escapeForText(s = '') {
+  return escapeHTML(s);
 }
-function escapeAttr(str = '') {
-  return escapeHTML(str).replace(/"/g, '&quot;');
+
+// ========== CURRENCY UI HELPERS ==========
+function updateCurrencyDisplay(fromCurrency, toCurrency) {
+  // salary rows: read data-raw (raw USD) and re-render
+  $$('#salaryRows td[data-raw]').forEach(td => {
+    const rawUSD = +td.getAttribute('data-raw');
+    td.textContent = `${currencySymbol(toCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', toCurrency))}`;
+  });
+
+  // instSelect: keep option.value = raw USD and update displayed text
+  const instSelect = $("#instSelect");
+  if (instSelect) {
+    instSelect.querySelectorAll("option").forEach(opt => {
+      const rawUSD = +opt.getAttribute("data-raw");
+      if (!isNaN(rawUSD)) {
+        const instLabel = (opt.textContent || "").split(" - ")[0];
+        opt.textContent = `${instLabel} - ${currencySymbol(toCurrency)} ${formatMoney(convertCurrency(rawUSD, 'USD', toCurrency))}`;
+        opt.value = rawUSD;
+      }
+    });
+  }
+
+  // convert calculator inputs from the previous displayed currency -> the new one
+  convertAllCalculatorInputs(fromCurrency, toCurrency);
+
+  // finalise
+  lastCurrency = toCurrency;
+  currentCurrency = toCurrency;
+  updateCalculatorTotals();
+}
+
+function setupCurrencySelect() {
+  const sel = $('#currencySelect');
+  if (!sel) return;
+  const codes = ['USD', ...Object.keys(exchangeRates || {})];
+  // dedupe while preserving order
+  const seen = new Set();
+  const cleaned = [];
+  for (const c of codes) {
+    if (!seen.has(c)) { seen.add(c); cleaned.push(c); }
+  }
+  sel.innerHTML = cleaned.map(code => {
+    if (code === 'USD') return `<option value="USD">$ USD</option>`;
+    return `<option value="${escapeAttr(code)}">${escapeHTML(code)}</option>`;
+  }).join('');
+  sel.value = currentCurrency || 'USD';
+  if ($('#customCurrencyWrap')) $('#customCurrencyWrap').style.display = 'none';
+}
+
+// ========== INIT & WIRING ==========
+function wire() {
+  loadState();
+
+  // safe DOM lookups
+  const homeForm = $('#homeSearchForm');
+  const resultsForm = $('#resultsSearchForm');
+  const backHomeBtn = $('#backHomeBtn');
+  const backFromSector = $('#backToHomeFromSector');
+  const aboutBtn = $('#aboutBtn');
+  const backFromAbout = $('#backToHomeFromAbout');
+  const instSelect = $('#instSelect');
+  const currencySelect = $('#currencySelect');
+  const customCurrencyWrap = $('#customCurrencyWrap');
+  const customCurrencyCode = $('#customCurrencyCode');
+  const customExchangeRate = $('#customExchangeRate');
+  const addCustomCurrencyBtn = $('#addCustomCurrencyBtn');
+  const closeInstDef = $('#closeInstDef');
+
+  if (homeForm) {
+    homeForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const q = $('#homeQuery')?.value || '';
+      performSearch(q);
+    });
+  }
+  if (resultsForm) {
+    resultsForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const q = $('#resultsQuery')?.value || '';
+      performSearch(q);
+    });
+  }
+
+  // Delegated click handler (handles many button types)
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-demo]');
+    if (btn) {
+      const q = btn.getAttribute('data-demo');
+      if (q) {
+        if ($('#homeQuery')) $('#homeQuery').value = q;
+        if ($('#resultsQuery')) $('#resultsQuery').value = q;
+        performSearch(q);
+      }
+      return;
+    }
+
+    if (e.target.closest('.sector-pill')) {
+      sectorPillClickHandler(e);
+      return;
+    }
+
+    const viewBtn = e.target.closest('button[data-jobid]');
+    if (viewBtn) {
+      const jobId = viewBtn.getAttribute('data-jobid');
+      const job = MOCK_JOBS.find(j => j.id === jobId);
+      if (job) renderJob(job, job.titles[0]);
+      return;
+    }
+
+    const instCell = e.target.closest('.inst-cell');
+    if (instCell) {
+      const inst = instCell.getAttribute('data-inst');
+      showInstDefinition(inst);
+      return;
+    }
+
+    const sim = e.target.closest('.similar-pill');
+    if (sim) {
+      const q = sim.getAttribute('data-demo');
+      if (q) performSearch(q);
+      return;
+    }
+
+    const sbtn = e.target.closest('.sector-suggestion-btn');
+    if (sbtn) {
+      const sector = sbtn.getAttribute('data-sector');
+      if (sector) displaySectorResults(sector);
+    }
+  });
+
+  if (backHomeBtn) backHomeBtn.addEventListener('click', gotoHome);
+  if (backFromSector) backFromSector.addEventListener('click', gotoHome);
+  if (aboutBtn) {
+    aboutBtn.addEventListener('click', () => {
+      gotoAbout();
+      renderAboutPage();
+    });
+  }
+  if (backFromAbout) backFromAbout.addEventListener('click', hideAbout);
+
+  const backToPrev = $('#backToPreviousSearch');
+  if (backToPrev) backToPrev.addEventListener('click', () => {
+    const ls = localStorage.getItem('jobs_last_search') || '';
+    if (ls) performSearch(ls);
+    else gotoHome();
+  });
+
+  if (instSelect) {
+    instSelect.addEventListener('change', () => {
+      const raw = +instSelect.value || 0;
+      if ($('#basicInput')) $('#basicInput').value = convertCurrency(raw, 'USD', currentCurrency);
+      updateCalculatorTotals();
+    });
+  }
+
+  setupCurrencySelect();
+
+  if (currencySelect) {
+    currencySelect.addEventListener('change', () => {
+      const newCurrency = currencySelect.value || 'USD';
+      const fromCurrency = lastCurrency || currentCurrency || 'USD';
+
+      if (newCurrency === 'USD') {
+        if (customCurrencyWrap) customCurrencyWrap.style.display = 'none';
+        updateCurrencyDisplay(fromCurrency, 'USD');
+        return;
+      }
+
+      if (exchangeRates[newCurrency] !== undefined) {
+        if (customCurrencyWrap) customCurrencyWrap.style.display = 'none';
+        updateCurrencyDisplay(fromCurrency, newCurrency);
+        return;
+      }
+
+      if (customCurrencyWrap) {
+        customCurrencyWrap.style.display = '';
+        if (customCurrencyCode) customCurrencyCode.value = newCurrency;
+        if (customExchangeRate) customExchangeRate.value = exchangeRates[newCurrency] || '';
+      }
+    });
+  }
+
+  if (customCurrencyCode) {
+    customCurrencyCode.addEventListener('input', () => {
+      const code = (customCurrencyCode.value || '').trim().toUpperCase();
+      if (!code) return;
+      const sel = $('#currencySelect');
+      if (!sel) return;
+      const old = sel.value;
+      if (old && old !== 'USD' && exchangeRates[old] !== undefined && code !== old) {
+        const rate = exchangeRates[old];
+        delete exchangeRates[old];
+        exchangeRates[code] = rate;
+        const optOld = sel.querySelector(`option[value="${old}"]`);
+        if (optOld) optOld.value = code;
+      }
+      const opt = sel.querySelector(`option[value="${code}"]`) || sel.querySelector(`option[value="${old}"]`);
+      if (opt) opt.textContent = code;
+      sel.value = code;
+      currentCurrency = code;
+      refreshSalaryTableCurrency();
+      updateCalculatorTotals();
+    });
+  }
+
+  if (customExchangeRate) {
+    customExchangeRate.addEventListener('input', () => {
+      const val = parseFloat(customExchangeRate.value);
+      const code = (customCurrencyCode?.value || '').trim().toUpperCase();
+      if (!code || isNaN(val) || val <= 0) return;
+      exchangeRates[code] = val;
+      currentCurrency = code;
+      refreshSalaryTableCurrency();
+      updateCalculatorTotals();
+    });
+  }
+
+  if (addCustomCurrencyBtn) {
+    addCustomCurrencyBtn.style.display = '';
+    addCustomCurrencyBtn.addEventListener('click', () => {
+      const code = (customCurrencyCode?.value || '').trim().toUpperCase();
+      const rate = parseFloat(customExchangeRate?.value || '');
+      if (!code || !rate || rate <= 0) {
+        alert('Enter a valid currency code and USD → X rate (number).');
+        return;
+      }
+      exchangeRates[code] = rate;
+      const sel = $('#currencySelect');
+      if (sel) {
+        if (!sel.querySelector(`option[value="${code}"]`)) {
+          const opt = document.createElement('option');
+          opt.value = code;
+          opt.textContent = code;
+          sel.appendChild(opt);
+        }
+        sel.value = code;
+      }
+      if (customCurrencyWrap) customCurrencyWrap.style.display = 'none';
+      const fromCurrency = lastCurrency || 'USD';
+      updateCurrencyDisplay(fromCurrency, code);
+    });
+  } else {
+    if ($('#customCurrencyWrap')) $('#customCurrencyWrap').style.display = 'none';
+  }
+
+  if (closeInstDef) closeInstDef.addEventListener('click', hideInstDefinition);
+
+  document.addEventListener('input', (e) => {
+    if (
+      e.target === $('#basicInput') ||
+      e.target.closest('#allowancesList') ||
+      (e.target.id === "yearsService") ||
+      (e.target.id === "nightsWorked") ||
+      (e.target.id === "coffinCost") ||
+      (e.target.id === "policyCoverage") ||
+      (e.target.id === "hasPolicy")
+    ) {
+      updateCalculatorTotals();
+    }
+  });
+  document.addEventListener('change', (e) => {
+    if (
+      e.target.id === "yearsService" ||
+      e.target.id === "nightsWorked" ||
+      e.target.id === "coffinCost" ||
+      e.target.id === "policyCoverage" ||
+      e.target.id === "hasPolicy"
+    ) updateCalculatorTotals();
+  });
+
+  const addAllowanceBtn = $('#addAllowanceBtn');
+  if (addAllowanceBtn) {
+    addAllowanceBtn.addEventListener('click', () => {
+      const name = prompt('Allowance name:', 'Other');
+      if (!name) return;
+      const key = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 20) || 'custom';
+      $('#allowancesList')?.appendChild(makeAllowanceRow(name, key, 0));
+      updateCalculatorTotals();
+    });
+  }
+
+  const resetCalcBtn = $('#resetCalcBtn');
+  if (resetCalcBtn) {
+    resetCalcBtn.addEventListener('click', () => {
+      const selRaw = +($('#instSelect')?.value || 0);
+      if ($('#basicInput')) $('#basicInput').value = convertCurrency(selRaw, 'USD', currentCurrency);
+      resetAllowances();
+      updateCalculatorTotals();
+    });
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if ((e.target.classList && e.target.classList.contains('btn--chip')) && (e.key === 'Enter' || e.key === ' ')) {
+      e.target.click();
+      e.preventDefault();
+    }
+  });
+
+  renderAutocomplete("#homeQuery", "#autocompleteList");
+  renderAutocomplete("#resultsQuery", "#autocompleteListResults");
+  resetAllowances();
+  renderSectors();
+  computePopularJobs();
+  computeRecentJobs();
+  renderPopularSection();
+  renderRecentSection();
+
+  renderTryJobs(getRandomJobs(3));
+  let tryJobInterval = setInterval(animateTryJobs, 4000);
+  const tryWrap = document.getElementById('tryJobs');
+  if (tryWrap) {
+    tryWrap.addEventListener("mouseenter", () => { clearInterval(tryJobInterval); tryJobInterval = null; });
+    tryWrap.addEventListener("mouseleave", () => { if (!tryJobInterval) tryJobInterval = setInterval(animateTryJobs, 4000); });
+  }
+
+  if ($('#homeLogo')) {
+    $('#homeLogo').addEventListener('click', gotoHome);
+    $('#homeLogo').addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { gotoHome(); e.preventDefault(); } });
+  }
+  if ($('#topLogo')) {
+    $('#topLogo').addEventListener('click', gotoHome);
+    $('#topLogo').addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { gotoHome(); e.preventDefault(); } });
+  }
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('#instDefBox') && !e.target.closest('.inst-cell')) {
+      hideInstDefinition();
+    }
+  });
+}
+
+// ========== SEARCH HANDLER ==========
+function performSearch(q) {
+  const resultsEl = $('#results');
+  if (resultsEl) resultsEl.setAttribute('aria-busy', 'true');
+  if ($('#resultsQuery')) $('#resultsQuery').value = q;
+  gotoResults();
+
+  const job = findJob(q);
+  if (job) {
+    renderJob(job, q);
+  } else {
+    renderNotFound(q);
+  }
+
+  computePopularJobs();
+  computeRecentJobs();
+  renderPopularSection();
+  renderRecentSection();
+
+  if (resultsEl) resultsEl.setAttribute('aria-busy', 'false');
 }
 
 // ========== INIT ==========
 Promise.all([fetchData(), fetchTerms()]).then(() => {
+  // initial currency / UI state
+  setupCurrencySelect();
+  currentCurrency = currentCurrency || 'USD';
+  lastCurrency = lastCurrency || 'USD';
+  if ($('#customCurrencyWrap')) $('#customCurrencyWrap').style.display = 'none';
+
   wire();
-  // initial focus
   if ($('#homeQuery')) $('#homeQuery').focus();
   if ($('#jobCard')) $('#jobCard').focus();
 });
-
-
